@@ -1,0 +1,44 @@
+[
+  {
+    "report_id": "DEMO-001",
+    "description": "Technician began opening the pump discharge flange before isolation was verified. Residual pressure remained in the line.",
+    "site": "North Processing Facility",
+    "report_type": "Near Miss"
+  },
+  {
+    "report_id": "DEMO-002",
+    "description": "Welder continued cutting after the atmospheric gas test validity period had expired.",
+    "site": "East Offshore Platform",
+    "report_type": "Unsafe Act"
+  },
+  {
+    "report_id": "DEMO-003",
+    "description": "Worker entered the crane swing radius while a suspended load was being moved.",
+    "site": "South Logistics Hub",
+    "report_type": "Unsafe Act"
+  },
+  {
+    "report_id": "DEMO-004",
+    "description": "Technician worked from an elevated platform with the harness lanyard disconnected.",
+    "site": "North Processing Facility",
+    "report_type": "Unsafe Act"
+  },
+  {
+    "report_id": "DEMO-005",
+    "description": "Worker entered the vessel before the confined-space permit and atmospheric test were confirmed.",
+    "site": "East Offshore Platform",
+    "report_type": "Incident"
+  },
+  {
+    "report_id": "DEMO-006",
+    "description": "Operator bypassed the machine interlock to restart the equipment.",
+    "site": "South Logistics Hub",
+    "report_type": "Unsafe Act"
+  },
+  {
+    "report_id": "DEMO-007",
+    "description": "The fire extinguisher inspection label is due for routine monthly renewal next week.",
+    "site": "HQ Offices",
+    "report_type": "Unsafe Condition"
+  }
+]

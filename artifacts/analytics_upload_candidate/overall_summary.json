@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-22T20:19:44.419140",
+    "source_dataset": "enriched_reports.csv",
+    "report_count": 375,
+    "analytics_version": "0.5.0",
+    "uses_predicted_fields": true,
+    "prototype_notice": "Analytics are generated from synthetic data and model-predicted fields for demonstration purposes."
+  },
+  "data": {
+    "total_reports": 375,
+    "total_predicted_sif_reports": 95,
+    "overall_sif_density": 0.2533,
+    "avg_sif_probability": 0.2926,
+    "highest_volume_site": "Site Alpha",
+    "highest_sif_count_site": "Site Alpha",
+    "highest_sif_density_site_with_adequate_sample": "Facility Bravo",
+    "highest_sif_density_site_unrestricted": "Facility Bravo",
+    "most_frequent_activity": "{'value': 'Maintenance', 'evidence': 'Maintenance', 'confidence': 'HIGH', 'match_method': 'regex'}",
+    "most_frequent_lsr": "{'rule': 'Bypassing Safety Controls', 'score': 0.9761316417492889}",
+    "most_frequent_hazard": "{'value': 'Electrical Energy', 'evidence': 'Electrical', 'confidence': 'HIGH', 'match_method': 'regex'}",
+    "most_frequent_barrier_failure": "{'value': 'ENERGY_ISOLATION_FAILURE', 'evidence': 'Padlock missing', 'confidence': 'HIGH', 'match_method': 'regex'}",
+    "highest_ranked_recurring_pattern": {
+      "pattern_id": "activity_hazard__{'value':_'operations',_'evidence':_'process_operation',_'confidence':_'high',_'match_method':_'regex'}__{'value':_'loss_of_containment',_'evidence':_'loss_of_containment',_'confidence':_'high',_'match_method':_'regex'}",
+      "priority_score": 88.4,
+      "components": {
+        "activity": "{'value': 'Operations', 'evidence': 'Process Operation', 'confidence': 'HIGH', 'match_method': 'regex'}",
+        "hazards": "{'value': 'Loss of Containment', 'evidence': 'Loss of containment', 'confidence': 'HIGH', 'match_method': 'regex'}"
+      }
+    }
+  }
+}

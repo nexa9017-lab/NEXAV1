@@ -1,0 +1,5062 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-22T20:19:44.419140",
+    "source_dataset": "enriched_reports.csv",
+    "report_count": 375,
+    "analytics_version": "0.5.0",
+    "uses_predicted_fields": true,
+    "prototype_notice": "Analytics are generated from synthetic data and model-predicted fields for demonstration purposes."
+  },
+  "data": [
+    {
+      "name": "{'value': 'Maintenance', 'evidence': 'Maintenance', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 41,
+      "sif_count": 12,
+      "non_sif_count": 29,
+      "sif_density": 0.2927,
+      "avg_sif_probability": 0.2958,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Station Foxtrot",
+        "Site Alpha",
+        "Terminal Echo",
+        "Refinery Delta",
+        "Platform Charlie",
+        "Facility Bravo"
+      ],
+      "affected_site_count": 6,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Electrical Energy', 'evidence': 'Electrical', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 4,
+          "sif_count": 2,
+          "non_sif_count": 2,
+          "sif_density": 0.5,
+          "avg_sif_probability": 0.5007,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Unidentified Hazards', 'evidence': 'Simultaneous operations clash', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7425,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Unidentified Hazards', 'evidence': 'Unidentified hazards', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8437,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Loss of Containment', 'evidence': 'release', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.116,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Unidentified Hazards', 'evidence': 'Uncontrolled work', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8165,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'ENERGY_ISOLATION_FAILURE', 'evidence': 'Padlock missing', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9542,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'SAFETY_DEVICE_BYPASS', 'evidence': 'Alarm disabled', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9362,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'WORK_AUTHORIZATION_FAILURE', 'evidence': 'JSA not discussed', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7992,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'WORK_AUTHORIZATION_FAILURE', 'evidence': 'PTW not issued', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.6905,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'SAFETY_DEVICE_BYPASS', 'evidence': 'Interlock bridged', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9391,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Bypassing Safety Controls', 'score': 0.9761316417492889}",
+          "total_reports": 4,
+          "sif_count": 0,
+          "non_sif_count": 4,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0444,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Work Authorization', 'score': 0.9736767165821753}",
+          "total_reports": 3,
+          "sif_count": 0,
+          "non_sif_count": 3,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0829,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Bypassing Safety Controls', 'score': 0.9652244527089083}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.024,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Bypassing Safety Controls', 'score': 0.9743222958219627}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1384,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Energy Isolation', 'score': 0.6749999171541501}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0472,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Maintenance', 'evidence': 'Inspection', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 24,
+      "sif_count": 4,
+      "non_sif_count": 20,
+      "sif_density": 0.1667,
+      "avg_sif_probability": 0.2285,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Station Foxtrot",
+        "Facility Bravo",
+        "Platform Charlie",
+        "Site Alpha",
+        "Refinery Delta",
+        "Terminal Echo"
+      ],
+      "affected_site_count": 6,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Confined Atmosphere', 'evidence': 'Engulfment', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9599,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Confined Atmosphere', 'evidence': 'Oxygen deficiency', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8533,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Fall from Height', 'evidence': 'Fall from height', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9001,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'H2S Exposure', 'evidence': 'H2S', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9412,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Loss of Containment', 'evidence': 'release', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1154,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'ENERGY_ISOLATION_FAILURE', 'evidence': 'Padlock missing', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9412,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'FALL_PROTECTION_FAILURE', 'evidence': 'Missing toe boards', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9001,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'GAS_TEST_FAILURE', 'evidence': 'Gas test not performed', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8533,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Confined Space', 'score': 0.9299784479980551}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.105,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Confined Space', 'score': 0.9727818210842452}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0115,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Confined Space', 'score': 0.9727818455663174}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0115,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Confined Space', 'score': 0.9747016592922796}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0283,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.39731821466828565}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.105,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Hot Work', 'evidence': 'Welding', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 19,
+      "sif_count": 5,
+      "non_sif_count": 14,
+      "sif_density": 0.2632,
+      "avg_sif_probability": 0.2723,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Platform Charlie",
+        "Station Foxtrot",
+        "Terminal Echo",
+        "Facility Bravo",
+        "Site Alpha"
+      ],
+      "affected_site_count": 5,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Fire/Explosion', 'evidence': 'fire', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8962,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Confined Atmosphere', 'evidence': 'Oxygen deficiency', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9132,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Fire/Explosion', 'evidence': 'Explosion', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8273,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Fire/Explosion', 'evidence': 'Fire', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.777,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Toxic Gas', 'evidence': 'Toxic fumes', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8782,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'GAS_TEST_FAILURE', 'evidence': 'Gas test expired', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8962,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Confined Space', 'score': 0.9789310024375147}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0204,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Confined Space', 'score': 0.3639952612506584}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8782,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Confined Space', 'score': 0.9420263007162802}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0845,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Confined Space', 'score': 0.9466453525228766}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0732,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Confined Space', 'score': 0.9533452314577474}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9132,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Operations', 'evidence': 'Process Operation', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 18,
+      "sif_count": 9,
+      "non_sif_count": 9,
+      "sif_density": 0.5,
+      "avg_sif_probability": 0.5298,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Station Foxtrot",
+        "Site Alpha",
+        "Platform Charlie",
+        "Terminal Echo",
+        "Facility Bravo",
+        "Refinery Delta"
+      ],
+      "affected_site_count": 6,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Loss of Containment', 'evidence': 'Loss of containment', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 5,
+          "sif_count": 5,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9373,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Pressurized Equipment', 'evidence': 'Overpressure', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9524,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'SAFETY_DEVICE_BYPASS', 'evidence': 'Interlock bridged', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9438,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'SAFETY_DEVICE_BYPASS', 'evidence': 'Safety valve isolated', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9259,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'SAFETY_DEVICE_BYPASS', 'evidence': 'Alarm disabled', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9614,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'SAFETY_DEVICE_BYPASS', 'evidence': 'Override left active', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9552,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Bypassing Safety Controls', 'score': 0.966466038718053}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1587,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Bypassing Safety Controls', 'score': 0.6885414591279587}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9649,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Bypassing Safety Controls', 'score': 0.7831543023806716}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9303,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Bypassing Safety Controls', 'score': 0.8100377811265056}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8867,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Bypassing Safety Controls', 'score': 0.8459723263379099}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9505,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Working at Height', 'evidence': 'Scaffolding', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 18,
+      "sif_count": 1,
+      "non_sif_count": 17,
+      "sif_density": 0.0556,
+      "avg_sif_probability": 0.1591,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Terminal Echo",
+        "Station Foxtrot",
+        "Facility Bravo",
+        "Site Alpha",
+        "Platform Charlie",
+        "Refinery Delta"
+      ],
+      "affected_site_count": 6,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Fall from Height', 'evidence': 'Fall from height', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7239,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'FALL_PROTECTION_FAILURE', 'evidence': 'Scaffold tag missing', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7239,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Safe Mechanical Lifting', 'score': 0.36185388670356666}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1589,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Safe Mechanical Lifting', 'score': 0.45103038372615734}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1194,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Work at Height', 'score': 0.9629528872688576}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1589,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Work at Height', 'score': 0.9640882572437395}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1194,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Work at Height', 'score': 0.96744093830893}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1839,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Cleaning', 'evidence': 'Cleaning', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 17,
+      "sif_count": 2,
+      "non_sif_count": 15,
+      "sif_density": 0.1176,
+      "avg_sif_probability": 0.1504,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Platform Charlie",
+        "Station Foxtrot",
+        "Refinery Delta",
+        "Site Alpha",
+        "Terminal Echo"
+      ],
+      "affected_site_count": 5,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Confined Atmosphere', 'evidence': 'Engulfment', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9245,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Confined Space', 'score': 0.9465000580308065}",
+          "total_reports": 3,
+          "sif_count": 0,
+          "non_sif_count": 3,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0493,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Confined Space', 'score': 0.9759963613212138}",
+          "total_reports": 3,
+          "sif_count": 0,
+          "non_sif_count": 3,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0343,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Confined Space', 'score': 0.9790456190125826}",
+          "total_reports": 3,
+          "sif_count": 0,
+          "non_sif_count": 3,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0137,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Confined Space', 'score': 0.9531834092960334}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0719,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Confined Space', 'score': 0.9734961161622705}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.065,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Maintenance', 'evidence': 'inspection', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 17,
+      "sif_count": 0,
+      "non_sif_count": 17,
+      "sif_density": 0.0,
+      "avg_sif_probability": 0.1066,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Site Alpha",
+        "Station Foxtrot",
+        "Platform Charlie",
+        "Terminal Echo",
+        "Refinery Delta",
+        "Facility Bravo"
+      ],
+      "affected_site_count": 6,
+      "common_hazards": [],
+      "common_barriers": [],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.9630908208280432}",
+          "total_reports": 3,
+          "sif_count": 0,
+          "non_sif_count": 3,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0956,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Safe Mechanical Lifting', 'score': 0.4037768901151955}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0839,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Work at Height', 'score': 0.9669974056102263}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0839,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.9645301915301976}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0848,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.9684892551489157}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1286,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Mechanical Lifting', 'evidence': 'Rigging', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+      "total_reports": 17,
+      "sif_count": 2,
+      "non_sif_count": 15,
+      "sif_density": 0.1176,
+      "avg_sif_probability": 0.2271,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Terminal Echo",
+        "Refinery Delta",
+        "Site Alpha",
+        "Facility Bravo",
+        "Platform Charlie",
+        "Station Foxtrot"
+      ],
+      "affected_site_count": 6,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Fall from Height', 'evidence': 'Open grating', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8989,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Suspended Load', 'evidence': 'Rigging failure', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9398,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Vehicle Interaction', 'evidence': 'loss of control', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9398,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'FALL_PROTECTION_FAILURE', 'evidence': 'Harness not clipped', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8989,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'No tag lines used', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9398,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Safe Mechanical Lifting', 'score': 0.36185388670356666}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1589,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Work at Height', 'score': 0.9408166498450589}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1005,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Work at Height', 'score': 0.9629528872688576}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1589,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Work at Height', 'score': 0.96744093830893}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1839,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Safe Mechanical Lifting', 'score': 0.5092036894890206}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8989,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Confined Space Entry', 'evidence': 'Tank Cleaning', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 16,
+      "sif_count": 1,
+      "non_sif_count": 15,
+      "sif_density": 0.0625,
+      "avg_sif_probability": 0.1034,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Platform Charlie",
+        "Station Foxtrot",
+        "Refinery Delta",
+        "Site Alpha",
+        "Terminal Echo"
+      ],
+      "affected_site_count": 5,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Confined Atmosphere', 'evidence': 'Engulfment', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9467,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Confined Space', 'score': 0.9465000580308065}",
+          "total_reports": 3,
+          "sif_count": 0,
+          "non_sif_count": 3,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0493,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Confined Space', 'score': 0.9759963613212138}",
+          "total_reports": 3,
+          "sif_count": 0,
+          "non_sif_count": 3,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0343,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Confined Space', 'score': 0.9790456190125826}",
+          "total_reports": 3,
+          "sif_count": 0,
+          "non_sif_count": 3,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0137,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Confined Space', 'score': 0.9531834092960334}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0719,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Confined Space', 'score': 0.9734961161622705}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.065,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Hot Work', 'evidence': 'Grinding', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+      "total_reports": 16,
+      "sif_count": 5,
+      "non_sif_count": 11,
+      "sif_density": 0.3125,
+      "avg_sif_probability": 0.3784,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Station Foxtrot",
+        "Site Alpha",
+        "Terminal Echo",
+        "Platform Charlie",
+        "Refinery Delta",
+        "Facility Bravo"
+      ],
+      "affected_site_count": 6,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Fire/Explosion', 'evidence': 'Fire', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8787,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Line-of-Fire Exposure', 'evidence': 'Caught between objects', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8923,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Line-of-Fire Exposure', 'evidence': 'Struck by moving object', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9804,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Stored Energy', 'evidence': 'Whip from parted cable', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7509,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'LINE_OF_FIRE_CONTROL_FAILURE', 'evidence': 'Tension line snapped', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9364,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'COMMUNICATION_FAILURE', 'evidence': 'Fire watcher absent', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8787,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.9630908208280432}",
+          "total_reports": 3,
+          "sif_count": 0,
+          "non_sif_count": 3,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0956,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.3767770972119181}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.2248,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.4369703629223869}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.2376,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.959767237928009}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.2248,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.9603717754929678}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.2376,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Maintenance', 'evidence': 'Repair', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 16,
+      "sif_count": 5,
+      "non_sif_count": 11,
+      "sif_density": 0.3125,
+      "avg_sif_probability": 0.2675,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Platform Charlie",
+        "Site Alpha",
+        "Station Foxtrot",
+        "Refinery Delta",
+        "Facility Bravo",
+        "Terminal Echo"
+      ],
+      "affected_site_count": 6,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Electrical Energy', 'evidence': 'Electrical', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 3,
+          "sif_count": 1,
+          "non_sif_count": 2,
+          "sif_density": 0.3333,
+          "avg_sif_probability": 0.3847,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Loss of Containment', 'evidence': 'Steam leak', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.773,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Fall from Height', 'evidence': 'Fall from height', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7489,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'BARRICADING_FAILURE', 'evidence': 'No barricade below', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.638,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'ENERGY_ISOLATION_FAILURE', 'evidence': 'Bleed valve closed', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7396,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'ENERGY_ISOLATION_FAILURE', 'evidence': 'Energy not verified zero', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8064,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'FALL_PROTECTION_FAILURE', 'evidence': 'Harness not clipped', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7489,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'FALL_PROTECTION_FAILURE', 'evidence': 'Scaffold tag missing', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.4057,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Energy Isolation', 'score': 0.7913279604736045}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0601,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Energy Isolation', 'score': 0.9247000848175245}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1738,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Work at Height', 'score': 0.9770038979476149}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0598,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Bypassing Safety Controls', 'score': 0.35462571489193917}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1252,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Bypassing Safety Controls', 'score': 0.4700661920015748}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7396,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Mechanical Lifting', 'evidence': 'Lifting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 16,
+      "sif_count": 6,
+      "non_sif_count": 10,
+      "sif_density": 0.375,
+      "avg_sif_probability": 0.4408,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Platform Charlie",
+        "Site Alpha",
+        "Station Foxtrot",
+        "Refinery Delta",
+        "Facility Bravo"
+      ],
+      "affected_site_count": 5,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Suspended Load', 'evidence': 'Crane tip-over', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9223,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Line-of-Fire Exposure', 'evidence': 'Caught between objects', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9817,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Line-of-Fire Exposure', 'evidence': 'pinch point', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9452,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Stored Energy', 'evidence': 'Whip from parted cable', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9452,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Suspended Load', 'evidence': 'Swinging load', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9222,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'Damaged slings used', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9367,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'Outriggers not extended', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8653,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'Overloaded crane', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9502,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'LINE_OF_FIRE_CONTROL_FAILURE', 'evidence': 'Standing in pinch point', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9452,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'LINE_OF_FIRE_CONTROL_FAILURE', 'evidence': 'Tension line snapped', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9817,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.9159572247860668}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1723,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.3938476506226267}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9502,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.5253196854846046}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9513,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.9177529755618644}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9452,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.9284541941270047}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9817,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Operations', 'evidence': 'Alarm Testing', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 16,
+      "sif_count": 2,
+      "non_sif_count": 14,
+      "sif_density": 0.125,
+      "avg_sif_probability": 0.2879,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Site Alpha",
+        "Platform Charlie",
+        "Terminal Echo",
+        "Facility Bravo",
+        "Station Foxtrot"
+      ],
+      "affected_site_count": 5,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Loss of Containment', 'evidence': 'Loss of containment', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9532,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'SAFETY_DEVICE_BYPASS', 'evidence': 'Alarm disabled', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9619,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'SAFETY_DEVICE_BYPASS', 'evidence': 'Interlock bridged', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9532,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Bypassing Safety Controls', 'score': 0.9672736617741352}",
+          "total_reports": 3,
+          "sif_count": 0,
+          "non_sif_count": 3,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.2392,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Bypassing Safety Controls', 'score': 0.9729770483918954}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.2636,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Bypassing Safety Controls', 'score': 0.9761670627082443}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1287,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Bypassing Safety Controls', 'score': 0.9239255968147785}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9532,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Bypassing Safety Controls', 'score': 0.9567243742002417}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0896,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Hot Work', 'evidence': 'Welder', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 14,
+      "sif_count": 0,
+      "non_sif_count": 14,
+      "sif_density": 0.0,
+      "avg_sif_probability": 0.0294,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Refinery Delta",
+        "Facility Bravo",
+        "Station Foxtrot",
+        "Platform Charlie",
+        "Terminal Echo"
+      ],
+      "affected_site_count": 5,
+      "common_hazards": [],
+      "common_barriers": [],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.9745706109021701}",
+          "total_reports": 3,
+          "sif_count": 0,
+          "non_sif_count": 3,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0259,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.9572216750819136}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0229,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.9713164742140258}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0366,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.9738795702149491}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0314,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.9580010469084096}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0235,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Hot Work', 'evidence': 'welding', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 14,
+      "sif_count": 0,
+      "non_sif_count": 14,
+      "sif_density": 0.0,
+      "avg_sif_probability": 0.1249,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Facility Bravo",
+        "Refinery Delta",
+        "Station Foxtrot",
+        "Terminal Echo",
+        "Platform Charlie"
+      ],
+      "affected_site_count": 5,
+      "common_hazards": [],
+      "common_barriers": [],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Energy Isolation', 'score': 0.37944871376934053}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.112,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.9686513114053115}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.112,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.9716981149653685}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0664,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.9777790028632374}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1044,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.9806216114900689}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.16,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Vehicle Movement', 'evidence': 'Heavy Haulage', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 13,
+      "sif_count": 2,
+      "non_sif_count": 11,
+      "sif_density": 0.1538,
+      "avg_sif_probability": 0.2101,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Refinery Delta",
+        "Station Foxtrot",
+        "Site Alpha",
+        "Facility Bravo",
+        "Terminal Echo",
+        "Platform Charlie"
+      ],
+      "affected_site_count": 6,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Vehicle Interaction', 'evidence': 'Loss of control', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9488,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Vehicle Interaction', 'evidence': 'Vehicle collision', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.889,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'TRAFFIC_CONTROL_FAILURE', 'evidence': 'Brakes defective', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.889,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'TRAFFIC_CONTROL_FAILURE', 'evidence': 'Fatigued driver', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9488,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Confined Space', 'score': 0.3673639389061888}",
+          "total_reports": 3,
+          "sif_count": 0,
+          "non_sif_count": 3,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0725,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Driving', 'score': 0.976121307905242}",
+          "total_reports": 3,
+          "sif_count": 0,
+          "non_sif_count": 3,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0725,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Driving', 'score': 0.9767939698414243}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1089,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Driving', 'score': 0.8804532150507876}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9488,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Driving', 'score': 0.9506140194771527}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0884,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Contractor Work', 'evidence': 'Contractor Work', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 12,
+      "sif_count": 2,
+      "non_sif_count": 10,
+      "sif_density": 0.1667,
+      "avg_sif_probability": 0.1807,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Refinery Delta",
+        "Facility Bravo",
+        "Terminal Echo",
+        "Site Alpha",
+        "Station Foxtrot"
+      ],
+      "affected_site_count": 5,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Unidentified Hazards', 'evidence': 'Uncontrolled work', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7898,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Unidentified Hazards', 'evidence': 'Unidentified hazards', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9026,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'WORK_AUTHORIZATION_FAILURE', 'evidence': 'JSA not discussed', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9026,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'WORK_AUTHORIZATION_FAILURE', 'evidence': 'Wrong permit type', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7898,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Work Authorization', 'score': 0.9744406415438173}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0549,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.45539571787768585}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0704,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.4764135038882055}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7898,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Work Authorization', 'score': 0.8290270620672928}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0174,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Work Authorization', 'score': 0.8290270620672929}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0174,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Operations', 'evidence': 'Non-routine Task', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 12,
+      "sif_count": 3,
+      "non_sif_count": 9,
+      "sif_density": 0.25,
+      "avg_sif_probability": 0.281,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Facility Bravo",
+        "Platform Charlie",
+        "Site Alpha",
+        "Refinery Delta",
+        "Station Foxtrot",
+        "Terminal Echo"
+      ],
+      "affected_site_count": 6,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Unidentified Hazards', 'evidence': 'Simultaneous operations clash', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9227,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Unidentified Hazards', 'evidence': 'Uncontrolled work', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.6996,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Unidentified Hazards', 'evidence': 'Unidentified hazards', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9689,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'WORK_AUTHORIZATION_FAILURE', 'evidence': 'PTW not issued', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8112,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'WORK_AUTHORIZATION_FAILURE', 'evidence': 'JSA not discussed', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9689,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Work Authorization', 'score': 0.8804007655392799}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.03,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Work Authorization', 'score': 0.9879468319841963}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1094,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Bypassing Safety Controls', 'score': 0.682554853861488}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9689,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.37473891714846747}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1274,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.42526134825717576}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9227,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Painting', 'evidence': 'Painting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 12,
+      "sif_count": 2,
+      "non_sif_count": 10,
+      "sif_density": 0.1667,
+      "avg_sif_probability": 0.2274,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Site Alpha",
+        "Station Foxtrot",
+        "Refinery Delta",
+        "Terminal Echo",
+        "Facility Bravo"
+      ],
+      "affected_site_count": 5,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Dropped Object', 'evidence': 'Dropped object', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8808,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Fall from Height', 'evidence': 'Open grating', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9423,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'BARRICADING_FAILURE', 'evidence': 'No barricade below', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9423,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'FALL_PROTECTION_FAILURE', 'evidence': 'Harness not clipped', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8808,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Work at Height', 'score': 0.9661784147919787}",
+          "total_reports": 3,
+          "sif_count": 0,
+          "non_sif_count": 3,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.08,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Safe Mechanical Lifting', 'score': 0.4037768901151955}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0839,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Safe Mechanical Lifting', 'score': 0.45103038372615734}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1194,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Work at Height', 'score': 0.9640882572437395}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1194,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Work at Height', 'score': 0.9669974056102263}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0839,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Vehicle Movement', 'evidence': 'Material Delivery', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 12,
+      "sif_count": 3,
+      "non_sif_count": 9,
+      "sif_density": 0.25,
+      "avg_sif_probability": 0.2406,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Refinery Delta",
+        "Station Foxtrot",
+        "Terminal Echo",
+        "Site Alpha"
+      ],
+      "affected_site_count": 4,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Vehicle Interaction', 'evidence': 'Loss of control', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8155,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Vehicle Interaction', 'evidence': 'Pedestrian impact', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9018,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'TRAFFIC_CONTROL_FAILURE', 'evidence': 'Fatigued driver', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7901,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'TRAFFIC_CONTROL_FAILURE', 'evidence': 'Speeding', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9018,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'TRAFFIC_CONTROL_FAILURE', 'evidence': 'Using mobile phone', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8409,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Confined Space', 'score': 0.4379177498640388}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0129,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Driving', 'score': 0.943547706119462}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0129,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Driving', 'score': 0.975570934790129}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0465,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Driving', 'score': 0.8313682783184647}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0407,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Driving', 'score': 0.840067225824566}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8409,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Torquing', 'evidence': 'Torquing', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+      "total_reports": 10,
+      "sif_count": 3,
+      "non_sif_count": 7,
+      "sif_density": 0.3,
+      "avg_sif_probability": 0.3997,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Terminal Echo",
+        "Site Alpha",
+        "Platform Charlie",
+        "Refinery Delta",
+        "Station Foxtrot"
+      ],
+      "affected_site_count": 5,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Line-of-Fire Exposure', 'evidence': 'Line of Fire', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9674,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'LINE_OF_FIRE_CONTROL_FAILURE', 'evidence': 'Exclusion zone breached', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9668,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'LINE_OF_FIRE_CONTROL_FAILURE', 'evidence': 'Standing in pinch point', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9685,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.3776795632629436}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9554,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.37798985221593934}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9782,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.5650628307393941}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9685,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.8197637653552521}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9554,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.8690010824564519}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9782,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Vehicle Movement', 'evidence': 'Transporting Personnel', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 10,
+      "sif_count": 2,
+      "non_sif_count": 8,
+      "sif_density": 0.2,
+      "avg_sif_probability": 0.2823,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Facility Bravo",
+        "Terminal Echo",
+        "Refinery Delta",
+        "Platform Charlie"
+      ],
+      "affected_site_count": 4,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Vehicle Interaction', 'evidence': 'Loss of control', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9392,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Vehicle Interaction', 'evidence': 'Pedestrian impact', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9734,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'TRAFFIC_CONTROL_FAILURE', 'evidence': 'Brakes defective', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9563,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Driving', 'score': 0.981968988952762}",
+          "total_reports": 3,
+          "sif_count": 0,
+          "non_sif_count": 3,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1341,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Confined Space', 'score': 0.39243302742934594}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.093,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Driving', 'score': 0.9342142294088941}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1126,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Driving', 'score': 0.9472164003435498}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9392,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Driving', 'score': 0.968655194171941}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9734,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Drilling', 'evidence': 'Drill', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 9,
+      "sif_count": 4,
+      "non_sif_count": 5,
+      "sif_density": 0.4444,
+      "avg_sif_probability": 0.4608,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "affected_sites": [
+        "Station Foxtrot",
+        "Site Alpha",
+        "Refinery Delta",
+        "Terminal Echo",
+        "Platform Charlie"
+      ],
+      "affected_site_count": 5,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Line-of-Fire Exposure', 'evidence': 'pinch point', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9498,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Stored Energy', 'evidence': 'Whip from parted cable', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.848,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Line-of-Fire Exposure', 'evidence': 'Line of Fire', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9554,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'LINE_OF_FIRE_CONTROL_FAILURE', 'evidence': 'Standing in pinch point', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9498,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'LINE_OF_FIRE_CONTROL_FAILURE', 'evidence': 'Exclusion zone breached', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9554,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.9559490422982673}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0828,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.35216553838568465}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7509,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.3776795632629436}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9554,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.8197637653552521}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9554,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.9034253591346328}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7509,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Pressure Testing', 'evidence': 'Pressure Testing', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 9,
+      "sif_count": 1,
+      "non_sif_count": 8,
+      "sif_density": 0.1111,
+      "avg_sif_probability": 0.3149,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "affected_sites": [
+        "Refinery Delta",
+        "Station Foxtrot",
+        "Site Alpha",
+        "Facility Bravo"
+      ],
+      "affected_site_count": 4,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Line-of-Fire Exposure', 'evidence': 'pinch point', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9543,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'LINE_OF_FIRE_CONTROL_FAILURE', 'evidence': 'Standing in pinch point', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9543,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.9618115427739691}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1854,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.9506469874840261}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.306,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.954285724607735}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.284,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.9575941787779221}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9543,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.967415217824672}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1364,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Vehicle Movement', 'evidence': 'Site Patrol', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 9,
+      "sif_count": 2,
+      "non_sif_count": 7,
+      "sif_density": 0.2222,
+      "avg_sif_probability": 0.2389,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "affected_sites": [
+        "Platform Charlie",
+        "Station Foxtrot",
+        "Facility Bravo",
+        "Terminal Echo",
+        "Site Alpha",
+        "Refinery Delta"
+      ],
+      "affected_site_count": 6,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Vehicle Interaction', 'evidence': 'Rollover', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8513,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Vehicle Interaction', 'evidence': 'Vehicle collision', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9556,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'TRAFFIC_CONTROL_FAILURE', 'evidence': 'Brakes defective', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9556,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'TRAFFIC_CONTROL_FAILURE', 'evidence': 'Fatigued driver', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8513,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Driving', 'score': 0.9753128383976387}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0615,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Driving', 'score': 0.978381411360455}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0667,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Driving', 'score': 0.9049802178978547}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0461,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Driving', 'score': 0.9484868125872394}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9556,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Driving', 'score': 0.9604664688219602}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8513,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Working at Height', 'evidence': 'Roof', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+      "total_reports": 9,
+      "sif_count": 1,
+      "non_sif_count": 8,
+      "sif_density": 0.1111,
+      "avg_sif_probability": 0.1422,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "affected_sites": [
+        "Site Alpha",
+        "Platform Charlie",
+        "Station Foxtrot",
+        "Terminal Echo"
+      ],
+      "affected_site_count": 4,
+      "common_hazards": [],
+      "common_barriers": [
+        {
+          "name": "{'value': 'BARRICADING_FAILURE', 'evidence': 'No barricade below', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.638,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Work at Height', 'score': 0.9661784147919787}",
+          "total_reports": 3,
+          "sif_count": 0,
+          "non_sif_count": 3,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.08,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Safe Mechanical Lifting', 'score': 0.4037768901151955}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0839,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Work at Height', 'score': 0.9669974056102263}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0839,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Work at Height', 'score': 0.9642263974293286}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.638,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Work at Height', 'score': 0.9648959645952662}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0709,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Maintenance', 'evidence': 'inspecting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 8,
+      "sif_count": 8,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.7583,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "affected_sites": [
+        "Facility Bravo",
+        "Site Alpha",
+        "Platform Charlie",
+        "Station Foxtrot"
+      ],
+      "affected_site_count": 4,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Electrical Energy', 'evidence': 'Electrical', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.6645,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'H2S Exposure', 'evidence': 'H2S', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7715,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Loss of Containment', 'evidence': 'Steam leak', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7989,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'ENERGY_ISOLATION_FAILURE', 'evidence': 'Padlock missing', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8918,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'ENERGY_ISOLATION_FAILURE', 'evidence': 'LOTO not applied', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.5703,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'ENERGY_ISOLATION_FAILURE', 'evidence': 'Bleed valve closed', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7883,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Energy Isolation', 'score': 0.9015858140309735}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9105,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Energy Isolation', 'score': 0.7300011304868674}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.4767,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Energy Isolation', 'score': 0.8045074282868947}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.5819,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Energy Isolation', 'score': 0.8353982348528481}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.6522,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Energy Isolation', 'score': 0.9101698179465549}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7883,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Mechanical Lifting', 'evidence': 'Forklift Operation', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 8,
+      "sif_count": 1,
+      "non_sif_count": 7,
+      "sif_density": 0.125,
+      "avg_sif_probability": 0.191,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "affected_sites": [
+        "Terminal Echo",
+        "Site Alpha",
+        "Station Foxtrot",
+        "Facility Bravo",
+        "Refinery Delta"
+      ],
+      "affected_site_count": 5,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Suspended Load', 'evidence': 'suspended load', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9286,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'Outriggers not extended', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9286,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Driving', 'score': 0.38969286573501327}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0425,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Safe Mechanical Lifting', 'score': 0.9580211419252606}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0288,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Safe Mechanical Lifting', 'score': 0.9667241735789898}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0425,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Driving', 'score': 0.352291510639263}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9286,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Safe Mechanical Lifting', 'score': 0.9242903790910391}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9286,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Mechanical Lifting', 'evidence': 'Hoisting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 8,
+      "sif_count": 4,
+      "non_sif_count": 4,
+      "sif_density": 0.5,
+      "avg_sif_probability": 0.4162,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "affected_sites": [
+        "Refinery Delta",
+        "Terminal Echo",
+        "Site Alpha",
+        "Platform Charlie"
+      ],
+      "affected_site_count": 4,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Suspended Load', 'evidence': 'Crane tip-over', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8519,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Suspended Load', 'evidence': 'Rigging failure', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9503,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Suspended Load', 'evidence': 'Swinging load', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9262,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Vehicle Interaction', 'evidence': 'loss of control', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9262,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'Overloaded crane', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9383,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'Outriggers not extended', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8519,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Safe Mechanical Lifting', 'score': 0.9794328885610151}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0627,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.43916659075155745}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0589,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.5267428652584085}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0603,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Safe Mechanical Lifting', 'score': 0.8988705397933612}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8519,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Safe Mechanical Lifting', 'score': 0.9466551359718238}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9503,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Excavation', 'evidence': 'Trenching', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 7,
+      "sif_count": 2,
+      "non_sif_count": 5,
+      "sif_density": 0.2857,
+      "avg_sif_probability": 0.3478,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "affected_sites": [
+        "Facility Bravo",
+        "Site Alpha",
+        "Terminal Echo",
+        "Platform Charlie"
+      ],
+      "affected_site_count": 4,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Line-of-Fire Exposure', 'evidence': 'Caught between objects', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9873,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Loss of Containment', 'evidence': 'release', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9161,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Pressurized Equipment', 'evidence': 'High pressure release', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9161,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.9559490422982673}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0828,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Confined Space', 'score': 0.4085462232972187}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9873,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.9142578954541086}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9161,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.919091686234592}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9873,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.9714478590880024}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1208,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Painting', 'evidence': 'Paint', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 7,
+      "sif_count": 0,
+      "non_sif_count": 7,
+      "sif_density": 0.0,
+      "avg_sif_probability": 0.0372,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "affected_sites": [
+        "Site Alpha",
+        "Station Foxtrot",
+        "Platform Charlie",
+        "Refinery Delta",
+        "Facility Bravo"
+      ],
+      "affected_site_count": 5,
+      "common_hazards": [],
+      "common_barriers": [],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Safe Mechanical Lifting', 'score': 0.9580211419252606}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0288,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.43916659075155745}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0589,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.5267428652584085}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0603,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Safe Mechanical Lifting', 'score': 0.9530187119567163}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0193,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Safe Mechanical Lifting', 'score': 0.9594447738860516}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0603,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Hot Work', 'evidence': 'Torch Cutting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 6,
+      "sif_count": 4,
+      "non_sif_count": 2,
+      "sif_density": 0.6667,
+      "avg_sif_probability": 0.6115,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "affected_sites": [
+        "Refinery Delta",
+        "Platform Charlie",
+        "Facility Bravo",
+        "Terminal Echo",
+        "Site Alpha"
+      ],
+      "affected_site_count": 5,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Toxic Gas', 'evidence': 'Toxic fumes', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8498,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Fire/Explosion', 'evidence': 'Fire', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.848,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'COMMUNICATION_FAILURE', 'evidence': 'Fire watcher absent', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.848,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'GAS_TEST_FAILURE', 'evidence': 'Gas test expired', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7894,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Bypassing Safety Controls', 'score': 0.44826090472216507}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8789,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.8855323635827679}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8172,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.900980496139021}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7894,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.9089724956198298}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8789,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.9314208243933341}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9139,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Chemical Handling', 'evidence': 'Toxic', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+      "total_reports": 5,
+      "sif_count": 5,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8555,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "affected_sites": [
+        "Refinery Delta",
+        "Facility Bravo",
+        "Site Alpha",
+        "Terminal Echo"
+      ],
+      "affected_site_count": 4,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Toxic Gas', 'evidence': 'Toxic fumes', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 5,
+          "sif_count": 5,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8555,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Fire/Explosion', 'evidence': 'Fire', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.848,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Fire/Explosion', 'evidence': 'fire', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8782,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'COMMUNICATION_FAILURE', 'evidence': 'Fire watcher absent', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.848,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'GAS_TEST_FAILURE', 'evidence': 'Gas test expired', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8338,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Bypassing Safety Controls', 'score': 0.44826090472216507}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8789,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Confined Space', 'score': 0.3639952612506584}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8782,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.8855323635827679}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8172,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.900980496139021}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7894,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.9089724956198298}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8789,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Mechanical Lifting', 'evidence': 'Crane', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+      "total_reports": 5,
+      "sif_count": 1,
+      "non_sif_count": 4,
+      "sif_density": 0.2,
+      "avg_sif_probability": 0.2586,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "affected_sites": [
+        "Site Alpha",
+        "Facility Bravo",
+        "Platform Charlie",
+        "Station Foxtrot"
+      ],
+      "affected_site_count": 4,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Fall from Height', 'evidence': 'Open grating', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9423,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'BARRICADING_FAILURE', 'evidence': 'No barricade below', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9423,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.376027363731463}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9423,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Safe Mechanical Lifting', 'score': 0.356489764339713}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0837,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Work at Height', 'score': 0.7035730754767296}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9423,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Work at Height', 'score': 0.9369333587711826}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0738,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Work at Height', 'score': 0.9583303526647206}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1221,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Hot Work', 'evidence': 'Soldering', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 4,
+      "sif_count": 3,
+      "non_sif_count": 1,
+      "sif_density": 0.75,
+      "avg_sif_probability": 0.6881,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "affected_sites": [
+        "Station Foxtrot",
+        "Platform Charlie",
+        "Terminal Echo"
+      ],
+      "affected_site_count": 3,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Fire/Explosion', 'evidence': 'Explosion', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8766,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Fire/Explosion', 'evidence': 'Fire', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8755,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Fire/Explosion', 'evidence': 'fire', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9154,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'COMMUNICATION_FAILURE', 'evidence': 'Fire watcher absent', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8766,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.9267399137457537}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8766,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.9478585806300719}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8755,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.9640280690726374}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9154,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.9645301915301976}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0848,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Loading/Unloading', 'evidence': 'load', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 4,
+      "sif_count": 4,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9292,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "affected_sites": [
+        "Platform Charlie",
+        "Site Alpha",
+        "Refinery Delta"
+      ],
+      "affected_site_count": 3,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Suspended Load', 'evidence': 'Swinging load', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9242,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Vehicle Interaction', 'evidence': 'loss of control', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.933,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Suspended Load', 'evidence': 'Rigging failure', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9398,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Suspended Load', 'evidence': 'suspended load', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9286,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'Damaged slings used', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9222,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'No tag lines used', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9398,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'Outriggers not extended', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9286,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'Overloaded crane', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9262,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Driving', 'score': 0.352291510639263}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9286,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Safe Mechanical Lifting', 'score': 0.8994245104961996}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9398,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Safe Mechanical Lifting', 'score': 0.9242903790910391}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9286,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Safe Mechanical Lifting', 'score': 0.9608745670522778}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9222,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Safe Mechanical Lifting', 'score': 0.9821191443030381}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9262,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Torquing', 'evidence': 'Torque', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+      "total_reports": 4,
+      "sif_count": 2,
+      "non_sif_count": 2,
+      "sif_density": 0.5,
+      "avg_sif_probability": 0.6039,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "affected_sites": [
+        "Station Foxtrot",
+        "Facility Bravo"
+      ],
+      "affected_site_count": 2,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Line-of-Fire Exposure', 'evidence': 'Caught between objects', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8923,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Line-of-Fire Exposure', 'evidence': 'Struck by moving object', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9804,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'LINE_OF_FIRE_CONTROL_FAILURE', 'evidence': 'Tension line snapped', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9364,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.9411454440289411}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9804,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.9509074575985368}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.2458,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.9672987750377351}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8923,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.9686053782960002}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.2973,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Working at Height', 'evidence': 'Scaffold', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 4,
+      "sif_count": 2,
+      "non_sif_count": 2,
+      "sif_density": 0.5,
+      "avg_sif_probability": 0.3631,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "affected_sites": [
+        "Terminal Echo",
+        "Site Alpha",
+        "Platform Charlie",
+        "Refinery Delta"
+      ],
+      "affected_site_count": 4,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Fall from Height', 'evidence': 'Fall from height', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7489,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'FALL_PROTECTION_FAILURE', 'evidence': 'Harness not clipped', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7489,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'FALL_PROTECTION_FAILURE', 'evidence': 'Scaffold tag missing', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.4057,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Work at Height', 'score': 0.9740226413762558}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1425,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Work at Height', 'score': 0.9802354282946568}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1552,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Work at Height', 'score': 0.9836749657053078}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.4057,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Work at Height', 'score': 0.9852809224080582}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7489,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Contractor Work', 'evidence': 'contractor', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 3,
+      "sif_count": 3,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8699,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "affected_sites": [
+        "Facility Bravo",
+        "Platform Charlie",
+        "Refinery Delta"
+      ],
+      "affected_site_count": 3,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Fire/Explosion', 'evidence': 'Fire', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8479,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Toxic Gas', 'evidence': 'Toxic fumes', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8656,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'COMMUNICATION_FAILURE', 'evidence': 'Fire watcher absent', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8479,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.8023355808338741}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8787,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.8855323635827679}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8172,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Hot Work', 'score': 0.9314208243933341}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9139,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.38522075486121415}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8787,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Line of Fire', 'score': 0.413714066544645}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9139,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Pipefitting', 'evidence': 'Pipefitting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 2,
+      "sif_count": 0,
+      "non_sif_count": 2,
+      "sif_density": 0.0,
+      "avg_sif_probability": 0.0316,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "affected_sites": [
+        "Station Foxtrot",
+        "Platform Charlie"
+      ],
+      "affected_site_count": 2,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Electrical Energy', 'evidence': 'Electrical', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0251,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Energy Isolation', 'score': 0.7965764150732647}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0251,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Energy Isolation', 'score': 0.9419829667375827}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0381,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Confined Space Entry', 'evidence': 'entered Reactor R-5 for Vessel', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 1,
+      "sif_count": 1,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9132,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "affected_sites": [
+        "Platform Charlie"
+      ],
+      "affected_site_count": 1,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Confined Atmosphere', 'evidence': 'Oxygen deficiency', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9132,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Confined Space', 'score': 0.9533452314577474}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9132,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Energy Isolation', 'score': 0.3708908330568884}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9132,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Confined Space Entry', 'evidence': 'entered Storage Tank', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 1,
+      "sif_count": 1,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8533,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "affected_sites": [
+        "Site Alpha"
+      ],
+      "affected_site_count": 1,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Confined Atmosphere', 'evidence': 'Oxygen deficiency', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8533,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'GAS_TEST_FAILURE', 'evidence': 'Gas test not performed', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8533,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Confined Space', 'score': 0.9123445525331807}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8533,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Confined Space Entry', 'evidence': 'entered Underground Sump for Tank', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 1,
+      "sif_count": 1,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9023,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "affected_sites": [
+        "Site Alpha"
+      ],
+      "affected_site_count": 1,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Confined Atmosphere', 'evidence': 'Engulfment', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9023,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Confined Space', 'score': 0.9672425767740847}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9023,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Maintenance', 'evidence': 'Work on', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 1,
+      "sif_count": 1,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9026,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "affected_sites": [
+        "Station Foxtrot"
+      ],
+      "affected_site_count": 1,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Unidentified Hazards', 'evidence': 'Unidentified hazards', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9026,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'WORK_AUTHORIZATION_FAILURE', 'evidence': 'JSA not discussed', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9026,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Work Authorization', 'score': 0.8613597829285186}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9026,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Working at Height', 'evidence': 'height', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+      "total_reports": 1,
+      "sif_count": 1,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9001,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "affected_sites": [
+        "Facility Bravo"
+      ],
+      "affected_site_count": 1,
+      "common_hazards": [
+        {
+          "name": "{'value': 'Fall from Height', 'evidence': 'Fall from height', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9001,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "{'value': 'FALL_PROTECTION_FAILURE', 'evidence': 'Missing toe boards', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9001,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "{'rule': 'Safe Mechanical Lifting', 'score': 0.3784129902195495}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9001,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'rule': 'Work at Height', 'score': 0.9518014831319904}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9001,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    }
+  ]
+}

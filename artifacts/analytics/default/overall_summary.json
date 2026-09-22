@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-22T18:19:14.472733",
+    "source_dataset": "enriched_reports.csv",
+    "report_count": 2500,
+    "analytics_version": "0.5.0",
+    "uses_predicted_fields": true,
+    "prototype_notice": "Analytics are generated from synthetic data and model-predicted fields for demonstration purposes."
+  },
+  "data": {
+    "total_reports": 2500,
+    "total_predicted_sif_reports": 626,
+    "overall_sif_density": 0.2504,
+    "avg_sif_probability": 0.2923,
+    "highest_volume_site": "Refinery Delta",
+    "highest_sif_count_site": "Station Foxtrot",
+    "highest_sif_density_site_with_adequate_sample": "Station Foxtrot",
+    "highest_sif_density_site_unrestricted": "Station Foxtrot",
+    "most_frequent_activity": "Maintenance",
+    "most_frequent_lsr": "Line of Fire",
+    "most_frequent_hazard": "Loss of Containment",
+    "most_frequent_barrier_failure": "SAFETY_DEVICE_BYPASS",
+    "highest_ranked_recurring_pattern": {
+      "pattern_id": "lsr_barrier__safety_device_bypass__bypassing_safety_controls",
+      "priority_score": 83.5,
+      "components": {
+        "lsr": "Bypassing Safety Controls",
+        "barrier_failures": "SAFETY_DEVICE_BYPASS"
+      }
+    }
+  }
+}

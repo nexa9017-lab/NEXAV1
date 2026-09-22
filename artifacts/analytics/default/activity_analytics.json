@@ -1,0 +1,2016 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-22T18:19:14.472733",
+    "source_dataset": "enriched_reports.csv",
+    "report_count": 2500,
+    "analytics_version": "0.5.0",
+    "uses_predicted_fields": true,
+    "prototype_notice": "Analytics are generated from synthetic data and model-predicted fields for demonstration purposes."
+  },
+  "data": [
+    {
+      "name": "Maintenance",
+      "total_reports": 722,
+      "sif_count": 179,
+      "non_sif_count": 543,
+      "sif_density": 0.2479,
+      "avg_sif_probability": 0.2693,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Site Alpha",
+        "Facility Bravo",
+        "Refinery Delta",
+        "Station Foxtrot",
+        "Terminal Echo",
+        "Platform Charlie"
+      ],
+      "affected_site_count": 6,
+      "common_hazards": [
+        {
+          "name": "Loss of Containment",
+          "total_reports": 60,
+          "sif_count": 38,
+          "non_sif_count": 22,
+          "sif_density": 0.6333,
+          "avg_sif_probability": 0.5441,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Electrical Energy",
+          "total_reports": 52,
+          "sif_count": 27,
+          "non_sif_count": 25,
+          "sif_density": 0.5192,
+          "avg_sif_probability": 0.4619,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Unidentified Hazards",
+          "total_reports": 42,
+          "sif_count": 42,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8165,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Pressurized Equipment",
+          "total_reports": 33,
+          "sif_count": 33,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.853,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Fall from Height",
+          "total_reports": 17,
+          "sif_count": 17,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7762,
+          "data_quality_warnings": []
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "ENERGY_ISOLATION_FAILURE",
+          "total_reports": 66,
+          "sif_count": 65,
+          "non_sif_count": 1,
+          "sif_density": 0.9848,
+          "avg_sif_probability": 0.8093,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "WORK_AUTHORIZATION_FAILURE",
+          "total_reports": 42,
+          "sif_count": 42,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8165,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "FALL_PROTECTION_FAILURE",
+          "total_reports": 27,
+          "sif_count": 27,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7398,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "SAFETY_DEVICE_BYPASS",
+          "total_reports": 23,
+          "sif_count": 23,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.928,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "BARRICADING_FAILURE",
+          "total_reports": 6,
+          "sif_count": 6,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8684,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "Energy Isolation",
+          "total_reports": 225,
+          "sif_count": 77,
+          "non_sif_count": 148,
+          "sif_density": 0.3422,
+          "avg_sif_probability": 0.341,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Work at Height",
+          "total_reports": 165,
+          "sif_count": 38,
+          "non_sif_count": 127,
+          "sif_density": 0.2303,
+          "avg_sif_probability": 0.2518,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Bypassing Safety Controls",
+          "total_reports": 142,
+          "sif_count": 53,
+          "non_sif_count": 89,
+          "sif_density": 0.3732,
+          "avg_sif_probability": 0.3826,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Work Authorization",
+          "total_reports": 123,
+          "sif_count": 42,
+          "non_sif_count": 81,
+          "sif_density": 0.3415,
+          "avg_sif_probability": 0.3147,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Confined Space",
+          "total_reports": 95,
+          "sif_count": 20,
+          "non_sif_count": 75,
+          "sif_density": 0.2105,
+          "avg_sif_probability": 0.2609,
+          "data_quality_warnings": []
+        }
+      ]
+    },
+    {
+      "name": "Hot Work",
+      "total_reports": 442,
+      "sif_count": 114,
+      "non_sif_count": 328,
+      "sif_density": 0.2579,
+      "avg_sif_probability": 0.2973,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Refinery Delta",
+        "Terminal Echo",
+        "Station Foxtrot",
+        "Facility Bravo",
+        "Site Alpha",
+        "Platform Charlie"
+      ],
+      "affected_site_count": 6,
+      "common_hazards": [
+        {
+          "name": "Fire/Explosion",
+          "total_reports": 61,
+          "sif_count": 61,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.882,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Toxic Gas",
+          "total_reports": 27,
+          "sif_count": 27,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8624,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Confined Atmosphere",
+          "total_reports": 14,
+          "sif_count": 14,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8978,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Line-of-Fire Exposure",
+          "total_reports": 7,
+          "sif_count": 7,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9343,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Stored Energy",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8236,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "COMMUNICATION_FAILURE",
+          "total_reports": 26,
+          "sif_count": 26,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8985,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "GAS_TEST_FAILURE",
+          "total_reports": 24,
+          "sif_count": 24,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8533,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "LINE_OF_FIRE_CONTROL_FAILURE",
+          "total_reports": 7,
+          "sif_count": 7,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9471,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "BARRICADING_FAILURE",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9345,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "Hot Work",
+          "total_reports": 302,
+          "sif_count": 78,
+          "non_sif_count": 224,
+          "sif_density": 0.2583,
+          "avg_sif_probability": 0.291,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Confined Space",
+          "total_reports": 111,
+          "sif_count": 36,
+          "non_sif_count": 75,
+          "sif_density": 0.3243,
+          "avg_sif_probability": 0.3387,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Line of Fire",
+          "total_reports": 72,
+          "sif_count": 18,
+          "non_sif_count": 54,
+          "sif_density": 0.25,
+          "avg_sif_probability": 0.3462,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Energy Isolation",
+          "total_reports": 22,
+          "sif_count": 11,
+          "non_sif_count": 11,
+          "sif_density": 0.5,
+          "avg_sif_probability": 0.4942,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Bypassing Safety Controls",
+          "total_reports": 6,
+          "sif_count": 6,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8645,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mechanical Lifting",
+      "total_reports": 409,
+      "sif_count": 110,
+      "non_sif_count": 299,
+      "sif_density": 0.2689,
+      "avg_sif_probability": 0.3277,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Platform Charlie",
+        "Station Foxtrot",
+        "Facility Bravo",
+        "Site Alpha",
+        "Terminal Echo",
+        "Refinery Delta"
+      ],
+      "affected_site_count": 6,
+      "common_hazards": [
+        {
+          "name": "Suspended Load",
+          "total_reports": 68,
+          "sif_count": 68,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9257,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Vehicle Interaction",
+          "total_reports": 21,
+          "sif_count": 21,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9431,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Line-of-Fire Exposure",
+          "total_reports": 15,
+          "sif_count": 15,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9592,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Fall from Height",
+          "total_reports": 12,
+          "sif_count": 12,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8542,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Stored Energy",
+          "total_reports": 6,
+          "sif_count": 6,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9314,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "LIFTING_CONTROL_FAILURE",
+          "total_reports": 68,
+          "sif_count": 68,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9257,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "FALL_PROTECTION_FAILURE",
+          "total_reports": 18,
+          "sif_count": 18,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8429,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "LINE_OF_FIRE_CONTROL_FAILURE",
+          "total_reports": 13,
+          "sif_count": 13,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9583,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "BARRICADING_FAILURE",
+          "total_reports": 8,
+          "sif_count": 8,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.967,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "Safe Mechanical Lifting",
+          "total_reports": 285,
+          "sif_count": 77,
+          "non_sif_count": 208,
+          "sif_density": 0.2702,
+          "avg_sif_probability": 0.3125,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Work at Height",
+          "total_reports": 97,
+          "sif_count": 29,
+          "non_sif_count": 68,
+          "sif_density": 0.299,
+          "avg_sif_probability": 0.3443,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Line of Fire",
+          "total_reports": 83,
+          "sif_count": 39,
+          "non_sif_count": 44,
+          "sif_density": 0.4699,
+          "avg_sif_probability": 0.5564,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Hot Work",
+          "total_reports": 25,
+          "sif_count": 4,
+          "non_sif_count": 21,
+          "sif_density": 0.16,
+          "avg_sif_probability": 0.1854,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Driving",
+          "total_reports": 13,
+          "sif_count": 7,
+          "non_sif_count": 6,
+          "sif_density": 0.5385,
+          "avg_sif_probability": 0.515,
+          "data_quality_warnings": []
+        }
+      ]
+    },
+    {
+      "name": "Vehicle Movement",
+      "total_reports": 294,
+      "sif_count": 58,
+      "non_sif_count": 236,
+      "sif_density": 0.1973,
+      "avg_sif_probability": 0.2348,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Facility Bravo",
+        "Site Alpha",
+        "Terminal Echo",
+        "Station Foxtrot",
+        "Platform Charlie",
+        "Refinery Delta"
+      ],
+      "affected_site_count": 6,
+      "common_hazards": [
+        {
+          "name": "Vehicle Interaction",
+          "total_reports": 58,
+          "sif_count": 58,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9196,
+          "data_quality_warnings": []
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "TRAFFIC_CONTROL_FAILURE",
+          "total_reports": 58,
+          "sif_count": 58,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9196,
+          "data_quality_warnings": []
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "Driving",
+          "total_reports": 294,
+          "sif_count": 58,
+          "non_sif_count": 236,
+          "sif_density": 0.1973,
+          "avg_sif_probability": 0.2348,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Confined Space",
+          "total_reports": 32,
+          "sif_count": 0,
+          "non_sif_count": 32,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0457,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Safe Mechanical Lifting",
+          "total_reports": 32,
+          "sif_count": 11,
+          "non_sif_count": 21,
+          "sif_density": 0.3438,
+          "avg_sif_probability": 0.3593,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Work Authorization",
+          "total_reports": 12,
+          "sif_count": 2,
+          "non_sif_count": 10,
+          "sif_density": 0.1667,
+          "avg_sif_probability": 0.1973,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Line of Fire",
+          "total_reports": 5,
+          "sif_count": 5,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9477,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Operations",
+      "total_reports": 285,
+      "sif_count": 76,
+      "non_sif_count": 209,
+      "sif_density": 0.2667,
+      "avg_sif_probability": 0.3461,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Station Foxtrot",
+        "Facility Bravo",
+        "Site Alpha",
+        "Terminal Echo",
+        "Refinery Delta",
+        "Platform Charlie"
+      ],
+      "affected_site_count": 6,
+      "common_hazards": [
+        {
+          "name": "Unidentified Hazards",
+          "total_reports": 21,
+          "sif_count": 21,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.884,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Pressurized Equipment",
+          "total_reports": 17,
+          "sif_count": 17,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9573,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Loss of Containment",
+          "total_reports": 15,
+          "sif_count": 15,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9454,
+          "data_quality_warnings": []
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "SAFETY_DEVICE_BYPASS",
+          "total_reports": 55,
+          "sif_count": 55,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9521,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "WORK_AUTHORIZATION_FAILURE",
+          "total_reports": 21,
+          "sif_count": 21,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.884,
+          "data_quality_warnings": []
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "Bypassing Safety Controls",
+          "total_reports": 202,
+          "sif_count": 60,
+          "non_sif_count": 142,
+          "sif_density": 0.297,
+          "avg_sif_probability": 0.3866,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Work Authorization",
+          "total_reports": 90,
+          "sif_count": 21,
+          "non_sif_count": 69,
+          "sif_density": 0.2333,
+          "avg_sif_probability": 0.2842,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Energy Isolation",
+          "total_reports": 16,
+          "sif_count": 16,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9553,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Line of Fire",
+          "total_reports": 12,
+          "sif_count": 9,
+          "non_sif_count": 3,
+          "sif_density": 0.75,
+          "avg_sif_probability": 0.6488,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Hot Work",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9042,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Working at Height",
+      "total_reports": 214,
+      "sif_count": 49,
+      "non_sif_count": 165,
+      "sif_density": 0.229,
+      "avg_sif_probability": 0.2575,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Terminal Echo",
+        "Refinery Delta",
+        "Platform Charlie",
+        "Station Foxtrot",
+        "Facility Bravo",
+        "Site Alpha"
+      ],
+      "affected_site_count": 6,
+      "common_hazards": [
+        {
+          "name": "Fall from Height",
+          "total_reports": 24,
+          "sif_count": 24,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7961,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Dropped Object",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7045,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "FALL_PROTECTION_FAILURE",
+          "total_reports": 42,
+          "sif_count": 42,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7703,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "BARRICADING_FAILURE",
+          "total_reports": 7,
+          "sif_count": 7,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8685,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "Work at Height",
+          "total_reports": 214,
+          "sif_count": 49,
+          "non_sif_count": 165,
+          "sif_density": 0.229,
+          "avg_sif_probability": 0.2575,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Safe Mechanical Lifting",
+          "total_reports": 43,
+          "sif_count": 17,
+          "non_sif_count": 26,
+          "sif_density": 0.3953,
+          "avg_sif_probability": 0.3896,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Line of Fire",
+          "total_reports": 9,
+          "sif_count": 9,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.92,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Hot Work",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.6487,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Painting",
+      "total_reports": 118,
+      "sif_count": 13,
+      "non_sif_count": 105,
+      "sif_density": 0.1102,
+      "avg_sif_probability": 0.1433,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Platform Charlie",
+        "Terminal Echo",
+        "Station Foxtrot",
+        "Facility Bravo",
+        "Site Alpha",
+        "Refinery Delta"
+      ],
+      "affected_site_count": 6,
+      "common_hazards": [
+        {
+          "name": "Fall from Height",
+          "total_reports": 6,
+          "sif_count": 6,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8422,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Dropped Object",
+          "total_reports": 5,
+          "sif_count": 5,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7956,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "FALL_PROTECTION_FAILURE",
+          "total_reports": 9,
+          "sif_count": 9,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7841,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "BARRICADING_FAILURE",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8379,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "Safe Mechanical Lifting",
+          "total_reports": 86,
+          "sif_count": 10,
+          "non_sif_count": 76,
+          "sif_density": 0.1163,
+          "avg_sif_probability": 0.1365,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Work at Height",
+          "total_reports": 58,
+          "sif_count": 13,
+          "non_sif_count": 45,
+          "sif_density": 0.2241,
+          "avg_sif_probability": 0.2496,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Hot Work",
+          "total_reports": 22,
+          "sif_count": 1,
+          "non_sif_count": 21,
+          "sif_density": 0.0455,
+          "avg_sif_probability": 0.0813,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Line of Fire",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9423,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Confined Space Entry",
+      "total_reports": 112,
+      "sif_count": 39,
+      "non_sif_count": 73,
+      "sif_density": 0.3482,
+      "avg_sif_probability": 0.3434,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Facility Bravo",
+        "Station Foxtrot",
+        "Terminal Echo",
+        "Refinery Delta",
+        "Platform Charlie",
+        "Site Alpha"
+      ],
+      "affected_site_count": 6,
+      "common_hazards": [
+        {
+          "name": "Confined Atmosphere",
+          "total_reports": 19,
+          "sif_count": 19,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8817,
+          "data_quality_warnings": []
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "COMMUNICATION_FAILURE",
+          "total_reports": 8,
+          "sif_count": 8,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8889,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "GAS_TEST_FAILURE",
+          "total_reports": 7,
+          "sif_count": 7,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8654,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "Confined Space",
+          "total_reports": 112,
+          "sif_count": 39,
+          "non_sif_count": 73,
+          "sif_density": 0.3482,
+          "avg_sif_probability": 0.3434,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Bypassing Safety Controls",
+          "total_reports": 13,
+          "sif_count": 13,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8905,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Energy Isolation",
+          "total_reports": 9,
+          "sif_count": 9,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8498,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Contractor Work",
+      "total_reports": 108,
+      "sif_count": 42,
+      "non_sif_count": 66,
+      "sif_density": 0.3889,
+      "avg_sif_probability": 0.3518,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Site Alpha",
+        "Facility Bravo",
+        "Terminal Echo",
+        "Station Foxtrot",
+        "Refinery Delta",
+        "Platform Charlie"
+      ],
+      "affected_site_count": 6,
+      "common_hazards": [
+        {
+          "name": "Unidentified Hazards",
+          "total_reports": 25,
+          "sif_count": 25,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8411,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Fire/Explosion",
+          "total_reports": 11,
+          "sif_count": 11,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8248,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Toxic Gas",
+          "total_reports": 8,
+          "sif_count": 8,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7984,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "WORK_AUTHORIZATION_FAILURE",
+          "total_reports": 25,
+          "sif_count": 25,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8411,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "COMMUNICATION_FAILURE",
+          "total_reports": 6,
+          "sif_count": 6,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8522,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "GAS_TEST_FAILURE",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.6735,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "Work Authorization",
+          "total_reports": 91,
+          "sif_count": 25,
+          "non_sif_count": 66,
+          "sif_density": 0.2747,
+          "avg_sif_probability": 0.2682,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Line of Fire",
+          "total_reports": 31,
+          "sif_count": 19,
+          "non_sif_count": 12,
+          "sif_density": 0.6129,
+          "avg_sif_probability": 0.5245,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Hot Work",
+          "total_reports": 17,
+          "sif_count": 17,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7996,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Confined Space",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7084,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Work at Height",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9278,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cleaning",
+      "total_reports": 97,
+      "sif_count": 24,
+      "non_sif_count": 73,
+      "sif_density": 0.2474,
+      "avg_sif_probability": 0.2548,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Facility Bravo",
+        "Station Foxtrot",
+        "Terminal Echo",
+        "Refinery Delta",
+        "Platform Charlie",
+        "Site Alpha"
+      ],
+      "affected_site_count": 6,
+      "common_hazards": [
+        {
+          "name": "Confined Atmosphere",
+          "total_reports": 11,
+          "sif_count": 11,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8676,
+          "data_quality_warnings": []
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "COMMUNICATION_FAILURE",
+          "total_reports": 6,
+          "sif_count": 6,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8898,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "GAS_TEST_FAILURE",
+          "total_reports": 5,
+          "sif_count": 5,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8564,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "Confined Space",
+          "total_reports": 97,
+          "sif_count": 24,
+          "non_sif_count": 73,
+          "sif_density": 0.2474,
+          "avg_sif_probability": 0.2548,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Bypassing Safety Controls",
+          "total_reports": 13,
+          "sif_count": 13,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8905,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Energy Isolation",
+          "total_reports": 7,
+          "sif_count": 7,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8383,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Torquing",
+      "total_reports": 92,
+      "sif_count": 28,
+      "non_sif_count": 64,
+      "sif_density": 0.3043,
+      "avg_sif_probability": 0.4158,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Station Foxtrot",
+        "Platform Charlie",
+        "Site Alpha",
+        "Terminal Echo",
+        "Facility Bravo",
+        "Refinery Delta"
+      ],
+      "affected_site_count": 6,
+      "common_hazards": [
+        {
+          "name": "Line-of-Fire Exposure",
+          "total_reports": 23,
+          "sif_count": 23,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9482,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Pressurized Equipment",
+          "total_reports": 9,
+          "sif_count": 9,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9489,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Loss of Containment",
+          "total_reports": 8,
+          "sif_count": 8,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9473,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Stored Energy",
+          "total_reports": 5,
+          "sif_count": 5,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9601,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "LINE_OF_FIRE_CONTROL_FAILURE",
+          "total_reports": 24,
+          "sif_count": 24,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.948,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "BARRICADING_FAILURE",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9625,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "Line of Fire",
+          "total_reports": 92,
+          "sif_count": 28,
+          "non_sif_count": 64,
+          "sif_density": 0.3043,
+          "avg_sif_probability": 0.4158,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Hot Work",
+          "total_reports": 9,
+          "sif_count": 9,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9538,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Bypassing Safety Controls",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9815,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Driving",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9933,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Energy Isolation",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.916,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Excavation",
+      "total_reports": 60,
+      "sif_count": 12,
+      "non_sif_count": 48,
+      "sif_density": 0.2,
+      "avg_sif_probability": 0.2908,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Station Foxtrot",
+        "Platform Charlie",
+        "Terminal Echo",
+        "Site Alpha",
+        "Facility Bravo",
+        "Refinery Delta"
+      ],
+      "affected_site_count": 6,
+      "common_hazards": [
+        {
+          "name": "Line-of-Fire Exposure",
+          "total_reports": 9,
+          "sif_count": 9,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.941,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Loss of Containment",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9243,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Pressurized Equipment",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9243,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Stored Energy",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9404,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "LINE_OF_FIRE_CONTROL_FAILURE",
+          "total_reports": 10,
+          "sif_count": 10,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9295,
+          "data_quality_warnings": []
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "Line of Fire",
+          "total_reports": 60,
+          "sif_count": 12,
+          "non_sif_count": 48,
+          "sif_density": 0.2,
+          "avg_sif_probability": 0.2908,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Hot Work",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9532,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Confined Space",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9873,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Drilling",
+      "total_reports": 57,
+      "sif_count": 14,
+      "non_sif_count": 43,
+      "sif_density": 0.2456,
+      "avg_sif_probability": 0.3222,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Platform Charlie",
+        "Facility Bravo",
+        "Site Alpha",
+        "Refinery Delta",
+        "Terminal Echo",
+        "Station Foxtrot"
+      ],
+      "affected_site_count": 6,
+      "common_hazards": [
+        {
+          "name": "Line-of-Fire Exposure",
+          "total_reports": 12,
+          "sif_count": 12,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9325,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Stored Energy",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8545,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Loss of Containment",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9604,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Pressurized Equipment",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9604,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "LINE_OF_FIRE_CONTROL_FAILURE",
+          "total_reports": 11,
+          "sif_count": 11,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9351,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "BARRICADING_FAILURE",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9561,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "Line of Fire",
+          "total_reports": 57,
+          "sif_count": 14,
+          "non_sif_count": 43,
+          "sif_density": 0.2456,
+          "avg_sif_probability": 0.3222,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Hot Work",
+          "total_reports": 6,
+          "sif_count": 6,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9151,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pipefitting",
+      "total_reports": 57,
+      "sif_count": 9,
+      "non_sif_count": 48,
+      "sif_density": 0.1579,
+      "avg_sif_probability": 0.159,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Facility Bravo",
+        "Terminal Echo",
+        "Station Foxtrot",
+        "Refinery Delta",
+        "Site Alpha",
+        "Platform Charlie"
+      ],
+      "affected_site_count": 6,
+      "common_hazards": [
+        {
+          "name": "Electrical Energy",
+          "total_reports": 14,
+          "sif_count": 4,
+          "non_sif_count": 10,
+          "sif_density": 0.2857,
+          "avg_sif_probability": 0.2667,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Loss of Containment",
+          "total_reports": 13,
+          "sif_count": 5,
+          "non_sif_count": 8,
+          "sif_density": 0.3846,
+          "avg_sif_probability": 0.3351,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Pressurized Equipment",
+          "total_reports": 7,
+          "sif_count": 7,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.805,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "H2S Exposure",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.6522,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Hydrocarbon Release",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7499,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "ENERGY_ISOLATION_FAILURE",
+          "total_reports": 9,
+          "sif_count": 9,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7772,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "Energy Isolation",
+          "total_reports": 57,
+          "sif_count": 9,
+          "non_sif_count": 48,
+          "sif_density": 0.1579,
+          "avg_sif_probability": 0.159,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Hot Work",
+          "total_reports": 6,
+          "sif_count": 0,
+          "non_sif_count": 6,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0456,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Bypassing Safety Controls",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.68,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Line of Fire",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9071,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chemical Handling",
+      "total_reports": 49,
+      "sif_count": 49,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8951,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Refinery Delta",
+        "Station Foxtrot",
+        "Facility Bravo",
+        "Site Alpha",
+        "Terminal Echo",
+        "Platform Charlie"
+      ],
+      "affected_site_count": 6,
+      "common_hazards": [
+        {
+          "name": "Toxic Gas",
+          "total_reports": 27,
+          "sif_count": 27,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8624,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Fire/Explosion",
+          "total_reports": 21,
+          "sif_count": 21,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8893,
+          "data_quality_warnings": []
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "COMMUNICATION_FAILURE",
+          "total_reports": 15,
+          "sif_count": 15,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8814,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "GAS_TEST_FAILURE",
+          "total_reports": 14,
+          "sif_count": 14,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8903,
+          "data_quality_warnings": []
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "Hot Work",
+          "total_reports": 28,
+          "sif_count": 28,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8649,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Confined Space",
+          "total_reports": 27,
+          "sif_count": 27,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9035,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Bypassing Safety Controls",
+          "total_reports": 12,
+          "sif_count": 12,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9194,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Energy Isolation",
+          "total_reports": 5,
+          "sif_count": 5,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9103,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Work at Height",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8931,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Loading/Unloading",
+      "total_reports": 49,
+      "sif_count": 49,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9304,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Facility Bravo",
+        "Site Alpha",
+        "Platform Charlie",
+        "Terminal Echo",
+        "Station Foxtrot",
+        "Refinery Delta"
+      ],
+      "affected_site_count": 6,
+      "common_hazards": [
+        {
+          "name": "Suspended Load",
+          "total_reports": 49,
+          "sif_count": 49,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9304,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Vehicle Interaction",
+          "total_reports": 21,
+          "sif_count": 21,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9431,
+          "data_quality_warnings": []
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "LIFTING_CONTROL_FAILURE",
+          "total_reports": 49,
+          "sif_count": 49,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9304,
+          "data_quality_warnings": []
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "Safe Mechanical Lifting",
+          "total_reports": 49,
+          "sif_count": 49,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9304,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Line of Fire",
+          "total_reports": 6,
+          "sif_count": 6,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9443,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Driving",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8816,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Bypassing Safety Controls",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9099,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pressure Testing",
+      "total_reports": 48,
+      "sif_count": 13,
+      "non_sif_count": 35,
+      "sif_density": 0.2708,
+      "avg_sif_probability": 0.4271,
+      "data_quality_warnings": [],
+      "affected_sites": [
+        "Site Alpha",
+        "Refinery Delta",
+        "Terminal Echo",
+        "Platform Charlie",
+        "Station Foxtrot",
+        "Facility Bravo"
+      ],
+      "affected_site_count": 6,
+      "common_hazards": [
+        {
+          "name": "Line-of-Fire Exposure",
+          "total_reports": 10,
+          "sif_count": 10,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9611,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Loss of Containment",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9447,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Pressurized Equipment",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9447,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Stored Energy",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9721,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_barriers": [
+        {
+          "name": "LINE_OF_FIRE_CONTROL_FAILURE",
+          "total_reports": 8,
+          "sif_count": 8,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.956,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "BARRICADING_FAILURE",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9669,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "common_lsr": [
+        {
+          "name": "Line of Fire",
+          "total_reports": 48,
+          "sif_count": 13,
+          "non_sif_count": 35,
+          "sif_density": 0.2708,
+          "avg_sif_probability": 0.4271,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Hot Work",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9699,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Bypassing Safety Controls",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.98,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Energy Isolation",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9395,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-22T18:19:14.472733",
+    "source_dataset": "enriched_reports.csv",
+    "report_count": 2500,
+    "analytics_version": "0.5.0",
+    "uses_predicted_fields": true,
+    "prototype_notice": "Analytics are generated from synthetic data and model-predicted fields for demonstration purposes."
+  },
+  "data": {
+    "activity": {
+      "predicted_top5": [
+        "Maintenance",
+        "Hot Work",
+        "Mechanical Lifting",
+        "Vehicle Movement",
+        "Operations"
+      ],
+      "ground_truth_top5": [
+        "Grinding",
+        "Rigging",
+        "Vessel Welding",
+        "Process Operation",
+        "System Maintenance"
+      ],
+      "overlap_count": 0,
+      "overlap_ratio": 0.0,
+      "overlapping_items": []
+    },
+    "hazard": {
+      "predicted_top5": [
+        "Loss of Containment",
+        "Vehicle Interaction",
+        "Pressurized Equipment",
+        "Unidentified Hazards",
+        "Suspended Load"
+      ],
+      "ground_truth_top5": [
+        "Toxic fumes",
+        "Engulfment",
+        "Simultaneous operations clash",
+        "Overpressure",
+        "Unidentified hazards"
+      ],
+      "overlap_count": 0,
+      "overlap_ratio": 0.0,
+      "overlapping_items": []
+    },
+    "barrier_failure": {
+      "predicted_top5": [
+        "SAFETY_DEVICE_BYPASS",
+        "ENERGY_ISOLATION_FAILURE",
+        "WORK_AUTHORIZATION_FAILURE",
+        "LIFTING_CONTROL_FAILURE",
+        "TRAFFIC_CONTROL_FAILURE"
+      ],
+      "ground_truth_top5": [
+        "Damaged slings used",
+        "Interlock bridged",
+        "Alarm disabled",
+        "Ventilation failed",
+        "Expired permit"
+      ],
+      "overlap_count": 0,
+      "overlap_ratio": 0.0,
+      "overlapping_items": []
+    },
+    "site_sif_density": {
+      "predicted_top5": [
+        "Station Foxtrot",
+        "Terminal Echo",
+        "Site Alpha",
+        "Facility Bravo",
+        "Platform Charlie"
+      ],
+      "ground_truth_top5": [
+        "Station Foxtrot",
+        "Terminal Echo",
+        "Site Alpha",
+        "Facility Bravo",
+        "Platform Charlie"
+      ],
+      "overlap_count": 5,
+      "overlap_ratio": 1.0,
+      "overlapping_items": [
+        "Station Foxtrot",
+        "Facility Bravo",
+        "Site Alpha",
+        "Terminal Echo",
+        "Platform Charlie"
+      ]
+    }
+  }
+}

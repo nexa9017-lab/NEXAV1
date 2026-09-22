@@ -1,0 +1,1337 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-22T18:19:14.472733",
+    "source_dataset": "enriched_reports.csv",
+    "report_count": 2500,
+    "analytics_version": "0.5.0",
+    "uses_predicted_fields": true,
+    "prototype_notice": "Analytics are generated from synthetic data and model-predicted fields for demonstration purposes."
+  },
+  "data": [
+    {
+      "name": "Major Process Safety Event",
+      "total_reports": 222,
+      "sif_count": 192,
+      "non_sif_count": 30,
+      "sif_density": 0.8649,
+      "avg_sif_probability": 0.7806,
+      "data_quality_warnings": [],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "Loss of Containment",
+          "total_reports": 104,
+          "sif_count": 74,
+          "non_sif_count": 30,
+          "sif_density": 0.7115,
+          "avg_sif_probability": 0.6362,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Pressurized Equipment",
+          "total_reports": 75,
+          "sif_count": 75,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8931,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Fire/Explosion",
+          "total_reports": 61,
+          "sif_count": 61,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.882,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Electrical Energy",
+          "total_reports": 21,
+          "sif_count": 16,
+          "non_sif_count": 5,
+          "sif_density": 0.7619,
+          "avg_sif_probability": 0.6292,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Toxic Gas",
+          "total_reports": 21,
+          "sif_count": 21,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8893,
+          "data_quality_warnings": []
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "SAFETY_DEVICE_BYPASS",
+          "total_reports": 63,
+          "sif_count": 63,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9478,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "ENERGY_ISOLATION_FAILURE",
+          "total_reports": 51,
+          "sif_count": 50,
+          "non_sif_count": 1,
+          "sif_density": 0.9804,
+          "avg_sif_probability": 0.7897,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "COMMUNICATION_FAILURE",
+          "total_reports": 19,
+          "sif_count": 19,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8855,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "GAS_TEST_FAILURE",
+          "total_reports": 15,
+          "sif_count": 15,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8782,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "LINE_OF_FIRE_CONTROL_FAILURE",
+          "total_reports": 13,
+          "sif_count": 13,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9379,
+          "data_quality_warnings": []
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "Maintenance",
+          "total_reports": 81,
+          "sif_count": 59,
+          "non_sif_count": 22,
+          "sif_density": 0.7284,
+          "avg_sif_probability": 0.6393,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Hot Work",
+          "total_reports": 63,
+          "sif_count": 63,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8853,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Operations",
+          "total_reports": 46,
+          "sif_count": 46,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9533,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Chemical Handling",
+          "total_reports": 21,
+          "sif_count": 21,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8893,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Pipefitting",
+          "total_reports": 16,
+          "sif_count": 8,
+          "non_sif_count": 8,
+          "sif_density": 0.5,
+          "avg_sif_probability": 0.4328,
+          "data_quality_warnings": []
+        }
+      ]
+    },
+    {
+      "name": "Struck-By Injury",
+      "total_reports": 85,
+      "sif_count": 85,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9323,
+      "data_quality_warnings": [],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "Suspended Load",
+          "total_reports": 68,
+          "sif_count": 68,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9257,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Vehicle Interaction",
+          "total_reports": 21,
+          "sif_count": 21,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9431,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Line-of-Fire Exposure",
+          "total_reports": 17,
+          "sif_count": 17,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9586,
+          "data_quality_warnings": []
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "LIFTING_CONTROL_FAILURE",
+          "total_reports": 68,
+          "sif_count": 68,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9257,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "LINE_OF_FIRE_CONTROL_FAILURE",
+          "total_reports": 14,
+          "sif_count": 14,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9604,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "BARRICADING_FAILURE",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9693,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "Mechanical Lifting",
+          "total_reports": 72,
+          "sif_count": 72,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9289,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Loading/Unloading",
+          "total_reports": 49,
+          "sif_count": 49,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9304,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Torquing",
+          "total_reports": 7,
+          "sif_count": 7,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9672,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Drilling",
+          "total_reports": 6,
+          "sif_count": 6,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9482,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Excavation",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9437,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electrical Injury",
+      "total_reports": 80,
+      "sif_count": 31,
+      "non_sif_count": 49,
+      "sif_density": 0.3875,
+      "avg_sif_probability": 0.3767,
+      "data_quality_warnings": [],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "Electrical Energy",
+          "total_reports": 66,
+          "sif_count": 31,
+          "non_sif_count": 35,
+          "sif_density": 0.4697,
+          "avg_sif_probability": 0.4205,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Loss of Containment",
+          "total_reports": 13,
+          "sif_count": 8,
+          "non_sif_count": 5,
+          "sif_density": 0.6154,
+          "avg_sif_probability": 0.4826,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Pressurized Equipment",
+          "total_reports": 13,
+          "sif_count": 13,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8397,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "H2S Exposure",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7697,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Hydrocarbon Release",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8035,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "ENERGY_ISOLATION_FAILURE",
+          "total_reports": 31,
+          "sif_count": 31,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8203,
+          "data_quality_warnings": []
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "Maintenance",
+          "total_reports": 62,
+          "sif_count": 27,
+          "non_sif_count": 35,
+          "sif_density": 0.4355,
+          "avg_sif_probability": 0.4192,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Pipefitting",
+          "total_reports": 18,
+          "sif_count": 4,
+          "non_sif_count": 14,
+          "sif_density": 0.2222,
+          "avg_sif_probability": 0.2304,
+          "data_quality_warnings": []
+        }
+      ]
+    },
+    {
+      "name": "Vehicle / Pedestrian Injury",
+      "total_reports": 79,
+      "sif_count": 79,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9258,
+      "data_quality_warnings": [],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "Vehicle Interaction",
+          "total_reports": 79,
+          "sif_count": 79,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9258,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Suspended Load",
+          "total_reports": 21,
+          "sif_count": 21,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9431,
+          "data_quality_warnings": []
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "TRAFFIC_CONTROL_FAILURE",
+          "total_reports": 58,
+          "sif_count": 58,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9196,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "LIFTING_CONTROL_FAILURE",
+          "total_reports": 21,
+          "sif_count": 21,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9431,
+          "data_quality_warnings": []
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "Vehicle Movement",
+          "total_reports": 58,
+          "sif_count": 58,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9196,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Loading/Unloading",
+          "total_reports": 21,
+          "sif_count": 21,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9431,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Mechanical Lifting",
+          "total_reports": 21,
+          "sif_count": 21,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9431,
+          "data_quality_warnings": []
+        }
+      ]
+    },
+    {
+      "name": "Crushing Injury",
+      "total_reports": 68,
+      "sif_count": 68,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9257,
+      "data_quality_warnings": [],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "Suspended Load",
+          "total_reports": 68,
+          "sif_count": 68,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9257,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Vehicle Interaction",
+          "total_reports": 21,
+          "sif_count": 21,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9431,
+          "data_quality_warnings": []
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "LIFTING_CONTROL_FAILURE",
+          "total_reports": 68,
+          "sif_count": 68,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9257,
+          "data_quality_warnings": []
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "Mechanical Lifting",
+          "total_reports": 68,
+          "sif_count": 68,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9257,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Loading/Unloading",
+          "total_reports": 49,
+          "sif_count": 49,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9304,
+          "data_quality_warnings": []
+        }
+      ]
+    },
+    {
+      "name": "Explosion Injury",
+      "total_reports": 61,
+      "sif_count": 61,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.882,
+      "data_quality_warnings": [],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "Fire/Explosion",
+          "total_reports": 61,
+          "sif_count": 61,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.882,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Toxic Gas",
+          "total_reports": 21,
+          "sif_count": 21,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8893,
+          "data_quality_warnings": []
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "COMMUNICATION_FAILURE",
+          "total_reports": 19,
+          "sif_count": 19,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8855,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "GAS_TEST_FAILURE",
+          "total_reports": 15,
+          "sif_count": 15,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8782,
+          "data_quality_warnings": []
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "Hot Work",
+          "total_reports": 61,
+          "sif_count": 61,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.882,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Chemical Handling",
+          "total_reports": 21,
+          "sif_count": 21,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8893,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Contractor Work",
+          "total_reports": 11,
+          "sif_count": 11,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8248,
+          "data_quality_warnings": []
+        }
+      ]
+    },
+    {
+      "name": "Fatal Exposure",
+      "total_reports": 61,
+      "sif_count": 61,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8825,
+      "data_quality_warnings": [],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "H2S Exposure",
+          "total_reports": 14,
+          "sif_count": 14,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8181,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Confined Atmosphere",
+          "total_reports": 13,
+          "sif_count": 13,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9265,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Fall from Height",
+          "total_reports": 11,
+          "sif_count": 11,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8727,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Dropped Object",
+          "total_reports": 6,
+          "sif_count": 6,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.912,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Electrical Energy",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7697,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "FALL_PROTECTION_FAILURE",
+          "total_reports": 17,
+          "sif_count": 17,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8366,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "ENERGY_ISOLATION_FAILURE",
+          "total_reports": 14,
+          "sif_count": 14,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8181,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "BARRICADING_FAILURE",
+          "total_reports": 8,
+          "sif_count": 8,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9526,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "COMMUNICATION_FAILURE",
+          "total_reports": 6,
+          "sif_count": 6,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9484,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "GAS_TEST_FAILURE",
+          "total_reports": 5,
+          "sif_count": 5,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.903,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "Maintenance",
+          "total_reports": 33,
+          "sif_count": 33,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8631,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Working at Height",
+          "total_reports": 16,
+          "sif_count": 16,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8386,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Mechanical Lifting",
+          "total_reports": 11,
+          "sif_count": 11,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9228,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Cleaning",
+          "total_reports": 9,
+          "sif_count": 9,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9043,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Confined Space Entry",
+          "total_reports": 9,
+          "sif_count": 9,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9043,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fire Injury",
+      "total_reports": 61,
+      "sif_count": 61,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.882,
+      "data_quality_warnings": [],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "Fire/Explosion",
+          "total_reports": 61,
+          "sif_count": 61,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.882,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Toxic Gas",
+          "total_reports": 21,
+          "sif_count": 21,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8893,
+          "data_quality_warnings": []
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "COMMUNICATION_FAILURE",
+          "total_reports": 19,
+          "sif_count": 19,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8855,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "GAS_TEST_FAILURE",
+          "total_reports": 15,
+          "sif_count": 15,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8782,
+          "data_quality_warnings": []
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "Hot Work",
+          "total_reports": 61,
+          "sif_count": 61,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.882,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Chemical Handling",
+          "total_reports": 21,
+          "sif_count": 21,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8893,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Contractor Work",
+          "total_reports": 11,
+          "sif_count": 11,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8248,
+          "data_quality_warnings": []
+        }
+      ]
+    },
+    {
+      "name": "Toxic Exposure",
+      "total_reports": 41,
+      "sif_count": 41,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8473,
+      "data_quality_warnings": [],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "Toxic Gas",
+          "total_reports": 27,
+          "sif_count": 27,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8624,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Fire/Explosion",
+          "total_reports": 21,
+          "sif_count": 21,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8893,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "H2S Exposure",
+          "total_reports": 14,
+          "sif_count": 14,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8181,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Electrical Energy",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7697,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Pressurized Equipment",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8473,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "ENERGY_ISOLATION_FAILURE",
+          "total_reports": 14,
+          "sif_count": 14,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8181,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "COMMUNICATION_FAILURE",
+          "total_reports": 11,
+          "sif_count": 11,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8669,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "GAS_TEST_FAILURE",
+          "total_reports": 8,
+          "sif_count": 8,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8726,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "Chemical Handling",
+          "total_reports": 27,
+          "sif_count": 27,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8624,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Hot Work",
+          "total_reports": 27,
+          "sif_count": 27,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8624,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Maintenance",
+          "total_reports": 12,
+          "sif_count": 12,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8457,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Contractor Work",
+          "total_reports": 8,
+          "sif_count": 8,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7984,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Pipefitting",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.6522,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fall Injury",
+      "total_reports": 33,
+      "sif_count": 33,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8185,
+      "data_quality_warnings": [],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "Fall from Height",
+          "total_reports": 33,
+          "sif_count": 33,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8185,
+          "data_quality_warnings": []
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "FALL_PROTECTION_FAILURE",
+          "total_reports": 23,
+          "sif_count": 23,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7798,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "BARRICADING_FAILURE",
+          "total_reports": 10,
+          "sif_count": 10,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9076,
+          "data_quality_warnings": []
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "Working at Height",
+          "total_reports": 24,
+          "sif_count": 24,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7961,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Maintenance",
+          "total_reports": 17,
+          "sif_count": 17,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7762,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Mechanical Lifting",
+          "total_reports": 12,
+          "sif_count": 12,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8542,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Painting",
+          "total_reports": 6,
+          "sif_count": 6,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8422,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fatal Fall",
+      "total_reports": 33,
+      "sif_count": 33,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8185,
+      "data_quality_warnings": [],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "Fall from Height",
+          "total_reports": 33,
+          "sif_count": 33,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8185,
+          "data_quality_warnings": []
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "FALL_PROTECTION_FAILURE",
+          "total_reports": 23,
+          "sif_count": 23,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7798,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "BARRICADING_FAILURE",
+          "total_reports": 10,
+          "sif_count": 10,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9076,
+          "data_quality_warnings": []
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "Working at Height",
+          "total_reports": 24,
+          "sif_count": 24,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7961,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Maintenance",
+          "total_reports": 17,
+          "sif_count": 17,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7762,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Mechanical Lifting",
+          "total_reports": 12,
+          "sif_count": 12,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8542,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Painting",
+          "total_reports": 6,
+          "sif_count": 6,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8422,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Major Equipment Damage",
+      "total_reports": 15,
+      "sif_count": 15,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9333,
+      "data_quality_warnings": [],
+      "label": "Potential Consequence",
+      "associated_hazards": [],
+      "associated_barriers": [
+        {
+          "name": "SAFETY_DEVICE_BYPASS",
+          "total_reports": 15,
+          "sif_count": 15,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9333,
+          "data_quality_warnings": []
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "Operations",
+          "total_reports": 9,
+          "sif_count": 9,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9464,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Maintenance",
+          "total_reports": 6,
+          "sif_count": 6,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9137,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Loss of Consciousness",
+      "total_reports": 14,
+      "sif_count": 14,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8181,
+      "data_quality_warnings": [],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "H2S Exposure",
+          "total_reports": 14,
+          "sif_count": 14,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8181,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Electrical Energy",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7697,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Pressurized Equipment",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8473,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "ENERGY_ISOLATION_FAILURE",
+          "total_reports": 14,
+          "sif_count": 14,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8181,
+          "data_quality_warnings": []
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "Maintenance",
+          "total_reports": 12,
+          "sif_count": 12,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8457,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Pipefitting",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.6522,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Serious Burns",
+      "total_reports": 11,
+      "sif_count": 11,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8238,
+      "data_quality_warnings": [],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "Fire/Explosion",
+          "total_reports": 6,
+          "sif_count": 6,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9062,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "GAS_TEST_FAILURE",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7928,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "COMMUNICATION_FAILURE",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9158,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "Hot Work",
+          "total_reports": 11,
+          "sif_count": 11,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8238,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Contractor Work",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7404,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    }
+  ]
+}

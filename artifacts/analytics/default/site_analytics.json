@@ -1,0 +1,1484 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-22T18:19:14.472733",
+    "source_dataset": "enriched_reports.csv",
+    "report_count": 2500,
+    "analytics_version": "0.5.0",
+    "uses_predicted_fields": true,
+    "prototype_notice": "Analytics are generated from synthetic data and model-predicted fields for demonstration purposes."
+  },
+  "data": [
+    {
+      "name": "Refinery Delta",
+      "total_reports": 440,
+      "sif_count": 102,
+      "non_sif_count": 338,
+      "sif_density": 0.2318,
+      "avg_sif_probability": 0.2824,
+      "data_quality_warnings": [],
+      "reports_per_month": 9.05,
+      "top_activities": [
+        {
+          "name": "Maintenance",
+          "total_reports": 126,
+          "sif_count": 30,
+          "non_sif_count": 96,
+          "sif_density": 0.2381,
+          "avg_sif_probability": 0.2711,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Mechanical Lifting",
+          "total_reports": 77,
+          "sif_count": 22,
+          "non_sif_count": 55,
+          "sif_density": 0.2857,
+          "avg_sif_probability": 0.3563,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Hot Work",
+          "total_reports": 67,
+          "sif_count": 11,
+          "non_sif_count": 56,
+          "sif_density": 0.1642,
+          "avg_sif_probability": 0.2245,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Vehicle Movement",
+          "total_reports": 56,
+          "sif_count": 13,
+          "non_sif_count": 43,
+          "sif_density": 0.2321,
+          "avg_sif_probability": 0.2631,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Operations",
+          "total_reports": 47,
+          "sif_count": 11,
+          "non_sif_count": 36,
+          "sif_density": 0.234,
+          "avg_sif_probability": 0.3205,
+          "data_quality_warnings": []
+        }
+      ],
+      "top_hazards": [
+        {
+          "name": "Loss of Containment",
+          "total_reports": 15,
+          "sif_count": 10,
+          "non_sif_count": 5,
+          "sif_density": 0.6667,
+          "avg_sif_probability": 0.6141,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Pressurized Equipment",
+          "total_reports": 15,
+          "sif_count": 15,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9173,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Vehicle Interaction",
+          "total_reports": 14,
+          "sif_count": 14,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9141,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Suspended Load",
+          "total_reports": 13,
+          "sif_count": 13,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9375,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Electrical Energy",
+          "total_reports": 12,
+          "sif_count": 6,
+          "non_sif_count": 6,
+          "sif_density": 0.5,
+          "avg_sif_probability": 0.459,
+          "data_quality_warnings": []
+        }
+      ],
+      "top_barriers": [
+        {
+          "name": "SAFETY_DEVICE_BYPASS",
+          "total_reports": 15,
+          "sif_count": 15,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9366,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "LIFTING_CONTROL_FAILURE",
+          "total_reports": 13,
+          "sif_count": 13,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9375,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "TRAFFIC_CONTROL_FAILURE",
+          "total_reports": 13,
+          "sif_count": 13,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9144,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "ENERGY_ISOLATION_FAILURE",
+          "total_reports": 12,
+          "sif_count": 12,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8541,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "LINE_OF_FIRE_CONTROL_FAILURE",
+          "total_reports": 11,
+          "sif_count": 11,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9659,
+          "data_quality_warnings": []
+        }
+      ],
+      "top_lsr": [
+        {
+          "name": "Safe Mechanical Lifting",
+          "total_reports": 73,
+          "sif_count": 21,
+          "non_sif_count": 52,
+          "sif_density": 0.2877,
+          "avg_sif_probability": 0.3385,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Bypassing Safety Controls",
+          "total_reports": 65,
+          "sif_count": 27,
+          "non_sif_count": 38,
+          "sif_density": 0.4154,
+          "avg_sif_probability": 0.4587,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Confined Space",
+          "total_reports": 62,
+          "sif_count": 12,
+          "non_sif_count": 50,
+          "sif_density": 0.1935,
+          "avg_sif_probability": 0.2341,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Driving",
+          "total_reports": 60,
+          "sif_count": 15,
+          "non_sif_count": 45,
+          "sif_density": 0.25,
+          "avg_sif_probability": 0.279,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Energy Isolation",
+          "total_reports": 58,
+          "sif_count": 20,
+          "non_sif_count": 38,
+          "sif_density": 0.3448,
+          "avg_sif_probability": 0.3611,
+          "data_quality_warnings": []
+        }
+      ],
+      "top_precursor_tags": [
+        {
+          "name": "bypassed-interlock",
+          "total_reports": 15,
+          "sif_count": 15,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9366,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "pressurized-system",
+          "total_reports": 15,
+          "sif_count": 15,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9173,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "vehicle-interaction",
+          "total_reports": 14,
+          "sif_count": 14,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9141,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "suspended-load",
+          "total_reports": 13,
+          "sif_count": 13,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9375,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "missing-loto",
+          "total_reports": 12,
+          "sif_count": 12,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8541,
+          "data_quality_warnings": []
+        }
+      ]
+    },
+    {
+      "name": "Platform Charlie",
+      "total_reports": 421,
+      "sif_count": 101,
+      "non_sif_count": 320,
+      "sif_density": 0.2399,
+      "avg_sif_probability": 0.2804,
+      "data_quality_warnings": [],
+      "reports_per_month": 8.66,
+      "top_activities": [
+        {
+          "name": "Maintenance",
+          "total_reports": 138,
+          "sif_count": 43,
+          "non_sif_count": 95,
+          "sif_density": 0.3116,
+          "avg_sif_probability": 0.3213,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Hot Work",
+          "total_reports": 77,
+          "sif_count": 15,
+          "non_sif_count": 62,
+          "sif_density": 0.1948,
+          "avg_sif_probability": 0.2551,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Mechanical Lifting",
+          "total_reports": 68,
+          "sif_count": 20,
+          "non_sif_count": 48,
+          "sif_density": 0.2941,
+          "avg_sif_probability": 0.3398,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Vehicle Movement",
+          "total_reports": 47,
+          "sif_count": 4,
+          "non_sif_count": 43,
+          "sif_density": 0.0851,
+          "avg_sif_probability": 0.1398,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Working at Height",
+          "total_reports": 47,
+          "sif_count": 6,
+          "non_sif_count": 41,
+          "sif_density": 0.1277,
+          "avg_sif_probability": 0.1907,
+          "data_quality_warnings": []
+        }
+      ],
+      "top_hazards": [
+        {
+          "name": "Loss of Containment",
+          "total_reports": 22,
+          "sif_count": 16,
+          "non_sif_count": 6,
+          "sif_density": 0.7273,
+          "avg_sif_probability": 0.6381,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Suspended Load",
+          "total_reports": 14,
+          "sif_count": 14,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9127,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Unidentified Hazards",
+          "total_reports": 14,
+          "sif_count": 14,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8613,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Pressurized Equipment",
+          "total_reports": 13,
+          "sif_count": 13,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8778,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Electrical Energy",
+          "total_reports": 10,
+          "sif_count": 4,
+          "non_sif_count": 6,
+          "sif_density": 0.4,
+          "avg_sif_probability": 0.4016,
+          "data_quality_warnings": []
+        }
+      ],
+      "top_barriers": [
+        {
+          "name": "ENERGY_ISOLATION_FAILURE",
+          "total_reports": 16,
+          "sif_count": 16,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8292,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "LIFTING_CONTROL_FAILURE",
+          "total_reports": 14,
+          "sif_count": 14,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9127,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "WORK_AUTHORIZATION_FAILURE",
+          "total_reports": 14,
+          "sif_count": 14,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8613,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "SAFETY_DEVICE_BYPASS",
+          "total_reports": 12,
+          "sif_count": 12,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9361,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "FALL_PROTECTION_FAILURE",
+          "total_reports": 8,
+          "sif_count": 8,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.807,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "top_lsr": [
+        {
+          "name": "Bypassing Safety Controls",
+          "total_reports": 72,
+          "sif_count": 30,
+          "non_sif_count": 42,
+          "sif_density": 0.4167,
+          "avg_sif_probability": 0.4448,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Line of Fire",
+          "total_reports": 64,
+          "sif_count": 27,
+          "non_sif_count": 37,
+          "sif_density": 0.4219,
+          "avg_sif_probability": 0.463,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Confined Space",
+          "total_reports": 60,
+          "sif_count": 17,
+          "non_sif_count": 43,
+          "sif_density": 0.2833,
+          "avg_sif_probability": 0.2944,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Energy Isolation",
+          "total_reports": 60,
+          "sif_count": 26,
+          "non_sif_count": 34,
+          "sif_density": 0.4333,
+          "avg_sif_probability": 0.4127,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Work at Height",
+          "total_reports": 58,
+          "sif_count": 13,
+          "non_sif_count": 45,
+          "sif_density": 0.2241,
+          "avg_sif_probability": 0.2687,
+          "data_quality_warnings": []
+        }
+      ],
+      "top_precursor_tags": [
+        {
+          "name": "missing-loto",
+          "total_reports": 16,
+          "sif_count": 16,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8292,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "expired-permit",
+          "total_reports": 14,
+          "sif_count": 14,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8613,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "suspended-load",
+          "total_reports": 14,
+          "sif_count": 14,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9127,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "pressurized-system",
+          "total_reports": 13,
+          "sif_count": 13,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8778,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "bypassed-interlock",
+          "total_reports": 12,
+          "sif_count": 12,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9361,
+          "data_quality_warnings": []
+        }
+      ]
+    },
+    {
+      "name": "Facility Bravo",
+      "total_reports": 419,
+      "sif_count": 105,
+      "non_sif_count": 314,
+      "sif_density": 0.2506,
+      "avg_sif_probability": 0.2926,
+      "data_quality_warnings": [],
+      "reports_per_month": 8.62,
+      "top_activities": [
+        {
+          "name": "Maintenance",
+          "total_reports": 114,
+          "sif_count": 26,
+          "non_sif_count": 88,
+          "sif_density": 0.2281,
+          "avg_sif_probability": 0.2452,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Hot Work",
+          "total_reports": 78,
+          "sif_count": 19,
+          "non_sif_count": 59,
+          "sif_density": 0.2436,
+          "avg_sif_probability": 0.2799,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Mechanical Lifting",
+          "total_reports": 67,
+          "sif_count": 17,
+          "non_sif_count": 50,
+          "sif_density": 0.2537,
+          "avg_sif_probability": 0.3328,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Operations",
+          "total_reports": 55,
+          "sif_count": 19,
+          "non_sif_count": 36,
+          "sif_density": 0.3455,
+          "avg_sif_probability": 0.3975,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Vehicle Movement",
+          "total_reports": 45,
+          "sif_count": 7,
+          "non_sif_count": 38,
+          "sif_density": 0.1556,
+          "avg_sif_probability": 0.1978,
+          "data_quality_warnings": []
+        }
+      ],
+      "top_hazards": [
+        {
+          "name": "Unidentified Hazards",
+          "total_reports": 16,
+          "sif_count": 16,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8061,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Loss of Containment",
+          "total_reports": 15,
+          "sif_count": 11,
+          "non_sif_count": 4,
+          "sif_density": 0.7333,
+          "avg_sif_probability": 0.6871,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Vehicle Interaction",
+          "total_reports": 13,
+          "sif_count": 13,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9363,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Fire/Explosion",
+          "total_reports": 11,
+          "sif_count": 11,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8677,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Suspended Load",
+          "total_reports": 11,
+          "sif_count": 11,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.933,
+          "data_quality_warnings": []
+        }
+      ],
+      "top_barriers": [
+        {
+          "name": "WORK_AUTHORIZATION_FAILURE",
+          "total_reports": 16,
+          "sif_count": 16,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8061,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "SAFETY_DEVICE_BYPASS",
+          "total_reports": 15,
+          "sif_count": 15,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9515,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "ENERGY_ISOLATION_FAILURE",
+          "total_reports": 11,
+          "sif_count": 11,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7876,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "LIFTING_CONTROL_FAILURE",
+          "total_reports": 11,
+          "sif_count": 11,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.933,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "FALL_PROTECTION_FAILURE",
+          "total_reports": 10,
+          "sif_count": 10,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8026,
+          "data_quality_warnings": []
+        }
+      ],
+      "top_lsr": [
+        {
+          "name": "Line of Fire",
+          "total_reports": 77,
+          "sif_count": 27,
+          "non_sif_count": 50,
+          "sif_density": 0.3506,
+          "avg_sif_probability": 0.4202,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Hot Work",
+          "total_reports": 64,
+          "sif_count": 16,
+          "non_sif_count": 48,
+          "sif_density": 0.25,
+          "avg_sif_probability": 0.2792,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Work Authorization",
+          "total_reports": 57,
+          "sif_count": 16,
+          "non_sif_count": 41,
+          "sif_density": 0.2807,
+          "avg_sif_probability": 0.2678,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Safe Mechanical Lifting",
+          "total_reports": 55,
+          "sif_count": 18,
+          "non_sif_count": 37,
+          "sif_density": 0.3273,
+          "avg_sif_probability": 0.3666,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Bypassing Safety Controls",
+          "total_reports": 49,
+          "sif_count": 16,
+          "non_sif_count": 33,
+          "sif_density": 0.3265,
+          "avg_sif_probability": 0.4002,
+          "data_quality_warnings": []
+        }
+      ],
+      "top_precursor_tags": [
+        {
+          "name": "expired-permit",
+          "total_reports": 16,
+          "sif_count": 16,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8061,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "bypassed-interlock",
+          "total_reports": 15,
+          "sif_count": 15,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9515,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "vehicle-interaction",
+          "total_reports": 13,
+          "sif_count": 13,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9363,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "missing-loto",
+          "total_reports": 11,
+          "sif_count": 11,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7876,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "suspended-load",
+          "total_reports": 11,
+          "sif_count": 11,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.933,
+          "data_quality_warnings": []
+        }
+      ]
+    },
+    {
+      "name": "Station Foxtrot",
+      "total_reports": 416,
+      "sif_count": 111,
+      "non_sif_count": 305,
+      "sif_density": 0.2668,
+      "avg_sif_probability": 0.3038,
+      "data_quality_warnings": [],
+      "reports_per_month": 8.6,
+      "top_activities": [
+        {
+          "name": "Maintenance",
+          "total_reports": 126,
+          "sif_count": 30,
+          "non_sif_count": 96,
+          "sif_density": 0.2381,
+          "avg_sif_probability": 0.2466,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Hot Work",
+          "total_reports": 86,
+          "sif_count": 26,
+          "non_sif_count": 60,
+          "sif_density": 0.3023,
+          "avg_sif_probability": 0.3391,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Mechanical Lifting",
+          "total_reports": 64,
+          "sif_count": 18,
+          "non_sif_count": 46,
+          "sif_density": 0.2812,
+          "avg_sif_probability": 0.3444,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Vehicle Movement",
+          "total_reports": 47,
+          "sif_count": 11,
+          "non_sif_count": 36,
+          "sif_density": 0.234,
+          "avg_sif_probability": 0.2642,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Operations",
+          "total_reports": 38,
+          "sif_count": 11,
+          "non_sif_count": 27,
+          "sif_density": 0.2895,
+          "avg_sif_probability": 0.3647,
+          "data_quality_warnings": []
+        }
+      ],
+      "top_hazards": [
+        {
+          "name": "Loss of Containment",
+          "total_reports": 18,
+          "sif_count": 12,
+          "non_sif_count": 6,
+          "sif_density": 0.6667,
+          "avg_sif_probability": 0.5548,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Fire/Explosion",
+          "total_reports": 16,
+          "sif_count": 16,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8684,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Vehicle Interaction",
+          "total_reports": 15,
+          "sif_count": 15,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9198,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Electrical Energy",
+          "total_reports": 14,
+          "sif_count": 3,
+          "non_sif_count": 11,
+          "sif_density": 0.2143,
+          "avg_sif_probability": 0.1952,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Unidentified Hazards",
+          "total_reports": 14,
+          "sif_count": 14,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.81,
+          "data_quality_warnings": []
+        }
+      ],
+      "top_barriers": [
+        {
+          "name": "WORK_AUTHORIZATION_FAILURE",
+          "total_reports": 14,
+          "sif_count": 14,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.81,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "SAFETY_DEVICE_BYPASS",
+          "total_reports": 13,
+          "sif_count": 13,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9376,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "COMMUNICATION_FAILURE",
+          "total_reports": 12,
+          "sif_count": 12,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9237,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "ENERGY_ISOLATION_FAILURE",
+          "total_reports": 11,
+          "sif_count": 11,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7365,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "TRAFFIC_CONTROL_FAILURE",
+          "total_reports": 11,
+          "sif_count": 11,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9057,
+          "data_quality_warnings": []
+        }
+      ],
+      "top_lsr": [
+        {
+          "name": "Line of Fire",
+          "total_reports": 72,
+          "sif_count": 27,
+          "non_sif_count": 45,
+          "sif_density": 0.375,
+          "avg_sif_probability": 0.4592,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Hot Work",
+          "total_reports": 70,
+          "sif_count": 22,
+          "non_sif_count": 48,
+          "sif_density": 0.3143,
+          "avg_sif_probability": 0.3384,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Energy Isolation",
+          "total_reports": 64,
+          "sif_count": 15,
+          "non_sif_count": 49,
+          "sif_density": 0.2344,
+          "avg_sif_probability": 0.2367,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Bypassing Safety Controls",
+          "total_reports": 63,
+          "sif_count": 26,
+          "non_sif_count": 37,
+          "sif_density": 0.4127,
+          "avg_sif_probability": 0.4222,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Confined Space",
+          "total_reports": 59,
+          "sif_count": 13,
+          "non_sif_count": 46,
+          "sif_density": 0.2203,
+          "avg_sif_probability": 0.2583,
+          "data_quality_warnings": []
+        }
+      ],
+      "top_precursor_tags": [
+        {
+          "name": "vehicle-interaction",
+          "total_reports": 15,
+          "sif_count": 15,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9198,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "expired-permit",
+          "total_reports": 14,
+          "sif_count": 14,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.81,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "bypassed-interlock",
+          "total_reports": 13,
+          "sif_count": 13,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9376,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "communication-failure",
+          "total_reports": 12,
+          "sif_count": 12,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9237,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "missing-loto",
+          "total_reports": 11,
+          "sif_count": 11,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7365,
+          "data_quality_warnings": []
+        }
+      ]
+    },
+    {
+      "name": "Terminal Echo",
+      "total_reports": 413,
+      "sif_count": 108,
+      "non_sif_count": 305,
+      "sif_density": 0.2615,
+      "avg_sif_probability": 0.3029,
+      "data_quality_warnings": [],
+      "reports_per_month": 8.54,
+      "top_activities": [
+        {
+          "name": "Maintenance",
+          "total_reports": 101,
+          "sif_count": 24,
+          "non_sif_count": 77,
+          "sif_density": 0.2376,
+          "avg_sif_probability": 0.2725,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Hot Work",
+          "total_reports": 74,
+          "sif_count": 25,
+          "non_sif_count": 49,
+          "sif_density": 0.3378,
+          "avg_sif_probability": 0.3577,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Mechanical Lifting",
+          "total_reports": 59,
+          "sif_count": 17,
+          "non_sif_count": 42,
+          "sif_density": 0.2881,
+          "avg_sif_probability": 0.3128,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Operations",
+          "total_reports": 55,
+          "sif_count": 15,
+          "non_sif_count": 40,
+          "sif_density": 0.2727,
+          "avg_sif_probability": 0.3657,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Vehicle Movement",
+          "total_reports": 54,
+          "sif_count": 10,
+          "non_sif_count": 44,
+          "sif_density": 0.1852,
+          "avg_sif_probability": 0.2271,
+          "data_quality_warnings": []
+        }
+      ],
+      "top_hazards": [
+        {
+          "name": "Loss of Containment",
+          "total_reports": 19,
+          "sif_count": 13,
+          "non_sif_count": 6,
+          "sif_density": 0.6842,
+          "avg_sif_probability": 0.6276,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Pressurized Equipment",
+          "total_reports": 19,
+          "sif_count": 19,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9009,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Fire/Explosion",
+          "total_reports": 14,
+          "sif_count": 14,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8853,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Vehicle Interaction",
+          "total_reports": 13,
+          "sif_count": 13,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9362,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Electrical Energy",
+          "total_reports": 11,
+          "sif_count": 7,
+          "non_sif_count": 4,
+          "sif_density": 0.6364,
+          "avg_sif_probability": 0.5855,
+          "data_quality_warnings": []
+        }
+      ],
+      "top_barriers": [
+        {
+          "name": "ENERGY_ISOLATION_FAILURE",
+          "total_reports": 15,
+          "sif_count": 14,
+          "non_sif_count": 1,
+          "sif_density": 0.9333,
+          "avg_sif_probability": 0.8057,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "SAFETY_DEVICE_BYPASS",
+          "total_reports": 15,
+          "sif_count": 15,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9615,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "LIFTING_CONTROL_FAILURE",
+          "total_reports": 10,
+          "sif_count": 10,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9408,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "LINE_OF_FIRE_CONTROL_FAILURE",
+          "total_reports": 10,
+          "sif_count": 10,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9456,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "TRAFFIC_CONTROL_FAILURE",
+          "total_reports": 10,
+          "sif_count": 10,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9312,
+          "data_quality_warnings": []
+        }
+      ],
+      "top_lsr": [
+        {
+          "name": "Bypassing Safety Controls",
+          "total_reports": 68,
+          "sif_count": 27,
+          "non_sif_count": 41,
+          "sif_density": 0.3971,
+          "avg_sif_probability": 0.4455,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Hot Work",
+          "total_reports": 68,
+          "sif_count": 23,
+          "non_sif_count": 45,
+          "sif_density": 0.3382,
+          "avg_sif_probability": 0.3575,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Energy Isolation",
+          "total_reports": 57,
+          "sif_count": 27,
+          "non_sif_count": 30,
+          "sif_density": 0.4737,
+          "avg_sif_probability": 0.4638,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Confined Space",
+          "total_reports": 54,
+          "sif_count": 16,
+          "non_sif_count": 38,
+          "sif_density": 0.2963,
+          "avg_sif_probability": 0.307,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Driving",
+          "total_reports": 54,
+          "sif_count": 10,
+          "non_sif_count": 44,
+          "sif_density": 0.1852,
+          "avg_sif_probability": 0.2271,
+          "data_quality_warnings": []
+        }
+      ],
+      "top_precursor_tags": [
+        {
+          "name": "pressurized-system",
+          "total_reports": 19,
+          "sif_count": 19,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9009,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "bypassed-interlock",
+          "total_reports": 15,
+          "sif_count": 15,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9615,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "missing-loto",
+          "total_reports": 15,
+          "sif_count": 14,
+          "non_sif_count": 1,
+          "sif_density": 0.9333,
+          "avg_sif_probability": 0.8057,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "vehicle-interaction",
+          "total_reports": 13,
+          "sif_count": 13,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9362,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "line-of-fire",
+          "total_reports": 10,
+          "sif_count": 10,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9476,
+          "data_quality_warnings": []
+        }
+      ]
+    },
+    {
+      "name": "Site Alpha",
+      "total_reports": 391,
+      "sif_count": 99,
+      "non_sif_count": 292,
+      "sif_density": 0.2532,
+      "avg_sif_probability": 0.2926,
+      "data_quality_warnings": [],
+      "reports_per_month": 8.06,
+      "top_activities": [
+        {
+          "name": "Maintenance",
+          "total_reports": 117,
+          "sif_count": 26,
+          "non_sif_count": 91,
+          "sif_density": 0.2222,
+          "avg_sif_probability": 0.2514,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Mechanical Lifting",
+          "total_reports": 74,
+          "sif_count": 16,
+          "non_sif_count": 58,
+          "sif_density": 0.2162,
+          "avg_sif_probability": 0.2793,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Hot Work",
+          "total_reports": 60,
+          "sif_count": 18,
+          "non_sif_count": 42,
+          "sif_density": 0.3,
+          "avg_sif_probability": 0.3206,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Operations",
+          "total_reports": 45,
+          "sif_count": 9,
+          "non_sif_count": 36,
+          "sif_density": 0.2,
+          "avg_sif_probability": 0.2999,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Vehicle Movement",
+          "total_reports": 45,
+          "sif_count": 13,
+          "non_sif_count": 32,
+          "sif_density": 0.2889,
+          "avg_sif_probability": 0.314,
+          "data_quality_warnings": []
+        }
+      ],
+      "top_hazards": [
+        {
+          "name": "Vehicle Interaction",
+          "total_reports": 17,
+          "sif_count": 17,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9216,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Loss of Containment",
+          "total_reports": 15,
+          "sif_count": 12,
+          "non_sif_count": 3,
+          "sif_density": 0.8,
+          "avg_sif_probability": 0.7134,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Unidentified Hazards",
+          "total_reports": 13,
+          "sif_count": 13,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8518,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Suspended Load",
+          "total_reports": 11,
+          "sif_count": 11,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9059,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Electrical Energy",
+          "total_reports": 10,
+          "sif_count": 6,
+          "non_sif_count": 4,
+          "sif_density": 0.6,
+          "avg_sif_probability": 0.529,
+          "data_quality_warnings": []
+        }
+      ],
+      "top_barriers": [
+        {
+          "name": "TRAFFIC_CONTROL_FAILURE",
+          "total_reports": 13,
+          "sif_count": 13,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9206,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "WORK_AUTHORIZATION_FAILURE",
+          "total_reports": 13,
+          "sif_count": 13,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8518,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "FALL_PROTECTION_FAILURE",
+          "total_reports": 11,
+          "sif_count": 11,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8035,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "LIFTING_CONTROL_FAILURE",
+          "total_reports": 11,
+          "sif_count": 11,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9059,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "ENERGY_ISOLATION_FAILURE",
+          "total_reports": 10,
+          "sif_count": 10,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8042,
+          "data_quality_warnings": []
+        }
+      ],
+      "top_lsr": [
+        {
+          "name": "Safe Mechanical Lifting",
+          "total_reports": 62,
+          "sif_count": 17,
+          "non_sif_count": 45,
+          "sif_density": 0.2742,
+          "avg_sif_probability": 0.3083,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Line of Fire",
+          "total_reports": 61,
+          "sif_count": 23,
+          "non_sif_count": 38,
+          "sif_density": 0.377,
+          "avg_sif_probability": 0.4475,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Work at Height",
+          "total_reports": 55,
+          "sif_count": 15,
+          "non_sif_count": 40,
+          "sif_density": 0.2727,
+          "avg_sif_probability": 0.298,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Confined Space",
+          "total_reports": 54,
+          "sif_count": 14,
+          "non_sif_count": 40,
+          "sif_density": 0.2593,
+          "avg_sif_probability": 0.2749,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Work Authorization",
+          "total_reports": 52,
+          "sif_count": 14,
+          "non_sif_count": 38,
+          "sif_density": 0.2692,
+          "avg_sif_probability": 0.2858,
+          "data_quality_warnings": []
+        }
+      ],
+      "top_precursor_tags": [
+        {
+          "name": "vehicle-interaction",
+          "total_reports": 17,
+          "sif_count": 17,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9216,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "expired-permit",
+          "total_reports": 13,
+          "sif_count": 13,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8518,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "fall-protection",
+          "total_reports": 11,
+          "sif_count": 11,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8035,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "suspended-load",
+          "total_reports": 11,
+          "sif_count": 11,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9059,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "missing-loto",
+          "total_reports": 10,
+          "sif_count": 10,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8042,
+          "data_quality_warnings": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6336 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-22T20:19:44.419140",
+    "source_dataset": "enriched_reports.csv",
+    "report_count": 375,
+    "analytics_version": "0.5.0",
+    "uses_predicted_fields": true,
+    "prototype_notice": "Analytics are generated from synthetic data and model-predicted fields for demonstration purposes."
+  },
+  "data": {
+    "monthly": [
+      {
+        "period": "2020-01",
+        "period_type": "month",
+        "report_volume": 7,
+        "sif_count": 0,
+        "sif_density": 0.0,
+        "avg_sif_probability": 0.1247,
+        "trends": null
+      },
+      {
+        "period": "2020-02",
+        "period_type": "month",
+        "report_volume": 10,
+        "sif_count": 2,
+        "sif_density": 0.2,
+        "avg_sif_probability": 0.2908,
+        "trends": {
+          "report_volume": {
+            "previous_value": 7,
+            "current_value": 10,
+            "absolute_change": 3,
+            "percentage_change": 0.4286
+          },
+          "sif_count": {
+            "previous_value": 0,
+            "current_value": 2,
+            "absolute_change": 2,
+            "percentage_change": null
+          },
+          "sif_density": {
+            "previous_value": 0.0,
+            "current_value": 0.2,
+            "absolute_change": 0.2,
+            "percentage_change": null
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.1247,
+            "current_value": 0.2908,
+            "absolute_change": 0.1661,
+            "percentage_change": 1.332
+          }
+        }
+      },
+      {
+        "period": "2020-03",
+        "period_type": "month",
+        "report_volume": 7,
+        "sif_count": 5,
+        "sif_density": 0.7143,
+        "avg_sif_probability": 0.661,
+        "trends": {
+          "report_volume": {
+            "previous_value": 10,
+            "current_value": 7,
+            "absolute_change": -3,
+            "percentage_change": -0.3
+          },
+          "sif_count": {
+            "previous_value": 2,
+            "current_value": 5,
+            "absolute_change": 3,
+            "percentage_change": 1.5
+          },
+          "sif_density": {
+            "previous_value": 0.2,
+            "current_value": 0.7143,
+            "absolute_change": 0.5143,
+            "percentage_change": 2.5715
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2908,
+            "current_value": 0.661,
+            "absolute_change": 0.3702,
+            "percentage_change": 1.273
+          }
+        }
+      },
+      {
+        "period": "2020-04",
+        "period_type": "month",
+        "report_volume": 7,
+        "sif_count": 2,
+        "sif_density": 0.2857,
+        "avg_sif_probability": 0.3486,
+        "trends": {
+          "report_volume": {
+            "previous_value": 7,
+            "current_value": 7,
+            "absolute_change": 0,
+            "percentage_change": 0.0
+          },
+          "sif_count": {
+            "previous_value": 5,
+            "current_value": 2,
+            "absolute_change": -3,
+            "percentage_change": -0.6
+          },
+          "sif_density": {
+            "previous_value": 0.7143,
+            "current_value": 0.2857,
+            "absolute_change": -0.4286,
+            "percentage_change": -0.6
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.661,
+            "current_value": 0.3486,
+            "absolute_change": -0.3124,
+            "percentage_change": -0.4726
+          }
+        }
+      },
+      {
+        "period": "2020-05",
+        "period_type": "month",
+        "report_volume": 7,
+        "sif_count": 2,
+        "sif_density": 0.2857,
+        "avg_sif_probability": 0.3837,
+        "trends": {
+          "report_volume": {
+            "previous_value": 7,
+            "current_value": 7,
+            "absolute_change": 0,
+            "percentage_change": 0.0
+          },
+          "sif_count": {
+            "previous_value": 2,
+            "current_value": 2,
+            "absolute_change": 0,
+            "percentage_change": 0.0
+          },
+          "sif_density": {
+            "previous_value": 0.2857,
+            "current_value": 0.2857,
+            "absolute_change": 0.0,
+            "percentage_change": 0.0
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.3486,
+            "current_value": 0.3837,
+            "absolute_change": 0.0351,
+            "percentage_change": 0.1007
+          }
+        }
+      },
+      {
+        "period": "2020-06",
+        "period_type": "month",
+        "report_volume": 15,
+        "sif_count": 2,
+        "sif_density": 0.1333,
+        "avg_sif_probability": 0.2071,
+        "trends": {
+          "report_volume": {
+            "previous_value": 7,
+            "current_value": 15,
+            "absolute_change": 8,
+            "percentage_change": 1.1429
+          },
+          "sif_count": {
+            "previous_value": 2,
+            "current_value": 2,
+            "absolute_change": 0,
+            "percentage_change": 0.0
+          },
+          "sif_density": {
+            "previous_value": 0.2857,
+            "current_value": 0.1333,
+            "absolute_change": -0.1524,
+            "percentage_change": -0.5334
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.3837,
+            "current_value": 0.2071,
+            "absolute_change": -0.1766,
+            "percentage_change": -0.4603
+          }
+        }
+      },
+      {
+        "period": "2020-07",
+        "period_type": "month",
+        "report_volume": 14,
+        "sif_count": 3,
+        "sif_density": 0.2143,
+        "avg_sif_probability": 0.2435,
+        "trends": {
+          "report_volume": {
+            "previous_value": 15,
+            "current_value": 14,
+            "absolute_change": -1,
+            "percentage_change": -0.0667
+          },
+          "sif_count": {
+            "previous_value": 2,
+            "current_value": 3,
+            "absolute_change": 1,
+            "percentage_change": 0.5
+          },
+          "sif_density": {
+            "previous_value": 0.1333,
+            "current_value": 0.2143,
+            "absolute_change": 0.081,
+            "percentage_change": 0.6077
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2071,
+            "current_value": 0.2435,
+            "absolute_change": 0.0364,
+            "percentage_change": 0.1758
+          }
+        }
+      },
+      {
+        "period": "2020-08",
+        "period_type": "month",
+        "report_volume": 9,
+        "sif_count": 2,
+        "sif_density": 0.2222,
+        "avg_sif_probability": 0.2678,
+        "trends": {
+          "report_volume": {
+            "previous_value": 14,
+            "current_value": 9,
+            "absolute_change": -5,
+            "percentage_change": -0.3571
+          },
+          "sif_count": {
+            "previous_value": 3,
+            "current_value": 2,
+            "absolute_change": -1,
+            "percentage_change": -0.3333
+          },
+          "sif_density": {
+            "previous_value": 0.2143,
+            "current_value": 0.2222,
+            "absolute_change": 0.0079,
+            "percentage_change": 0.0369
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2435,
+            "current_value": 0.2678,
+            "absolute_change": 0.0243,
+            "percentage_change": 0.0998
+          }
+        }
+      },
+      {
+        "period": "2020-09",
+        "period_type": "month",
+        "report_volume": 8,
+        "sif_count": 0,
+        "sif_density": 0.0,
+        "avg_sif_probability": 0.107,
+        "trends": {
+          "report_volume": {
+            "previous_value": 9,
+            "current_value": 8,
+            "absolute_change": -1,
+            "percentage_change": -0.1111
+          },
+          "sif_count": {
+            "previous_value": 2,
+            "current_value": 0,
+            "absolute_change": -2,
+            "percentage_change": -1.0
+          },
+          "sif_density": {
+            "previous_value": 0.2222,
+            "current_value": 0.0,
+            "absolute_change": -0.2222,
+            "percentage_change": -1.0
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2678,
+            "current_value": 0.107,
+            "absolute_change": -0.1608,
+            "percentage_change": -0.6004
+          }
+        }
+      },
+      {
+        "period": "2020-10",
+        "period_type": "month",
+        "report_volume": 6,
+        "sif_count": 0,
+        "sif_density": 0.0,
+        "avg_sif_probability": 0.1574,
+        "trends": {
+          "report_volume": {
+            "previous_value": 8,
+            "current_value": 6,
+            "absolute_change": -2,
+            "percentage_change": -0.25
+          },
+          "sif_count": {
+            "previous_value": 0,
+            "current_value": 0,
+            "absolute_change": 0,
+            "percentage_change": null
+          },
+          "sif_density": {
+            "previous_value": 0.0,
+            "current_value": 0.0,
+            "absolute_change": 0.0,
+            "percentage_change": null
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.107,
+            "current_value": 0.1574,
+            "absolute_change": 0.0504,
+            "percentage_change": 0.471
+          }
+        }
+      },
+      {
+        "period": "2020-11",
+        "period_type": "month",
+        "report_volume": 2,
+        "sif_count": 0,
+        "sif_density": 0.0,
+        "avg_sif_probability": 0.1685,
+        "trends": {
+          "report_volume": {
+            "previous_value": 6,
+            "current_value": 2,
+            "absolute_change": -4,
+            "percentage_change": -0.6667
+          },
+          "sif_count": {
+            "previous_value": 0,
+            "current_value": 0,
+            "absolute_change": 0,
+            "percentage_change": null
+          },
+          "sif_density": {
+            "previous_value": 0.0,
+            "current_value": 0.0,
+            "absolute_change": 0.0,
+            "percentage_change": null
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.1574,
+            "current_value": 0.1685,
+            "absolute_change": 0.0111,
+            "percentage_change": 0.0705
+          }
+        }
+      },
+      {
+        "period": "2020-12",
+        "period_type": "month",
+        "report_volume": 9,
+        "sif_count": 1,
+        "sif_density": 0.1111,
+        "avg_sif_probability": 0.1896,
+        "trends": {
+          "report_volume": {
+            "previous_value": 2,
+            "current_value": 9,
+            "absolute_change": 7,
+            "percentage_change": 3.5
+          },
+          "sif_count": {
+            "previous_value": 0,
+            "current_value": 1,
+            "absolute_change": 1,
+            "percentage_change": null
+          },
+          "sif_density": {
+            "previous_value": 0.0,
+            "current_value": 0.1111,
+            "absolute_change": 0.1111,
+            "percentage_change": null
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.1685,
+            "current_value": 0.1896,
+            "absolute_change": 0.0211,
+            "percentage_change": 0.1252
+          }
+        }
+      },
+      {
+        "period": "2021-01",
+        "period_type": "month",
+        "report_volume": 8,
+        "sif_count": 1,
+        "sif_density": 0.125,
+        "avg_sif_probability": 0.229,
+        "trends": {
+          "report_volume": {
+            "previous_value": 9,
+            "current_value": 8,
+            "absolute_change": -1,
+            "percentage_change": -0.1111
+          },
+          "sif_count": {
+            "previous_value": 1,
+            "current_value": 1,
+            "absolute_change": 0,
+            "percentage_change": 0.0
+          },
+          "sif_density": {
+            "previous_value": 0.1111,
+            "current_value": 0.125,
+            "absolute_change": 0.0139,
+            "percentage_change": 0.1251
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.1896,
+            "current_value": 0.229,
+            "absolute_change": 0.0394,
+            "percentage_change": 0.2078
+          }
+        }
+      },
+      {
+        "period": "2021-02",
+        "period_type": "month",
+        "report_volume": 6,
+        "sif_count": 2,
+        "sif_density": 0.3333,
+        "avg_sif_probability": 0.3525,
+        "trends": {
+          "report_volume": {
+            "previous_value": 8,
+            "current_value": 6,
+            "absolute_change": -2,
+            "percentage_change": -0.25
+          },
+          "sif_count": {
+            "previous_value": 1,
+            "current_value": 2,
+            "absolute_change": 1,
+            "percentage_change": 1.0
+          },
+          "sif_density": {
+            "previous_value": 0.125,
+            "current_value": 0.3333,
+            "absolute_change": 0.2083,
+            "percentage_change": 1.6664
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.229,
+            "current_value": 0.3525,
+            "absolute_change": 0.1235,
+            "percentage_change": 0.5393
+          }
+        }
+      },
+      {
+        "period": "2021-03",
+        "period_type": "month",
+        "report_volume": 6,
+        "sif_count": 1,
+        "sif_density": 0.1667,
+        "avg_sif_probability": 0.2659,
+        "trends": {
+          "report_volume": {
+            "previous_value": 6,
+            "current_value": 6,
+            "absolute_change": 0,
+            "percentage_change": 0.0
+          },
+          "sif_count": {
+            "previous_value": 2,
+            "current_value": 1,
+            "absolute_change": -1,
+            "percentage_change": -0.5
+          },
+          "sif_density": {
+            "previous_value": 0.3333,
+            "current_value": 0.1667,
+            "absolute_change": -0.1666,
+            "percentage_change": -0.4998
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.3525,
+            "current_value": 0.2659,
+            "absolute_change": -0.0866,
+            "percentage_change": -0.2457
+          }
+        }
+      },
+      {
+        "period": "2021-04",
+        "period_type": "month",
+        "report_volume": 10,
+        "sif_count": 1,
+        "sif_density": 0.1,
+        "avg_sif_probability": 0.1747,
+        "trends": {
+          "report_volume": {
+            "previous_value": 6,
+            "current_value": 10,
+            "absolute_change": 4,
+            "percentage_change": 0.6667
+          },
+          "sif_count": {
+            "previous_value": 1,
+            "current_value": 1,
+            "absolute_change": 0,
+            "percentage_change": 0.0
+          },
+          "sif_density": {
+            "previous_value": 0.1667,
+            "current_value": 0.1,
+            "absolute_change": -0.0667,
+            "percentage_change": -0.4001
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2659,
+            "current_value": 0.1747,
+            "absolute_change": -0.0912,
+            "percentage_change": -0.343
+          }
+        }
+      },
+      {
+        "period": "2021-05",
+        "period_type": "month",
+        "report_volume": 10,
+        "sif_count": 3,
+        "sif_density": 0.3,
+        "avg_sif_probability": 0.2781,
+        "trends": {
+          "report_volume": {
+            "previous_value": 10,
+            "current_value": 10,
+            "absolute_change": 0,
+            "percentage_change": 0.0
+          },
+          "sif_count": {
+            "previous_value": 1,
+            "current_value": 3,
+            "absolute_change": 2,
+            "percentage_change": 2.0
+          },
+          "sif_density": {
+            "previous_value": 0.1,
+            "current_value": 0.3,
+            "absolute_change": 0.2,
+            "percentage_change": 2.0
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.1747,
+            "current_value": 0.2781,
+            "absolute_change": 0.1034,
+            "percentage_change": 0.5919
+          }
+        }
+      },
+      {
+        "period": "2021-06",
+        "period_type": "month",
+        "report_volume": 4,
+        "sif_count": 1,
+        "sif_density": 0.25,
+        "avg_sif_probability": 0.3253,
+        "trends": {
+          "report_volume": {
+            "previous_value": 10,
+            "current_value": 4,
+            "absolute_change": -6,
+            "percentage_change": -0.6
+          },
+          "sif_count": {
+            "previous_value": 3,
+            "current_value": 1,
+            "absolute_change": -2,
+            "percentage_change": -0.6667
+          },
+          "sif_density": {
+            "previous_value": 0.3,
+            "current_value": 0.25,
+            "absolute_change": -0.05,
+            "percentage_change": -0.1667
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2781,
+            "current_value": 0.3253,
+            "absolute_change": 0.0472,
+            "percentage_change": 0.1697
+          }
+        }
+      },
+      {
+        "period": "2021-07",
+        "period_type": "month",
+        "report_volume": 11,
+        "sif_count": 6,
+        "sif_density": 0.5455,
+        "avg_sif_probability": 0.514,
+        "trends": {
+          "report_volume": {
+            "previous_value": 4,
+            "current_value": 11,
+            "absolute_change": 7,
+            "percentage_change": 1.75
+          },
+          "sif_count": {
+            "previous_value": 1,
+            "current_value": 6,
+            "absolute_change": 5,
+            "percentage_change": 5.0
+          },
+          "sif_density": {
+            "previous_value": 0.25,
+            "current_value": 0.5455,
+            "absolute_change": 0.2955,
+            "percentage_change": 1.182
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.3253,
+            "current_value": 0.514,
+            "absolute_change": 0.1887,
+            "percentage_change": 0.5801
+          }
+        }
+      },
+      {
+        "period": "2021-08",
+        "period_type": "month",
+        "report_volume": 9,
+        "sif_count": 5,
+        "sif_density": 0.5556,
+        "avg_sif_probability": 0.5335,
+        "trends": {
+          "report_volume": {
+            "previous_value": 11,
+            "current_value": 9,
+            "absolute_change": -2,
+            "percentage_change": -0.1818
+          },
+          "sif_count": {
+            "previous_value": 6,
+            "current_value": 5,
+            "absolute_change": -1,
+            "percentage_change": -0.1667
+          },
+          "sif_density": {
+            "previous_value": 0.5455,
+            "current_value": 0.5556,
+            "absolute_change": 0.0101,
+            "percentage_change": 0.0185
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.514,
+            "current_value": 0.5335,
+            "absolute_change": 0.0195,
+            "percentage_change": 0.0379
+          }
+        }
+      },
+      {
+        "period": "2021-09",
+        "period_type": "month",
+        "report_volume": 10,
+        "sif_count": 1,
+        "sif_density": 0.1,
+        "avg_sif_probability": 0.1661,
+        "trends": {
+          "report_volume": {
+            "previous_value": 9,
+            "current_value": 10,
+            "absolute_change": 1,
+            "percentage_change": 0.1111
+          },
+          "sif_count": {
+            "previous_value": 5,
+            "current_value": 1,
+            "absolute_change": -4,
+            "percentage_change": -0.8
+          },
+          "sif_density": {
+            "previous_value": 0.5556,
+            "current_value": 0.1,
+            "absolute_change": -0.4556,
+            "percentage_change": -0.82
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.5335,
+            "current_value": 0.1661,
+            "absolute_change": -0.3674,
+            "percentage_change": -0.6887
+          }
+        }
+      },
+      {
+        "period": "2021-10",
+        "period_type": "month",
+        "report_volume": 2,
+        "sif_count": 0,
+        "sif_density": 0.0,
+        "avg_sif_probability": 0.0848,
+        "trends": {
+          "report_volume": {
+            "previous_value": 10,
+            "current_value": 2,
+            "absolute_change": -8,
+            "percentage_change": -0.8
+          },
+          "sif_count": {
+            "previous_value": 1,
+            "current_value": 0,
+            "absolute_change": -1,
+            "percentage_change": -1.0
+          },
+          "sif_density": {
+            "previous_value": 0.1,
+            "current_value": 0.0,
+            "absolute_change": -0.1,
+            "percentage_change": -1.0
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.1661,
+            "current_value": 0.0848,
+            "absolute_change": -0.0813,
+            "percentage_change": -0.4895
+          }
+        }
+      },
+      {
+        "period": "2021-11",
+        "period_type": "month",
+        "report_volume": 10,
+        "sif_count": 4,
+        "sif_density": 0.4,
+        "avg_sif_probability": 0.4086,
+        "trends": {
+          "report_volume": {
+            "previous_value": 2,
+            "current_value": 10,
+            "absolute_change": 8,
+            "percentage_change": 4.0
+          },
+          "sif_count": {
+            "previous_value": 0,
+            "current_value": 4,
+            "absolute_change": 4,
+            "percentage_change": null
+          },
+          "sif_density": {
+            "previous_value": 0.0,
+            "current_value": 0.4,
+            "absolute_change": 0.4,
+            "percentage_change": null
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.0848,
+            "current_value": 0.4086,
+            "absolute_change": 0.3238,
+            "percentage_change": 3.8184
+          }
+        }
+      },
+      {
+        "period": "2021-12",
+        "period_type": "month",
+        "report_volume": 3,
+        "sif_count": 0,
+        "sif_density": 0.0,
+        "avg_sif_probability": 0.0575,
+        "trends": {
+          "report_volume": {
+            "previous_value": 10,
+            "current_value": 3,
+            "absolute_change": -7,
+            "percentage_change": -0.7
+          },
+          "sif_count": {
+            "previous_value": 4,
+            "current_value": 0,
+            "absolute_change": -4,
+            "percentage_change": -1.0
+          },
+          "sif_density": {
+            "previous_value": 0.4,
+            "current_value": 0.0,
+            "absolute_change": -0.4,
+            "percentage_change": -1.0
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.4086,
+            "current_value": 0.0575,
+            "absolute_change": -0.3511,
+            "percentage_change": -0.8593
+          }
+        }
+      },
+      {
+        "period": "2022-01",
+        "period_type": "month",
+        "report_volume": 9,
+        "sif_count": 3,
+        "sif_density": 0.3333,
+        "avg_sif_probability": 0.2541,
+        "trends": {
+          "report_volume": {
+            "previous_value": 3,
+            "current_value": 9,
+            "absolute_change": 6,
+            "percentage_change": 2.0
+          },
+          "sif_count": {
+            "previous_value": 0,
+            "current_value": 3,
+            "absolute_change": 3,
+            "percentage_change": null
+          },
+          "sif_density": {
+            "previous_value": 0.0,
+            "current_value": 0.3333,
+            "absolute_change": 0.3333,
+            "percentage_change": null
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.0575,
+            "current_value": 0.2541,
+            "absolute_change": 0.1966,
+            "percentage_change": 3.4191
+          }
+        }
+      },
+      {
+        "period": "2022-02",
+        "period_type": "month",
+        "report_volume": 6,
+        "sif_count": 2,
+        "sif_density": 0.3333,
+        "avg_sif_probability": 0.3899,
+        "trends": {
+          "report_volume": {
+            "previous_value": 9,
+            "current_value": 6,
+            "absolute_change": -3,
+            "percentage_change": -0.3333
+          },
+          "sif_count": {
+            "previous_value": 3,
+            "current_value": 2,
+            "absolute_change": -1,
+            "percentage_change": -0.3333
+          },
+          "sif_density": {
+            "previous_value": 0.3333,
+            "current_value": 0.3333,
+            "absolute_change": 0.0,
+            "percentage_change": 0.0
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2541,
+            "current_value": 0.3899,
+            "absolute_change": 0.1358,
+            "percentage_change": 0.5344
+          }
+        }
+      },
+      {
+        "period": "2022-03",
+        "period_type": "month",
+        "report_volume": 8,
+        "sif_count": 4,
+        "sif_density": 0.5,
+        "avg_sif_probability": 0.4883,
+        "trends": {
+          "report_volume": {
+            "previous_value": 6,
+            "current_value": 8,
+            "absolute_change": 2,
+            "percentage_change": 0.3333
+          },
+          "sif_count": {
+            "previous_value": 2,
+            "current_value": 4,
+            "absolute_change": 2,
+            "percentage_change": 1.0
+          },
+          "sif_density": {
+            "previous_value": 0.3333,
+            "current_value": 0.5,
+            "absolute_change": 0.1667,
+            "percentage_change": 0.5002
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.3899,
+            "current_value": 0.4883,
+            "absolute_change": 0.0984,
+            "percentage_change": 0.2524
+          }
+        }
+      },
+      {
+        "period": "2022-04",
+        "period_type": "month",
+        "report_volume": 11,
+        "sif_count": 6,
+        "sif_density": 0.5455,
+        "avg_sif_probability": 0.4987,
+        "trends": {
+          "report_volume": {
+            "previous_value": 8,
+            "current_value": 11,
+            "absolute_change": 3,
+            "percentage_change": 0.375
+          },
+          "sif_count": {
+            "previous_value": 4,
+            "current_value": 6,
+            "absolute_change": 2,
+            "percentage_change": 0.5
+          },
+          "sif_density": {
+            "previous_value": 0.5,
+            "current_value": 0.5455,
+            "absolute_change": 0.0455,
+            "percentage_change": 0.091
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.4883,
+            "current_value": 0.4987,
+            "absolute_change": 0.0104,
+            "percentage_change": 0.0213
+          }
+        }
+      },
+      {
+        "period": "2022-05",
+        "period_type": "month",
+        "report_volume": 11,
+        "sif_count": 3,
+        "sif_density": 0.2727,
+        "avg_sif_probability": 0.2997,
+        "trends": {
+          "report_volume": {
+            "previous_value": 11,
+            "current_value": 11,
+            "absolute_change": 0,
+            "percentage_change": 0.0
+          },
+          "sif_count": {
+            "previous_value": 6,
+            "current_value": 3,
+            "absolute_change": -3,
+            "percentage_change": -0.5
+          },
+          "sif_density": {
+            "previous_value": 0.5455,
+            "current_value": 0.2727,
+            "absolute_change": -0.2728,
+            "percentage_change": -0.5001
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.4987,
+            "current_value": 0.2997,
+            "absolute_change": -0.199,
+            "percentage_change": -0.399
+          }
+        }
+      },
+      {
+        "period": "2022-06",
+        "period_type": "month",
+        "report_volume": 7,
+        "sif_count": 4,
+        "sif_density": 0.5714,
+        "avg_sif_probability": 0.5738,
+        "trends": {
+          "report_volume": {
+            "previous_value": 11,
+            "current_value": 7,
+            "absolute_change": -4,
+            "percentage_change": -0.3636
+          },
+          "sif_count": {
+            "previous_value": 3,
+            "current_value": 4,
+            "absolute_change": 1,
+            "percentage_change": 0.3333
+          },
+          "sif_density": {
+            "previous_value": 0.2727,
+            "current_value": 0.5714,
+            "absolute_change": 0.2987,
+            "percentage_change": 1.0953
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2997,
+            "current_value": 0.5738,
+            "absolute_change": 0.2741,
+            "percentage_change": 0.9146
+          }
+        }
+      },
+      {
+        "period": "2022-07",
+        "period_type": "month",
+        "report_volume": 9,
+        "sif_count": 4,
+        "sif_density": 0.4444,
+        "avg_sif_probability": 0.3653,
+        "trends": {
+          "report_volume": {
+            "previous_value": 7,
+            "current_value": 9,
+            "absolute_change": 2,
+            "percentage_change": 0.2857
+          },
+          "sif_count": {
+            "previous_value": 4,
+            "current_value": 4,
+            "absolute_change": 0,
+            "percentage_change": 0.0
+          },
+          "sif_density": {
+            "previous_value": 0.5714,
+            "current_value": 0.4444,
+            "absolute_change": -0.127,
+            "percentage_change": -0.2223
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.5738,
+            "current_value": 0.3653,
+            "absolute_change": -0.2085,
+            "percentage_change": -0.3634
+          }
+        }
+      },
+      {
+        "period": "2022-08",
+        "period_type": "month",
+        "report_volume": 8,
+        "sif_count": 1,
+        "sif_density": 0.125,
+        "avg_sif_probability": 0.2088,
+        "trends": {
+          "report_volume": {
+            "previous_value": 9,
+            "current_value": 8,
+            "absolute_change": -1,
+            "percentage_change": -0.1111
+          },
+          "sif_count": {
+            "previous_value": 4,
+            "current_value": 1,
+            "absolute_change": -3,
+            "percentage_change": -0.75
+          },
+          "sif_density": {
+            "previous_value": 0.4444,
+            "current_value": 0.125,
+            "absolute_change": -0.3194,
+            "percentage_change": -0.7187
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.3653,
+            "current_value": 0.2088,
+            "absolute_change": -0.1565,
+            "percentage_change": -0.4284
+          }
+        }
+      },
+      {
+        "period": "2022-09",
+        "period_type": "month",
+        "report_volume": 8,
+        "sif_count": 0,
+        "sif_density": 0.0,
+        "avg_sif_probability": 0.1396,
+        "trends": {
+          "report_volume": {
+            "previous_value": 8,
+            "current_value": 8,
+            "absolute_change": 0,
+            "percentage_change": 0.0
+          },
+          "sif_count": {
+            "previous_value": 1,
+            "current_value": 0,
+            "absolute_change": -1,
+            "percentage_change": -1.0
+          },
+          "sif_density": {
+            "previous_value": 0.125,
+            "current_value": 0.0,
+            "absolute_change": -0.125,
+            "percentage_change": -1.0
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2088,
+            "current_value": 0.1396,
+            "absolute_change": -0.0692,
+            "percentage_change": -0.3314
+          }
+        }
+      },
+      {
+        "period": "2022-10",
+        "period_type": "month",
+        "report_volume": 10,
+        "sif_count": 2,
+        "sif_density": 0.2,
+        "avg_sif_probability": 0.2503,
+        "trends": {
+          "report_volume": {
+            "previous_value": 8,
+            "current_value": 10,
+            "absolute_change": 2,
+            "percentage_change": 0.25
+          },
+          "sif_count": {
+            "previous_value": 0,
+            "current_value": 2,
+            "absolute_change": 2,
+            "percentage_change": null
+          },
+          "sif_density": {
+            "previous_value": 0.0,
+            "current_value": 0.2,
+            "absolute_change": 0.2,
+            "percentage_change": null
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.1396,
+            "current_value": 0.2503,
+            "absolute_change": 0.1107,
+            "percentage_change": 0.793
+          }
+        }
+      },
+      {
+        "period": "2022-11",
+        "period_type": "month",
+        "report_volume": 4,
+        "sif_count": 1,
+        "sif_density": 0.25,
+        "avg_sif_probability": 0.2557,
+        "trends": {
+          "report_volume": {
+            "previous_value": 10,
+            "current_value": 4,
+            "absolute_change": -6,
+            "percentage_change": -0.6
+          },
+          "sif_count": {
+            "previous_value": 2,
+            "current_value": 1,
+            "absolute_change": -1,
+            "percentage_change": -0.5
+          },
+          "sif_density": {
+            "previous_value": 0.2,
+            "current_value": 0.25,
+            "absolute_change": 0.05,
+            "percentage_change": 0.25
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2503,
+            "current_value": 0.2557,
+            "absolute_change": 0.0054,
+            "percentage_change": 0.0216
+          }
+        }
+      },
+      {
+        "period": "2022-12",
+        "period_type": "month",
+        "report_volume": 8,
+        "sif_count": 3,
+        "sif_density": 0.375,
+        "avg_sif_probability": 0.4059,
+        "trends": {
+          "report_volume": {
+            "previous_value": 4,
+            "current_value": 8,
+            "absolute_change": 4,
+            "percentage_change": 1.0
+          },
+          "sif_count": {
+            "previous_value": 1,
+            "current_value": 3,
+            "absolute_change": 2,
+            "percentage_change": 2.0
+          },
+          "sif_density": {
+            "previous_value": 0.25,
+            "current_value": 0.375,
+            "absolute_change": 0.125,
+            "percentage_change": 0.5
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2557,
+            "current_value": 0.4059,
+            "absolute_change": 0.1502,
+            "percentage_change": 0.5874
+          }
+        }
+      },
+      {
+        "period": "2023-01",
+        "period_type": "month",
+        "report_volume": 7,
+        "sif_count": 3,
+        "sif_density": 0.4286,
+        "avg_sif_probability": 0.4159,
+        "trends": {
+          "report_volume": {
+            "previous_value": 8,
+            "current_value": 7,
+            "absolute_change": -1,
+            "percentage_change": -0.125
+          },
+          "sif_count": {
+            "previous_value": 3,
+            "current_value": 3,
+            "absolute_change": 0,
+            "percentage_change": 0.0
+          },
+          "sif_density": {
+            "previous_value": 0.375,
+            "current_value": 0.4286,
+            "absolute_change": 0.0536,
+            "percentage_change": 0.1429
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.4059,
+            "current_value": 0.4159,
+            "absolute_change": 0.01,
+            "percentage_change": 0.0246
+          }
+        }
+      },
+      {
+        "period": "2023-02",
+        "period_type": "month",
+        "report_volume": 2,
+        "sif_count": 0,
+        "sif_density": 0.0,
+        "avg_sif_probability": 0.0342,
+        "trends": {
+          "report_volume": {
+            "previous_value": 7,
+            "current_value": 2,
+            "absolute_change": -5,
+            "percentage_change": -0.7143
+          },
+          "sif_count": {
+            "previous_value": 3,
+            "current_value": 0,
+            "absolute_change": -3,
+            "percentage_change": -1.0
+          },
+          "sif_density": {
+            "previous_value": 0.4286,
+            "current_value": 0.0,
+            "absolute_change": -0.4286,
+            "percentage_change": -1.0
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.4159,
+            "current_value": 0.0342,
+            "absolute_change": -0.3817,
+            "percentage_change": -0.9178
+          }
+        }
+      },
+      {
+        "period": "2023-03",
+        "period_type": "month",
+        "report_volume": 4,
+        "sif_count": 0,
+        "sif_density": 0.0,
+        "avg_sif_probability": 0.0607,
+        "trends": {
+          "report_volume": {
+            "previous_value": 2,
+            "current_value": 4,
+            "absolute_change": 2,
+            "percentage_change": 1.0
+          },
+          "sif_count": {
+            "previous_value": 0,
+            "current_value": 0,
+            "absolute_change": 0,
+            "percentage_change": null
+          },
+          "sif_density": {
+            "previous_value": 0.0,
+            "current_value": 0.0,
+            "absolute_change": 0.0,
+            "percentage_change": null
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.0342,
+            "current_value": 0.0607,
+            "absolute_change": 0.0265,
+            "percentage_change": 0.7749
+          }
+        }
+      },
+      {
+        "period": "2023-04",
+        "period_type": "month",
+        "report_volume": 6,
+        "sif_count": 0,
+        "sif_density": 0.0,
+        "avg_sif_probability": 0.0671,
+        "trends": {
+          "report_volume": {
+            "previous_value": 4,
+            "current_value": 6,
+            "absolute_change": 2,
+            "percentage_change": 0.5
+          },
+          "sif_count": {
+            "previous_value": 0,
+            "current_value": 0,
+            "absolute_change": 0,
+            "percentage_change": null
+          },
+          "sif_density": {
+            "previous_value": 0.0,
+            "current_value": 0.0,
+            "absolute_change": 0.0,
+            "percentage_change": null
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.0607,
+            "current_value": 0.0671,
+            "absolute_change": 0.0064,
+            "percentage_change": 0.1054
+          }
+        }
+      },
+      {
+        "period": "2023-05",
+        "period_type": "month",
+        "report_volume": 13,
+        "sif_count": 2,
+        "sif_density": 0.1538,
+        "avg_sif_probability": 0.2055,
+        "trends": {
+          "report_volume": {
+            "previous_value": 6,
+            "current_value": 13,
+            "absolute_change": 7,
+            "percentage_change": 1.1667
+          },
+          "sif_count": {
+            "previous_value": 0,
+            "current_value": 2,
+            "absolute_change": 2,
+            "percentage_change": null
+          },
+          "sif_density": {
+            "previous_value": 0.0,
+            "current_value": 0.1538,
+            "absolute_change": 0.1538,
+            "percentage_change": null
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.0671,
+            "current_value": 0.2055,
+            "absolute_change": 0.1384,
+            "percentage_change": 2.0626
+          }
+        }
+      },
+      {
+        "period": "2023-06",
+        "period_type": "month",
+        "report_volume": 9,
+        "sif_count": 3,
+        "sif_density": 0.3333,
+        "avg_sif_probability": 0.3642,
+        "trends": {
+          "report_volume": {
+            "previous_value": 13,
+            "current_value": 9,
+            "absolute_change": -4,
+            "percentage_change": -0.3077
+          },
+          "sif_count": {
+            "previous_value": 2,
+            "current_value": 3,
+            "absolute_change": 1,
+            "percentage_change": 0.5
+          },
+          "sif_density": {
+            "previous_value": 0.1538,
+            "current_value": 0.3333,
+            "absolute_change": 0.1795,
+            "percentage_change": 1.1671
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2055,
+            "current_value": 0.3642,
+            "absolute_change": 0.1587,
+            "percentage_change": 0.7723
+          }
+        }
+      },
+      {
+        "period": "2023-07",
+        "period_type": "month",
+        "report_volume": 7,
+        "sif_count": 1,
+        "sif_density": 0.1429,
+        "avg_sif_probability": 0.2591,
+        "trends": {
+          "report_volume": {
+            "previous_value": 9,
+            "current_value": 7,
+            "absolute_change": -2,
+            "percentage_change": -0.2222
+          },
+          "sif_count": {
+            "previous_value": 3,
+            "current_value": 1,
+            "absolute_change": -2,
+            "percentage_change": -0.6667
+          },
+          "sif_density": {
+            "previous_value": 0.3333,
+            "current_value": 0.1429,
+            "absolute_change": -0.1904,
+            "percentage_change": -0.5713
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.3642,
+            "current_value": 0.2591,
+            "absolute_change": -0.1051,
+            "percentage_change": -0.2886
+          }
+        }
+      },
+      {
+        "period": "2023-08",
+        "period_type": "month",
+        "report_volume": 5,
+        "sif_count": 0,
+        "sif_density": 0.0,
+        "avg_sif_probability": 0.0796,
+        "trends": {
+          "report_volume": {
+            "previous_value": 7,
+            "current_value": 5,
+            "absolute_change": -2,
+            "percentage_change": -0.2857
+          },
+          "sif_count": {
+            "previous_value": 1,
+            "current_value": 0,
+            "absolute_change": -1,
+            "percentage_change": -1.0
+          },
+          "sif_density": {
+            "previous_value": 0.1429,
+            "current_value": 0.0,
+            "absolute_change": -0.1429,
+            "percentage_change": -1.0
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2591,
+            "current_value": 0.0796,
+            "absolute_change": -0.1795,
+            "percentage_change": -0.6928
+          }
+        }
+      },
+      {
+        "period": "2023-09",
+        "period_type": "month",
+        "report_volume": 9,
+        "sif_count": 3,
+        "sif_density": 0.3333,
+        "avg_sif_probability": 0.3707,
+        "trends": {
+          "report_volume": {
+            "previous_value": 5,
+            "current_value": 9,
+            "absolute_change": 4,
+            "percentage_change": 0.8
+          },
+          "sif_count": {
+            "previous_value": 0,
+            "current_value": 3,
+            "absolute_change": 3,
+            "percentage_change": null
+          },
+          "sif_density": {
+            "previous_value": 0.0,
+            "current_value": 0.3333,
+            "absolute_change": 0.3333,
+            "percentage_change": null
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.0796,
+            "current_value": 0.3707,
+            "absolute_change": 0.2911,
+            "percentage_change": 3.657
+          }
+        }
+      },
+      {
+        "period": "2023-10",
+        "period_type": "month",
+        "report_volume": 6,
+        "sif_count": 0,
+        "sif_density": 0.0,
+        "avg_sif_probability": 0.0702,
+        "trends": {
+          "report_volume": {
+            "previous_value": 9,
+            "current_value": 6,
+            "absolute_change": -3,
+            "percentage_change": -0.3333
+          },
+          "sif_count": {
+            "previous_value": 3,
+            "current_value": 0,
+            "absolute_change": -3,
+            "percentage_change": -1.0
+          },
+          "sif_density": {
+            "previous_value": 0.3333,
+            "current_value": 0.0,
+            "absolute_change": -0.3333,
+            "percentage_change": -1.0
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.3707,
+            "current_value": 0.0702,
+            "absolute_change": -0.3005,
+            "percentage_change": -0.8106
+          }
+        }
+      },
+      {
+        "period": "2023-11",
+        "period_type": "month",
+        "report_volume": 12,
+        "sif_count": 5,
+        "sif_density": 0.4167,
+        "avg_sif_probability": 0.3948,
+        "trends": {
+          "report_volume": {
+            "previous_value": 6,
+            "current_value": 12,
+            "absolute_change": 6,
+            "percentage_change": 1.0
+          },
+          "sif_count": {
+            "previous_value": 0,
+            "current_value": 5,
+            "absolute_change": 5,
+            "percentage_change": null
+          },
+          "sif_density": {
+            "previous_value": 0.0,
+            "current_value": 0.4167,
+            "absolute_change": 0.4167,
+            "percentage_change": null
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.0702,
+            "current_value": 0.3948,
+            "absolute_change": 0.3246,
+            "percentage_change": 4.6239
+          }
+        }
+      },
+      {
+        "period": "2023-12",
+        "period_type": "month",
+        "report_volume": 6,
+        "sif_count": 1,
+        "sif_density": 0.1667,
+        "avg_sif_probability": 0.1744,
+        "trends": {
+          "report_volume": {
+            "previous_value": 12,
+            "current_value": 6,
+            "absolute_change": -6,
+            "percentage_change": -0.5
+          },
+          "sif_count": {
+            "previous_value": 5,
+            "current_value": 1,
+            "absolute_change": -4,
+            "percentage_change": -0.8
+          },
+          "sif_density": {
+            "previous_value": 0.4167,
+            "current_value": 0.1667,
+            "absolute_change": -0.25,
+            "percentage_change": -0.6
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.3948,
+            "current_value": 0.1744,
+            "absolute_change": -0.2204,
+            "percentage_change": -0.5583
+          }
+        }
+      }
+    ],
+    "quarterly": [
+      {
+        "period": "2020Q1",
+        "period_type": "quarter",
+        "report_volume": 24,
+        "sif_count": 7,
+        "sif_density": 0.2917,
+        "avg_sif_probability": 0.3503,
+        "trends": null
+      },
+      {
+        "period": "2020Q2",
+        "period_type": "quarter",
+        "report_volume": 29,
+        "sif_count": 6,
+        "sif_density": 0.2069,
+        "avg_sif_probability": 0.2839,
+        "trends": {
+          "report_volume": {
+            "previous_value": 24,
+            "current_value": 29,
+            "absolute_change": 5,
+            "percentage_change": 0.2083
+          },
+          "sif_count": {
+            "previous_value": 7,
+            "current_value": 6,
+            "absolute_change": -1,
+            "percentage_change": -0.1429
+          },
+          "sif_density": {
+            "previous_value": 0.2917,
+            "current_value": 0.2069,
+            "absolute_change": -0.0848,
+            "percentage_change": -0.2907
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.3503,
+            "current_value": 0.2839,
+            "absolute_change": -0.0664,
+            "percentage_change": -0.1896
+          }
+        }
+      },
+      {
+        "period": "2020Q3",
+        "period_type": "quarter",
+        "report_volume": 31,
+        "sif_count": 5,
+        "sif_density": 0.1613,
+        "avg_sif_probability": 0.2153,
+        "trends": {
+          "report_volume": {
+            "previous_value": 29,
+            "current_value": 31,
+            "absolute_change": 2,
+            "percentage_change": 0.069
+          },
+          "sif_count": {
+            "previous_value": 6,
+            "current_value": 5,
+            "absolute_change": -1,
+            "percentage_change": -0.1667
+          },
+          "sif_density": {
+            "previous_value": 0.2069,
+            "current_value": 0.1613,
+            "absolute_change": -0.0456,
+            "percentage_change": -0.2204
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2839,
+            "current_value": 0.2153,
+            "absolute_change": -0.0686,
+            "percentage_change": -0.2416
+          }
+        }
+      },
+      {
+        "period": "2020Q4",
+        "period_type": "quarter",
+        "report_volume": 17,
+        "sif_count": 1,
+        "sif_density": 0.0588,
+        "avg_sif_probability": 0.1758,
+        "trends": {
+          "report_volume": {
+            "previous_value": 31,
+            "current_value": 17,
+            "absolute_change": -14,
+            "percentage_change": -0.4516
+          },
+          "sif_count": {
+            "previous_value": 5,
+            "current_value": 1,
+            "absolute_change": -4,
+            "percentage_change": -0.8
+          },
+          "sif_density": {
+            "previous_value": 0.1613,
+            "current_value": 0.0588,
+            "absolute_change": -0.1025,
+            "percentage_change": -0.6355
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2153,
+            "current_value": 0.1758,
+            "absolute_change": -0.0395,
+            "percentage_change": -0.1835
+          }
+        }
+      },
+      {
+        "period": "2021Q1",
+        "period_type": "quarter",
+        "report_volume": 20,
+        "sif_count": 4,
+        "sif_density": 0.2,
+        "avg_sif_probability": 0.2771,
+        "trends": {
+          "report_volume": {
+            "previous_value": 17,
+            "current_value": 20,
+            "absolute_change": 3,
+            "percentage_change": 0.1765
+          },
+          "sif_count": {
+            "previous_value": 1,
+            "current_value": 4,
+            "absolute_change": 3,
+            "percentage_change": 3.0
+          },
+          "sif_density": {
+            "previous_value": 0.0588,
+            "current_value": 0.2,
+            "absolute_change": 0.1412,
+            "percentage_change": 2.4014
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.1758,
+            "current_value": 0.2771,
+            "absolute_change": 0.1013,
+            "percentage_change": 0.5762
+          }
+        }
+      },
+      {
+        "period": "2021Q2",
+        "period_type": "quarter",
+        "report_volume": 24,
+        "sif_count": 5,
+        "sif_density": 0.2083,
+        "avg_sif_probability": 0.2429,
+        "trends": {
+          "report_volume": {
+            "previous_value": 20,
+            "current_value": 24,
+            "absolute_change": 4,
+            "percentage_change": 0.2
+          },
+          "sif_count": {
+            "previous_value": 4,
+            "current_value": 5,
+            "absolute_change": 1,
+            "percentage_change": 0.25
+          },
+          "sif_density": {
+            "previous_value": 0.2,
+            "current_value": 0.2083,
+            "absolute_change": 0.0083,
+            "percentage_change": 0.0415
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2771,
+            "current_value": 0.2429,
+            "absolute_change": -0.0342,
+            "percentage_change": -0.1234
+          }
+        }
+      },
+      {
+        "period": "2021Q3",
+        "period_type": "quarter",
+        "report_volume": 30,
+        "sif_count": 12,
+        "sif_density": 0.4,
+        "avg_sif_probability": 0.4039,
+        "trends": {
+          "report_volume": {
+            "previous_value": 24,
+            "current_value": 30,
+            "absolute_change": 6,
+            "percentage_change": 0.25
+          },
+          "sif_count": {
+            "previous_value": 5,
+            "current_value": 12,
+            "absolute_change": 7,
+            "percentage_change": 1.4
+          },
+          "sif_density": {
+            "previous_value": 0.2083,
+            "current_value": 0.4,
+            "absolute_change": 0.1917,
+            "percentage_change": 0.9203
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2429,
+            "current_value": 0.4039,
+            "absolute_change": 0.161,
+            "percentage_change": 0.6628
+          }
+        }
+      },
+      {
+        "period": "2021Q4",
+        "period_type": "quarter",
+        "report_volume": 15,
+        "sif_count": 4,
+        "sif_density": 0.2667,
+        "avg_sif_probability": 0.2952,
+        "trends": {
+          "report_volume": {
+            "previous_value": 30,
+            "current_value": 15,
+            "absolute_change": -15,
+            "percentage_change": -0.5
+          },
+          "sif_count": {
+            "previous_value": 12,
+            "current_value": 4,
+            "absolute_change": -8,
+            "percentage_change": -0.6667
+          },
+          "sif_density": {
+            "previous_value": 0.4,
+            "current_value": 0.2667,
+            "absolute_change": -0.1333,
+            "percentage_change": -0.3333
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.4039,
+            "current_value": 0.2952,
+            "absolute_change": -0.1087,
+            "percentage_change": -0.2691
+          }
+        }
+      },
+      {
+        "period": "2022Q1",
+        "period_type": "quarter",
+        "report_volume": 23,
+        "sif_count": 9,
+        "sif_density": 0.3913,
+        "avg_sif_probability": 0.371,
+        "trends": {
+          "report_volume": {
+            "previous_value": 15,
+            "current_value": 23,
+            "absolute_change": 8,
+            "percentage_change": 0.5333
+          },
+          "sif_count": {
+            "previous_value": 4,
+            "current_value": 9,
+            "absolute_change": 5,
+            "percentage_change": 1.25
+          },
+          "sif_density": {
+            "previous_value": 0.2667,
+            "current_value": 0.3913,
+            "absolute_change": 0.1246,
+            "percentage_change": 0.4672
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2952,
+            "current_value": 0.371,
+            "absolute_change": 0.0758,
+            "percentage_change": 0.2568
+          }
+        }
+      },
+      {
+        "period": "2022Q2",
+        "period_type": "quarter",
+        "report_volume": 29,
+        "sif_count": 13,
+        "sif_density": 0.4483,
+        "avg_sif_probability": 0.4414,
+        "trends": {
+          "report_volume": {
+            "previous_value": 23,
+            "current_value": 29,
+            "absolute_change": 6,
+            "percentage_change": 0.2609
+          },
+          "sif_count": {
+            "previous_value": 9,
+            "current_value": 13,
+            "absolute_change": 4,
+            "percentage_change": 0.4444
+          },
+          "sif_density": {
+            "previous_value": 0.3913,
+            "current_value": 0.4483,
+            "absolute_change": 0.057,
+            "percentage_change": 0.1457
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.371,
+            "current_value": 0.4414,
+            "absolute_change": 0.0704,
+            "percentage_change": 0.1898
+          }
+        }
+      },
+      {
+        "period": "2022Q3",
+        "period_type": "quarter",
+        "report_volume": 25,
+        "sif_count": 5,
+        "sif_density": 0.2,
+        "avg_sif_probability": 0.243,
+        "trends": {
+          "report_volume": {
+            "previous_value": 29,
+            "current_value": 25,
+            "absolute_change": -4,
+            "percentage_change": -0.1379
+          },
+          "sif_count": {
+            "previous_value": 13,
+            "current_value": 5,
+            "absolute_change": -8,
+            "percentage_change": -0.6154
+          },
+          "sif_density": {
+            "previous_value": 0.4483,
+            "current_value": 0.2,
+            "absolute_change": -0.2483,
+            "percentage_change": -0.5539
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.4414,
+            "current_value": 0.243,
+            "absolute_change": -0.1984,
+            "percentage_change": -0.4495
+          }
+        }
+      },
+      {
+        "period": "2022Q4",
+        "period_type": "quarter",
+        "report_volume": 22,
+        "sif_count": 6,
+        "sif_density": 0.2727,
+        "avg_sif_probability": 0.3079,
+        "trends": {
+          "report_volume": {
+            "previous_value": 25,
+            "current_value": 22,
+            "absolute_change": -3,
+            "percentage_change": -0.12
+          },
+          "sif_count": {
+            "previous_value": 5,
+            "current_value": 6,
+            "absolute_change": 1,
+            "percentage_change": 0.2
+          },
+          "sif_density": {
+            "previous_value": 0.2,
+            "current_value": 0.2727,
+            "absolute_change": 0.0727,
+            "percentage_change": 0.3635
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.243,
+            "current_value": 0.3079,
+            "absolute_change": 0.0649,
+            "percentage_change": 0.2671
+          }
+        }
+      },
+      {
+        "period": "2023Q1",
+        "period_type": "quarter",
+        "report_volume": 13,
+        "sif_count": 3,
+        "sif_density": 0.2308,
+        "avg_sif_probability": 0.2479,
+        "trends": {
+          "report_volume": {
+            "previous_value": 22,
+            "current_value": 13,
+            "absolute_change": -9,
+            "percentage_change": -0.4091
+          },
+          "sif_count": {
+            "previous_value": 6,
+            "current_value": 3,
+            "absolute_change": -3,
+            "percentage_change": -0.5
+          },
+          "sif_density": {
+            "previous_value": 0.2727,
+            "current_value": 0.2308,
+            "absolute_change": -0.0419,
+            "percentage_change": -0.1536
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.3079,
+            "current_value": 0.2479,
+            "absolute_change": -0.06,
+            "percentage_change": -0.1949
+          }
+        }
+      },
+      {
+        "period": "2023Q2",
+        "period_type": "quarter",
+        "report_volume": 28,
+        "sif_count": 5,
+        "sif_density": 0.1786,
+        "avg_sif_probability": 0.2269,
+        "trends": {
+          "report_volume": {
+            "previous_value": 13,
+            "current_value": 28,
+            "absolute_change": 15,
+            "percentage_change": 1.1538
+          },
+          "sif_count": {
+            "previous_value": 3,
+            "current_value": 5,
+            "absolute_change": 2,
+            "percentage_change": 0.6667
+          },
+          "sif_density": {
+            "previous_value": 0.2308,
+            "current_value": 0.1786,
+            "absolute_change": -0.0522,
+            "percentage_change": -0.2262
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2479,
+            "current_value": 0.2269,
+            "absolute_change": -0.021,
+            "percentage_change": -0.0847
+          }
+        }
+      },
+      {
+        "period": "2023Q3",
+        "period_type": "quarter",
+        "report_volume": 21,
+        "sif_count": 4,
+        "sif_density": 0.1905,
+        "avg_sif_probability": 0.2642,
+        "trends": {
+          "report_volume": {
+            "previous_value": 28,
+            "current_value": 21,
+            "absolute_change": -7,
+            "percentage_change": -0.25
+          },
+          "sif_count": {
+            "previous_value": 5,
+            "current_value": 4,
+            "absolute_change": -1,
+            "percentage_change": -0.2
+          },
+          "sif_density": {
+            "previous_value": 0.1786,
+            "current_value": 0.1905,
+            "absolute_change": 0.0119,
+            "percentage_change": 0.0666
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2269,
+            "current_value": 0.2642,
+            "absolute_change": 0.0373,
+            "percentage_change": 0.1644
+          }
+        }
+      },
+      {
+        "period": "2023Q4",
+        "period_type": "quarter",
+        "report_volume": 24,
+        "sif_count": 6,
+        "sif_density": 0.25,
+        "avg_sif_probability": 0.2585,
+        "trends": {
+          "report_volume": {
+            "previous_value": 21,
+            "current_value": 24,
+            "absolute_change": 3,
+            "percentage_change": 0.1429
+          },
+          "sif_count": {
+            "previous_value": 4,
+            "current_value": 6,
+            "absolute_change": 2,
+            "percentage_change": 0.5
+          },
+          "sif_density": {
+            "previous_value": 0.1905,
+            "current_value": 0.25,
+            "absolute_change": 0.0595,
+            "percentage_change": 0.3123
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2642,
+            "current_value": 0.2585,
+            "absolute_change": -0.0057,
+            "percentage_change": -0.0216
+          }
+        }
+      }
+    ],
+    "yearly": [
+      {
+        "period": "2020",
+        "period_type": "year",
+        "report_volume": 101,
+        "sif_count": 19,
+        "sif_density": 0.1881,
+        "avg_sif_probability": 0.2604,
+        "trends": null
+      },
+      {
+        "period": "2021",
+        "period_type": "year",
+        "report_volume": 89,
+        "sif_count": 25,
+        "sif_density": 0.2809,
+        "avg_sif_probability": 0.3137,
+        "trends": {
+          "report_volume": {
+            "previous_value": 101,
+            "current_value": 89,
+            "absolute_change": -12,
+            "percentage_change": -0.1188
+          },
+          "sif_count": {
+            "previous_value": 19,
+            "current_value": 25,
+            "absolute_change": 6,
+            "percentage_change": 0.3158
+          },
+          "sif_density": {
+            "previous_value": 0.1881,
+            "current_value": 0.2809,
+            "absolute_change": 0.0928,
+            "percentage_change": 0.4934
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2604,
+            "current_value": 0.3137,
+            "absolute_change": 0.0533,
+            "percentage_change": 0.2047
+          }
+        }
+      },
+      {
+        "period": "2022",
+        "period_type": "year",
+        "report_volume": 99,
+        "sif_count": 33,
+        "sif_density": 0.3333,
+        "avg_sif_probability": 0.3452,
+        "trends": {
+          "report_volume": {
+            "previous_value": 89,
+            "current_value": 99,
+            "absolute_change": 10,
+            "percentage_change": 0.1124
+          },
+          "sif_count": {
+            "previous_value": 25,
+            "current_value": 33,
+            "absolute_change": 8,
+            "percentage_change": 0.32
+          },
+          "sif_density": {
+            "previous_value": 0.2809,
+            "current_value": 0.3333,
+            "absolute_change": 0.0524,
+            "percentage_change": 0.1865
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.3137,
+            "current_value": 0.3452,
+            "absolute_change": 0.0315,
+            "percentage_change": 0.1004
+          }
+        }
+      },
+      {
+        "period": "2023",
+        "period_type": "year",
+        "report_volume": 86,
+        "sif_count": 18,
+        "sif_density": 0.2093,
+        "avg_sif_probability": 0.248,
+        "trends": {
+          "report_volume": {
+            "previous_value": 99,
+            "current_value": 86,
+            "absolute_change": -13,
+            "percentage_change": -0.1313
+          },
+          "sif_count": {
+            "previous_value": 33,
+            "current_value": 18,
+            "absolute_change": -15,
+            "percentage_change": -0.4545
+          },
+          "sif_density": {
+            "previous_value": 0.3333,
+            "current_value": 0.2093,
+            "absolute_change": -0.124,
+            "percentage_change": -0.372
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.3452,
+            "current_value": 0.248,
+            "absolute_change": -0.0972,
+            "percentage_change": -0.2816
+          }
+        }
+      }
+    ],
+    "monthly_lsr_frequency": {
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.35462571489193917}": [
+        {
+          "period": "2022-10",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.41672458691455583}": [
+        {
+          "period": "2021-05",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.42216972613418374}": [
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.44826090472216507}": [
+        {
+          "period": "2020-12",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.4700661920015748}": [
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.4859084354203673}": [
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.49385039398706765}": [
+        {
+          "period": "2021-06",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.553942720713105}": [
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.594951384909742}": [
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.682554853861488}": [
+        {
+          "period": "2023-06",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.6885414591279587}": [
+        {
+          "period": "2020-03",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.7831543023806716}": [
+        {
+          "period": "2021-02",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.8100377811265056}": [
+        {
+          "period": "2022-12",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.8459723263379099}": [
+        {
+          "period": "2021-01",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.8513603326497554}": [
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.8930401636864519}": [
+        {
+          "period": "2020-04",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9221616368456003}": [
+        {
+          "period": "2021-08",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9239255968147785}": [
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9326307078771182}": [
+        {
+          "period": "2022-02",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9356886702006411}": [
+        {
+          "period": "2020-03",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9499854771110517}": [
+        {
+          "period": "2022-01",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9544714203587106}": [
+        {
+          "period": "2022-11",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9567243742002417}": [
+        {
+          "period": "2023-10",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9576197400540212}": [
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9578659020362738}": [
+        {
+          "period": "2021-08",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9595643165922458}": [
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9598931292970121}": [
+        {
+          "period": "2022-03",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9605500278260048}": [
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9619488382186393}": [
+        {
+          "period": "2022-10",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9623871388521316}": [
+        {
+          "period": "2020-02",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9645791316268975}": [
+        {
+          "period": "2023-07",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9650500058318737}": [
+        {
+          "period": "2020-07",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9652244527089083}": [
+        {
+          "period": "2020-05",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-02",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9655447714070932}": [
+        {
+          "period": "2022-12",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.966466038718053}": [
+        {
+          "period": "2020-02",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-04",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9667464106386008}": [
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9671208536008569}": [
+        {
+          "period": "2020-08",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9671703194244226}": [
+        {
+          "period": "2020-12",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9672736617741352}": [
+        {
+          "period": "2020-10",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2020-12",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-01",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9682972827816406}": [
+        {
+          "period": "2020-01",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9694610677294659}": [
+        {
+          "period": "2023-03",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9724331918668553}": [
+        {
+          "period": "2020-03",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9729770483918954}": [
+        {
+          "period": "2020-10",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-05",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9736561448601229}": [
+        {
+          "period": "2021-10",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9740876031628825}": [
+        {
+          "period": "2022-05",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9743222958219627}": [
+        {
+          "period": "2020-10",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-01",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9759822493761435}": [
+        {
+          "period": "2021-03",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9761316417492889}": [
+        {
+          "period": "2021-04",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-05",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-05",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-02",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9761670627082443}": [
+        {
+          "period": "2021-01",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-04",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9794305897410468}": [
+        {
+          "period": "2020-04",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9794331217462857}": [
+        {
+          "period": "2023-05",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9809288935991392}": [
+        {
+          "period": "2020-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Bypassing Safety Controls', 'score': 0.9847796083806976}": [
+        {
+          "period": "2020-04",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.3639952612506584}": [
+        {
+          "period": "2023-09",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.3673639389061888}": [
+        {
+          "period": "2020-04",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-03",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.3829812401791263}": [
+        {
+          "period": "2020-03",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.39243302742934594}": [
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.4033678563608207}": [
+        {
+          "period": "2020-05",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.4085462232972187}": [
+        {
+          "period": "2022-10",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.4379177498640388}": [
+        {
+          "period": "2023-04",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.9123445525331807}": [
+        {
+          "period": "2022-12",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.9299784479980551}": [
+        {
+          "period": "2020-10",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2020-12",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.9345287434451782}": [
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.9420263007162802}": [
+        {
+          "period": "2021-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.9465000580308065}": [
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2020-07",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-02",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.9466453525228766}": [
+        {
+          "period": "2021-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.9531834092960334}": [
+        {
+          "period": "2021-04",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-05",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.9533452314577474}": [
+        {
+          "period": "2022-05",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.9570191211462633}": [
+        {
+          "period": "2021-05",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.9601447703777607}": [
+        {
+          "period": "2021-03",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.9628264007386008}": [
+        {
+          "period": "2022-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.9667598232835262}": [
+        {
+          "period": "2023-05",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.9667598403251348}": [
+        {
+          "period": "2022-02",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.9668756570031515}": [
+        {
+          "period": "2020-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.9672425767740847}": [
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.9701361751848527}": [
+        {
+          "period": "2020-02",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.9705843119273848}": [
+        {
+          "period": "2023-12",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.9727818210842452}": [
+        {
+          "period": "2021-05",
+          "count": 2,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.9727818455663174}": [
+        {
+          "period": "2021-05",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-05",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.9734961161622705}": [
+        {
+          "period": "2023-06",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-08",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.9747016592922796}": [
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.9750418415297645}": [
+        {
+          "period": "2022-08",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.975432404395423}": [
+        {
+          "period": "2023-12",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.9759963613212138}": [
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-02",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.9789310024375147}": [
+        {
+          "period": "2022-03",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Confined Space', 'score': 0.9790456190125826}": [
+        {
+          "period": "2022-05",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-08",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-01",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.352291510639263}": [
+        {
+          "period": "2020-07",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.38969286573501327}": [
+        {
+          "period": "2021-08",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.8313682783184647}": [
+        {
+          "period": "2021-01",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.840067225824566}": [
+        {
+          "period": "2022-03",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.8804532150507876}": [
+        {
+          "period": "2023-09",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.9049802178978547}": [
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.9200404015873739}": [
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.9342142294088941}": [
+        {
+          "period": "2022-08",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.943547706119462}": [
+        {
+          "period": "2023-04",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.9472164003435498}": [
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.9484868125872394}": [
+        {
+          "period": "2020-05",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.9506140194771527}": [
+        {
+          "period": "2023-05",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.9604664688219602}": [
+        {
+          "period": "2022-01",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.962060092005676}": [
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.9629046303730083}": [
+        {
+          "period": "2023-06",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.9637725720058974}": [
+        {
+          "period": "2023-12",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.9645729008150413}": [
+        {
+          "period": "2020-12",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.9645858306888766}": [
+        {
+          "period": "2022-03",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.96708819009706}": [
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.968655194171941}": [
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.9728486793089989}": [
+        {
+          "period": "2020-07",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.972929314266076}": [
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.9737538524149897}": [
+        {
+          "period": "2021-04",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.9746220057198448}": [
+        {
+          "period": "2021-08",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.9753128383976387}": [
+        {
+          "period": "2021-10",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-01",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.9753672410856273}": [
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.975570934790129}": [
+        {
+          "period": "2020-07",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.976121307905242}": [
+        {
+          "period": "2020-04",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-03",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.9767939698414243}": [
+        {
+          "period": "2020-02",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2020-07",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.978381411360455}": [
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-03",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.9793084779884391}": [
+        {
+          "period": "2023-10",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.9798147958258469}": [
+        {
+          "period": "2022-08",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.9798988766039504}": [
+        {
+          "period": "2023-04",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.9816842095507771}": [
+        {
+          "period": "2023-10",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.9817343492405995}": [
+        {
+          "period": "2020-07",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.981968988952762}": [
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-01",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-01",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Driving', 'score': 0.9821322930201289}": [
+        {
+          "period": "2021-12",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.3622998292868997}": [
+        {
+          "period": "2020-03",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.36613463701671617}": [
+        {
+          "period": "2021-01",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.3708908330568884}": [
+        {
+          "period": "2022-05",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.3751224662364366}": [
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.37944871376934053}": [
+        {
+          "period": "2020-04",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-11",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.4392666304653746}": [
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.5049596536476705}": [
+        {
+          "period": "2022-12",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.5867047868807445}": [
+        {
+          "period": "2021-02",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.6749999171541501}": [
+        {
+          "period": "2021-12",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-06",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.7300011304868674}": [
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.7753483742176179}": [
+        {
+          "period": "2023-06",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.7913279604736045}": [
+        {
+          "period": "2020-02",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.7965764150732647}": [
+        {
+          "period": "2020-01",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.8045074282868947}": [
+        {
+          "period": "2022-01",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.8083606674609694}": [
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.8125613508573639}": [
+        {
+          "period": "2022-10",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.8275795355936638}": [
+        {
+          "period": "2021-06",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.8310254048262212}": [
+        {
+          "period": "2021-04",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.8353982348528481}": [
+        {
+          "period": "2023-01",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.8380798974964649}": [
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.8473490440273288}": [
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.8545876258039801}": [
+        {
+          "period": "2022-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.8626490326745909}": [
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.9015858140309735}": [
+        {
+          "period": "2021-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-09",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.9101698179465549}": [
+        {
+          "period": "2021-05",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.9178295737717741}": [
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.9247000848175245}": [
+        {
+          "period": "2020-12",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-04",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.9388584829077499}": [
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.9419829667375827}": [
+        {
+          "period": "2020-01",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.9528184210949001}": [
+        {
+          "period": "2020-07",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.9595387995949016}": [
+        {
+          "period": "2020-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.9668365640390721}": [
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.9696069116440077}": [
+        {
+          "period": "2022-06",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Energy Isolation', 'score': 0.974416912625264}": [
+        {
+          "period": "2023-03",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.35216553838568465}": [
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.3645843905285974}": [
+        {
+          "period": "2020-05",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.3717569386832537}": [
+        {
+          "period": "2021-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.3767770972119181}": [
+        {
+          "period": "2021-03",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-12",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.3776795632629436}": [
+        {
+          "period": "2020-02",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.37798985221593934}": [
+        {
+          "period": "2022-06",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.4369703629223869}": [
+        {
+          "period": "2020-01",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-06",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.43916659075155745}": [
+        {
+          "period": "2020-07",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.5267428652584085}": [
+        {
+          "period": "2023-04",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.5650628307393941}": [
+        {
+          "period": "2022-03",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.8023355808338741}": [
+        {
+          "period": "2021-04",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.8855323635827679}": [
+        {
+          "period": "2023-01",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.900980496139021}": [
+        {
+          "period": "2020-03",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9089724956198298}": [
+        {
+          "period": "2020-12",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9267399137457537}": [
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9314208243933341}": [
+        {
+          "period": "2021-08",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9376699347654188}": [
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9478585806300719}": [
+        {
+          "period": "2023-05",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.952947546423214}": [
+        {
+          "period": "2023-09",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9549080125888262}": [
+        {
+          "period": "2022-08",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9572216750819136}": [
+        {
+          "period": "2022-05",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-10",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9580010469084096}": [
+        {
+          "period": "2023-12",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9591996170864732}": [
+        {
+          "period": "2023-03",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9622771038609936}": [
+        {
+          "period": "2021-08",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9630908208280432}": [
+        {
+          "period": "2020-08",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2020-12",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-07",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9640280690726374}": [
+        {
+          "period": "2022-06",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9645301915301976}": [
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9679876682131247}": [
+        {
+          "period": "2021-01",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9684892551489157}": [
+        {
+          "period": "2021-08",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9686513114053115}": [
+        {
+          "period": "2020-04",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-11",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.971021501127633}": [
+        {
+          "period": "2020-07",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9713164742140258}": [
+        {
+          "period": "2020-07",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-04",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9713943858995598}": [
+        {
+          "period": "2020-05",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9716981149653685}": [
+        {
+          "period": "2021-05",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9722737593837436}": [
+        {
+          "period": "2020-04",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9726577676455918}": [
+        {
+          "period": "2022-08",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9735542803864591}": [
+        {
+          "period": "2022-01",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9736906379484346}": [
+        {
+          "period": "2021-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.97383257877946}": [
+        {
+          "period": "2021-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9738795702149491}": [
+        {
+          "period": "2020-07",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-12",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9745706109021701}": [
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2020-08",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9746534890526662}": [
+        {
+          "period": "2022-05",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9769352865700259}": [
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9777790028632374}": [
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9804686501843145}": [
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9806216114900689}": [
+        {
+          "period": "2020-02",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-01",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9811587260752866}": [
+        {
+          "period": "2020-01",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9817318440017386}": [
+        {
+          "period": "2020-10",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9821875975959271}": [
+        {
+          "period": "2020-08",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9822861354748581}": [
+        {
+          "period": "2021-06",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Hot Work', 'score': 0.9829218031771657}": [
+        {
+          "period": "2023-10",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.35778727361607005}": [
+        {
+          "period": "2021-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.37473891714846747}": [
+        {
+          "period": "2022-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.376027363731463}": [
+        {
+          "period": "2020-04",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.38522075486121415}": [
+        {
+          "period": "2021-04",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.3938476506226267}": [
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.39731821466828565}": [
+        {
+          "period": "2020-10",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2020-12",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.4080439458221028}": [
+        {
+          "period": "2021-06",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.413714066544645}": [
+        {
+          "period": "2021-08",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.42526134825717576}": [
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.45539571787768585}": [
+        {
+          "period": "2023-10",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.46608125994694977}": [
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.46915260370201733}": [
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.4764135038882055}": [
+        {
+          "period": "2022-06",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.5253196854846046}": [
+        {
+          "period": "2023-09",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.5324592424869293}": [
+        {
+          "period": "2022-01",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.5397457761100967}": [
+        {
+          "period": "2021-05",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.5480392500585779}": [
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.8197637653552521}": [
+        {
+          "period": "2020-02",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.8690010824564519}": [
+        {
+          "period": "2022-06",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.8809873906511774}": [
+        {
+          "period": "2022-03",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9034253591346328}": [
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9142578954541086}": [
+        {
+          "period": "2020-03",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9159572247860668}": [
+        {
+          "period": "2020-03",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2020-07",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9177529755618644}": [
+        {
+          "period": "2020-02",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.919091686234592}": [
+        {
+          "period": "2022-10",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9284541941270047}": [
+        {
+          "period": "2022-02",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9398597406894126}": [
+        {
+          "period": "2021-08",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9411454440289411}": [
+        {
+          "period": "2023-07",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9416135325469431}": [
+        {
+          "period": "2020-05",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.942119546383492}": [
+        {
+          "period": "2023-05",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9495791696153156}": [
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9506469874840261}": [
+        {
+          "period": "2022-02",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9509074575985368}": [
+        {
+          "period": "2022-08",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9510676191729811}": [
+        {
+          "period": "2022-10",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9519252719624484}": [
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9528472331561803}": [
+        {
+          "period": "2020-02",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.954285724607735}": [
+        {
+          "period": "2020-05",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9559490422982673}": [
+        {
+          "period": "2022-03",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9560424148596219}": [
+        {
+          "period": "2022-06",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9575941787779221}": [
+        {
+          "period": "2023-06",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.959767237928009}": [
+        {
+          "period": "2021-03",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-12",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9603717754929678}": [
+        {
+          "period": "2020-01",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-06",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9618115427739691}": [
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-08",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9626886243276649}": [
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9630725036192559}": [
+        {
+          "period": "2021-06",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9660334053873476}": [
+        {
+          "period": "2023-05",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9672987750377351}": [
+        {
+          "period": "2023-12",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.967415217824672}": [
+        {
+          "period": "2022-10",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9674847264402019}": [
+        {
+          "period": "2022-12",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9686053782960002}": [
+        {
+          "period": "2022-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9694209079912927}": [
+        {
+          "period": "2023-07",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9714478590880024}": [
+        {
+          "period": "2021-02",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9730961444720944}": [
+        {
+          "period": "2022-01",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9770630037668946}": [
+        {
+          "period": "2023-05",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Line of Fire', 'score': 0.9796603895484014}": [
+        {
+          "period": "2021-01",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.356489764339713}": [
+        {
+          "period": "2023-08",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.35980922143180144}": [
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.36185388670356666}": [
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-04",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.3655352598313645}": [
+        {
+          "period": "2022-03",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.3767124581798281}": [
+        {
+          "period": "2022-03",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.3784129902195495}": [
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.38087512234730564}": [
+        {
+          "period": "2023-05",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.4037768901151955}": [
+        {
+          "period": "2020-09",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.43142556174181235}": [
+        {
+          "period": "2022-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.45103038372615734}": [
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-04",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.49492394381191607}": [
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.5040294580923146}": [
+        {
+          "period": "2022-03",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.5092036894890206}": [
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.5184504452207858}": [
+        {
+          "period": "2021-01",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.6819403930092305}": [
+        {
+          "period": "2023-09",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.8344699112887274}": [
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.8988705397933612}": [
+        {
+          "period": "2022-12",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.8994245104961996}": [
+        {
+          "period": "2023-01",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.9001393065869545}": [
+        {
+          "period": "2023-09",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.9242903790910391}": [
+        {
+          "period": "2020-07",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.9371780851111702}": [
+        {
+          "period": "2022-10",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.9463493725444153}": [
+        {
+          "period": "2020-07",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.9466551359718238}": [
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.9485032014923228}": [
+        {
+          "period": "2022-10",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.949232614245347}": [
+        {
+          "period": "2020-11",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.9530187119567163}": [
+        {
+          "period": "2020-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.9580211419252606}": [
+        {
+          "period": "2020-12",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-06",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.9594447738860516}": [
+        {
+          "period": "2023-04",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.959534785133937}": [
+        {
+          "period": "2023-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.9608745670522778}": [
+        {
+          "period": "2022-06",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.963797660580696}": [
+        {
+          "period": "2020-07",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.9654554235547069}": [
+        {
+          "period": "2020-08",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.9655269712974649}": [
+        {
+          "period": "2021-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.9656805887433778}": [
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.9667241735789898}": [
+        {
+          "period": "2021-08",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.9681505403107984}": [
+        {
+          "period": "2020-01",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.9682594122344912}": [
+        {
+          "period": "2023-10",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.9748259069247585}": [
+        {
+          "period": "2022-01",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.9794328885610151}": [
+        {
+          "period": "2021-09",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-11",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.9801586955886717}": [
+        {
+          "period": "2020-01",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.9815301231814074}": [
+        {
+          "period": "2023-06",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Safe Mechanical Lifting', 'score': 0.9821191443030381}": [
+        {
+          "period": "2021-02",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.39541927651419295}": [
+        {
+          "period": "2023-03",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.4068420547580749}": [
+        {
+          "period": "2020-05",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.4197562102937099}": [
+        {
+          "period": "2020-05",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-02",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.42838404588376544}": [
+        {
+          "period": "2020-12",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.633586951410885}": [
+        {
+          "period": "2020-03",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.730347865678284}": [
+        {
+          "period": "2020-02",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.7662018178742556}": [
+        {
+          "period": "2022-05",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.7739271703133211}": [
+        {
+          "period": "2021-02",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-12",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.7971085263096898}": [
+        {
+          "period": "2022-10",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.7971085278065722}": [
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.820656233805858}": [
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.8290270620672928}": [
+        {
+          "period": "2023-03",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.8290270620672929}": [
+        {
+          "period": "2022-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.8377516917734027}": [
+        {
+          "period": "2022-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.839686873153895}": [
+        {
+          "period": "2023-08",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.8613597829285186}": [
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.8765173640139687}": [
+        {
+          "period": "2022-06",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.8804007655392799}": [
+        {
+          "period": "2021-02",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.8828358047307964}": [
+        {
+          "period": "2023-06",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.900936840841433}": [
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.9080307840034003}": [
+        {
+          "period": "2021-05",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.9082586676925709}": [
+        {
+          "period": "2020-05",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.9680063203731277}": [
+        {
+          "period": "2023-05",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.9701382667623936}": [
+        {
+          "period": "2023-05",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.9736767165821753}": [
+        {
+          "period": "2020-11",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-09",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-12",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.9744406415438173}": [
+        {
+          "period": "2020-09",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-05",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.9750988630779711}": [
+        {
+          "period": "2023-04",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.9752847103288999}": [
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.9754613440116715}": [
+        {
+          "period": "2023-10",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.9762476617061756}": [
+        {
+          "period": "2023-08",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.9783564277339861}": [
+        {
+          "period": "2023-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.9849039413423302}": [
+        {
+          "period": "2021-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.9867807067527453}": [
+        {
+          "period": "2020-08",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.9879468319841963}": [
+        {
+          "period": "2020-09",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-07",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work Authorization', 'score': 0.9893296812558172}": [
+        {
+          "period": "2022-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.3655804972672481}": [
+        {
+          "period": "2022-12",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.4003337701424578}": [
+        {
+          "period": "2023-09",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.7035730754767296}": [
+        {
+          "period": "2020-04",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.8849168375328156}": [
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9274781913564526}": [
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9312633125810524}": [
+        {
+          "period": "2020-10",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9369333587711826}": [
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9378004870324955}": [
+        {
+          "period": "2022-10",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9408166498450589}": [
+        {
+          "period": "2020-12",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-04",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9467289945397901}": [
+        {
+          "period": "2021-08",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9515001291617037}": [
+        {
+          "period": "2023-01",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9518014831319904}": [
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9530141841220521}": [
+        {
+          "period": "2021-02",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9557208122680356}": [
+        {
+          "period": "2020-05",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9583303526647206}": [
+        {
+          "period": "2023-07",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9589647167569414}": [
+        {
+          "period": "2022-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9613533844787692}": [
+        {
+          "period": "2023-07",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9629528872688576}": [
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-04",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9640882572437395}": [
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-04",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9642263974293286}": [
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.964345004051119}": [
+        {
+          "period": "2022-03",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9648959645952662}": [
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9661784147919787}": [
+        {
+          "period": "2020-08",
+          "count": 2,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-05",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.966612555272115}": [
+        {
+          "period": "2023-08",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9669974056102263}": [
+        {
+          "period": "2020-09",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9671604420222534}": [
+        {
+          "period": "2022-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.96744093830893}": [
+        {
+          "period": "2020-09",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-05",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9679231343591529}": [
+        {
+          "period": "2022-05",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9700342946942437}": [
+        {
+          "period": "2021-05",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9724289092706015}": [
+        {
+          "period": "2022-03",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9724840159847183}": [
+        {
+          "period": "2023-06",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9730861440589242}": [
+        {
+          "period": "2022-01",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9740226413762558}": [
+        {
+          "period": "2022-05",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9748130030739495}": [
+        {
+          "period": "2022-06",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9770038979476149}": [
+        {
+          "period": "2022-12",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-05",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9802354282946568}": [
+        {
+          "period": "2023-08",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9836749657053078}": [
+        {
+          "period": "2022-01",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9840897290757539}": [
+        {
+          "period": "2023-09",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'rule': 'Work at Height', 'score': 0.9852809224080582}": [
+        {
+          "period": "2020-08",
+          "count": 1,
+          "sif_count": 1
+        }
+      ]
+    },
+    "monthly_hazard_frequency": {
+      "{'value': 'Confined Atmosphere', 'evidence': 'Engulfment', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2021-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Confined Atmosphere', 'evidence': 'Oxygen deficiency', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2022-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-12",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Dropped Object', 'evidence': 'Dropped object', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Electrical Energy', 'evidence': 'Electrical', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2020-01",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2020-12",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-04",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-12",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-04",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-06",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Fall from Height', 'evidence': 'Fall from height', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2020-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Fall from Height', 'evidence': 'Open grating', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2020-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Fire/Explosion', 'evidence': 'Explosion', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2021-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Fire/Explosion', 'evidence': 'Fire', 'confidence': 'MEDIUM', 'match_method': 'regex'}": [
+        {
+          "period": "2020-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-05",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Fire/Explosion', 'evidence': 'fire', 'confidence': 'MEDIUM', 'match_method': 'regex'}": [
+        {
+          "period": "2022-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-09",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'H2S Exposure', 'evidence': 'H2S', 'confidence': 'MEDIUM', 'match_method': 'regex'}": [
+        {
+          "period": "2021-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Line-of-Fire Exposure', 'evidence': 'Caught between objects', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2022-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-10",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-12",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Line-of-Fire Exposure', 'evidence': 'Line of Fire', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2020-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-06",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Line-of-Fire Exposure', 'evidence': 'Struck by moving object', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2023-07",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Line-of-Fire Exposure', 'evidence': 'pinch point', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2020-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-06",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Loss of Containment', 'evidence': 'Loss of containment', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2020-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-12",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Loss of Containment', 'evidence': 'Steam leak', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2022-04",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Loss of Containment', 'evidence': 'release', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2020-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-06",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-03",
+          "count": 1,
+          "sif_count": 0
+        }
+      ],
+      "{'value': 'Pressurized Equipment', 'evidence': 'High pressure release', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2020-03",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Pressurized Equipment', 'evidence': 'Overpressure', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2021-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-08",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Stored Energy', 'evidence': 'Whip from parted cable', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2020-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Suspended Load', 'evidence': 'Crane tip-over', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2020-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-09",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Suspended Load', 'evidence': 'Rigging failure', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-01",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Suspended Load', 'evidence': 'Swinging load', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2021-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-06",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Suspended Load', 'evidence': 'suspended load', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2020-07",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Toxic Gas', 'evidence': 'Toxic fumes', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2020-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-09",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Unidentified Hazards', 'evidence': 'Simultaneous operations clash', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Unidentified Hazards', 'evidence': 'Uncontrolled work', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2021-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-05",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Unidentified Hazards', 'evidence': 'Unidentified hazards', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2020-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-06",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Vehicle Interaction', 'evidence': 'Loss of control', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Vehicle Interaction', 'evidence': 'Pedestrian impact', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-03",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Vehicle Interaction', 'evidence': 'Rollover', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2022-01",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Vehicle Interaction', 'evidence': 'Vehicle collision', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2020-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-06",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'Vehicle Interaction', 'evidence': 'loss of control', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2021-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-01",
+          "count": 1,
+          "sif_count": 1
+        }
+      ]
+    },
+    "monthly_barrier_frequency": {
+      "{'value': 'BARRICADING_FAILURE', 'evidence': 'No barricade below', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2020-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'COMMUNICATION_FAILURE', 'evidence': 'Fire watcher absent', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2020-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-01",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'ENERGY_ISOLATION_FAILURE', 'evidence': 'Bleed valve closed', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2021-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'ENERGY_ISOLATION_FAILURE', 'evidence': 'Energy not verified zero', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'ENERGY_ISOLATION_FAILURE', 'evidence': 'LOTO not applied', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2022-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-01",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'ENERGY_ISOLATION_FAILURE', 'evidence': 'Padlock missing', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2021-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-04",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'FALL_PROTECTION_FAILURE', 'evidence': 'Harness not clipped', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'FALL_PROTECTION_FAILURE', 'evidence': 'Missing toe boards', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'FALL_PROTECTION_FAILURE', 'evidence': 'Scaffold tag missing', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2021-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-01",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'GAS_TEST_FAILURE', 'evidence': 'Gas test expired', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2020-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-09",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'GAS_TEST_FAILURE', 'evidence': 'Gas test not performed', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2022-12",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'Damaged slings used', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2022-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-09",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'No tag lines used', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2023-01",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'Outriggers not extended', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2020-07",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-12",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'Overloaded crane', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2021-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'LINE_OF_FIRE_CONTROL_FAILURE', 'evidence': 'Exclusion zone breached', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2020-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-06",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'LINE_OF_FIRE_CONTROL_FAILURE', 'evidence': 'Standing in pinch point', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2020-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-06",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'LINE_OF_FIRE_CONTROL_FAILURE', 'evidence': 'Tension line snapped', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2022-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-12",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'SAFETY_DEVICE_BYPASS', 'evidence': 'Alarm disabled', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2020-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'SAFETY_DEVICE_BYPASS', 'evidence': 'Interlock bridged', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2020-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'SAFETY_DEVICE_BYPASS', 'evidence': 'Override left active', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2020-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-03",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'SAFETY_DEVICE_BYPASS', 'evidence': 'Safety valve isolated', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2021-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-12",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'TRAFFIC_CONTROL_FAILURE', 'evidence': 'Brakes defective', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2020-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-06",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'TRAFFIC_CONTROL_FAILURE', 'evidence': 'Fatigued driver', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2022-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'TRAFFIC_CONTROL_FAILURE', 'evidence': 'Speeding', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2022-03",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'TRAFFIC_CONTROL_FAILURE', 'evidence': 'Using mobile phone', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2022-03",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'WORK_AUTHORIZATION_FAILURE', 'evidence': 'Expired permit', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2023-05",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'WORK_AUTHORIZATION_FAILURE', 'evidence': 'JSA not discussed', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2020-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-06",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'WORK_AUTHORIZATION_FAILURE', 'evidence': 'PTW not issued', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2021-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "{'value': 'WORK_AUTHORIZATION_FAILURE', 'evidence': 'Wrong permit type', 'confidence': 'HIGH', 'match_method': 'regex'}": [
+        {
+          "period": "2020-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-06",
+          "count": 1,
+          "sif_count": 1
+        }
+      ]
+    },
+    "data_quality_warnings": []
+  }
+}

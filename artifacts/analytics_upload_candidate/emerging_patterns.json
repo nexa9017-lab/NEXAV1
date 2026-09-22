@@ -1,0 +1,11 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-22T20:19:44.419140",
+    "source_dataset": "enriched_reports.csv",
+    "report_count": 375,
+    "analytics_version": "0.5.0",
+    "uses_predicted_fields": true,
+    "prototype_notice": "Analytics are generated from synthetic data and model-predicted fields for demonstration purposes."
+  },
+  "data": []
+}

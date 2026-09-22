@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-22T20:19:44.419140",
+    "source_dataset": "enriched_reports.csv",
+    "report_count": 375,
+    "analytics_version": "0.5.0",
+    "uses_predicted_fields": true,
+    "prototype_notice": "Analytics are generated from synthetic data and model-predicted fields for demonstration purposes."
+  },
+  "data": [
+    {
+      "pattern_id": "activity_hazard__{'value':_'operations',_'evidence':_'process_operation',_'confidence':_'high',_'match_method':_'regex'}__{'value':_'loss_of_containment',_'evidence':_'loss_of_containment',_'confidence':_'high',_'match_method':_'regex'}",
+      "pattern_type": "activity_hazard",
+      "components": {
+        "activity": "{'value': 'Operations', 'evidence': 'Process Operation', 'confidence': 'HIGH', 'match_method': 'regex'}",
+        "hazards": "{'value': 'Loss of Containment', 'evidence': 'Loss of containment', 'confidence': 'HIGH', 'match_method': 'regex'}"
+      },
+      "occurrences": 5,
+      "sif_count": 5,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9373,
+      "support_ratio": 0.0133,
+      "affected_site_count": 4,
+      "affected_sites": [
+        "Station Foxtrot",
+        "Platform Charlie",
+        "Site Alpha",
+        "Facility Bravo"
+      ],
+      "date_range": {
+        "min": "2020-03-21",
+        "max": "2022-12-02"
+      },
+      "example_report_ids": [
+        "REP-0E99F988",
+        "REP-3E00109C",
+        "REP-C366E449",
+        "REP-6D7EBB4D",
+        "REP-2ED3F35D"
+      ],
+      "example_reports": [
+        {
+          "report_id": "REP-0E99F988",
+          "description_excerpt": "While investigating Fire & Gas Panel, it was found that Safety valve isolated during Process Operation. This exposed the..."
+        },
+        {
+          "report_id": "REP-3E00109C",
+          "description_excerpt": "While investigating Pressure Safety Valve PSV-90, it was found that Safety valve isolated during Process Operation. This..."
+        },
+        {
+          "report_id": "REP-C366E449",
+          "description_excerpt": "While investigating Pressure Safety Valve PSV-90, it was found that Alarm disabled during Process Operation. This expose..."
+        }
+      ],
+      "data_quality_warnings": [
+        "LOW_PATTERN_SUPPORT"
+      ],
+      "priority_score": 88.4,
+      "priority_components": {
+        "frequency": 0.5,
+        "sif_density": 1.0,
+        "avg_sif_probability": 0.9373,
+        "cross_site": 1.0
+      },
+      "priority_weights": {
+        "frequency": 0.2,
+        "sif_density": 0.35,
+        "avg_sif_probability": 0.25,
+        "cross_site": 0.2
+      },
+      "priority_label": "Prototype Prioritization Score"
+    },
+    {
+      "pattern_id": "activity_hazard__{'value':_'chemical_handling',_'evidence':_'toxic',_'confidence':_'medium',_'match_method':_'regex'}__{'value':_'toxic_gas',_'evidence':_'toxic_fumes',_'confidence':_'high',_'match_method':_'regex'}",
+      "pattern_type": "activity_hazard",
+      "components": {
+        "activity": "{'value': 'Chemical Handling', 'evidence': 'Toxic', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+        "hazards": "{'value': 'Toxic Gas', 'evidence': 'Toxic fumes', 'confidence': 'HIGH', 'match_method': 'regex'}"
+      },
+      "occurrences": 5,
+      "sif_count": 5,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8555,
+      "support_ratio": 0.0133,
+      "affected_site_count": 4,
+      "affected_sites": [
+        "Refinery Delta",
+        "Facility Bravo",
+        "Site Alpha",
+        "Terminal Echo"
+      ],
+      "date_range": {
+        "min": "2020-03-05",
+        "max": "2023-09-05"
+      },
+      "example_report_ids": [
+        "REP-CB903FAC",
+        "REP-6A6FC483",
+        "REP-DFBCDB76",
+        "REP-3C575B28",
+        "REP-B56AD6B0"
+      ],
+      "example_reports": [
+        {
+          "report_id": "REP-CB903FAC",
+          "description_excerpt": "Torch Cutting was started on Pipe Spool P-10 near a live process area. Fire watcher absent was observed, posing a massiv..."
+        },
+        {
+          "report_id": "REP-6A6FC483",
+          "description_excerpt": "A contractor began Torch Cutting using Angle Grinder. A safety walk discovered Sparks falling to lower deck, immediately..."
+        },
+        {
+          "report_id": "REP-DFBCDB76",
+          "description_excerpt": "A contractor began Torch Cutting using Pipe Spool P-10. A safety walk discovered Fire watcher absent, immediately stoppi..."
+        }
+      ],
+      "data_quality_warnings": [
+        "LOW_PATTERN_SUPPORT"
+      ],
+      "priority_score": 86.4,
+      "priority_components": {
+        "frequency": 0.5,
+        "sif_density": 1.0,
+        "avg_sif_probability": 0.8555,
+        "cross_site": 1.0
+      },
+      "priority_weights": {
+        "frequency": 0.2,
+        "sif_density": 0.35,
+        "avg_sif_probability": 0.25,
+        "cross_site": 0.2
+      },
+      "priority_label": "Prototype Prioritization Score"
+    },
+    {
+      "pattern_id": "site_hazard__{'value':_'electrical_energy',_'evidence':_'electrical',_'confidence':_'high',_'match_method':_'regex'}__site_alpha",
+      "pattern_type": "site_hazard",
+      "components": {
+        "site": "Site Alpha",
+        "hazards": "{'value': 'Electrical Energy', 'evidence': 'Electrical', 'confidence': 'HIGH', 'match_method': 'regex'}"
+      },
+      "occurrences": 5,
+      "sif_count": 4,
+      "non_sif_count": 1,
+      "sif_density": 0.8,
+      "avg_sif_probability": 0.7084,
+      "support_ratio": 0.0133,
+      "affected_site_count": 1,
+      "affected_sites": [
+        "Site Alpha"
+      ],
+      "date_range": {
+        "min": "2021-04-18",
+        "max": "2023-11-01"
+      },
+      "example_report_ids": [
+        "REP-8F7F9C01",
+        "REP-09717D9F",
+        "REP-C600224D",
+        "REP-816CD071",
+        "REP-6A76B9D4"
+      ],
+      "example_reports": [
+        {
+          "report_id": "REP-8F7F9C01",
+          "description_excerpt": "The tag for Electrical Panel EP-5 was faded during Repair. No Electrical shock was present, but tag needs replacement."
+        },
+        {
+          "report_id": "REP-09717D9F",
+          "description_excerpt": "While inspecting Heat Exchanger HX-2, Electrical shock was narrowly avoided because LOTO not applied."
+        },
+        {
+          "report_id": "REP-C600224D",
+          "description_excerpt": "Operator was performing Repair on Electrical Panel EP-5. It was discovered that Energy not verified zero, leaving the sy..."
+        }
+      ],
+      "data_quality_warnings": [
+        "LOW_PATTERN_SUPPORT"
+      ],
+      "priority_score": 55.7,
+      "priority_components": {
+        "frequency": 0.5,
+        "sif_density": 0.8,
+        "avg_sif_probability": 0.7084,
+        "cross_site": 0.0
+      },
+      "priority_weights": {
+        "frequency": 0.2,
+        "sif_density": 0.35,
+        "avg_sif_probability": 0.25,
+        "cross_site": 0.2
+      },
+      "priority_label": "Prototype Prioritization Score"
+    }
+  ]
+}

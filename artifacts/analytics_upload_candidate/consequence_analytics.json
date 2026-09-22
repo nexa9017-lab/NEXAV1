@@ -1,0 +1,3656 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-22T20:19:44.419140",
+    "source_dataset": "enriched_reports.csv",
+    "report_count": 375,
+    "analytics_version": "0.5.0",
+    "uses_predicted_fields": true,
+    "prototype_notice": "Analytics are generated from synthetic data and model-predicted fields for demonstration purposes."
+  },
+  "data": [
+    {
+      "name": "{'value': 'Electrical Injury', 'evidence': 'shock', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 8,
+      "sif_count": 5,
+      "non_sif_count": 3,
+      "sif_density": 0.625,
+      "avg_sif_probability": 0.574,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Electrical Energy', 'evidence': 'Electrical', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 7,
+          "sif_count": 5,
+          "non_sif_count": 2,
+          "sif_density": 0.7143,
+          "avg_sif_probability": 0.6339,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'ENERGY_ISOLATION_FAILURE', 'evidence': 'Padlock missing', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9519,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'ENERGY_ISOLATION_FAILURE', 'evidence': 'LOTO not applied', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.617,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Maintenance', 'evidence': 'inspecting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7271,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Maintenance', 'evidence': 'Maintenance', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9542,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Maintenance', 'evidence': 'Repair', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1738,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Maintenance', 'evidence': 'Inspection', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1546,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Major Process Safety Event', 'evidence': 'Loss of containment', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 6,
+      "sif_count": 6,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.94,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Loss of Containment', 'evidence': 'Loss of containment', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 6,
+          "sif_count": 6,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.94,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'SAFETY_DEVICE_BYPASS', 'evidence': 'Interlock bridged', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9515,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'SAFETY_DEVICE_BYPASS', 'evidence': 'Safety valve isolated', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9186,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'SAFETY_DEVICE_BYPASS', 'evidence': 'Alarm disabled', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9482,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Operations', 'evidence': 'Process Operation', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 5,
+          "sif_count": 5,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9373,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Operations', 'evidence': 'Alarm Testing', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9532,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Electrical Injury', 'evidence': 'Electrical', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 5,
+      "sif_count": 2,
+      "non_sif_count": 3,
+      "sif_density": 0.4,
+      "avg_sif_probability": 0.2805,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Electrical Energy', 'evidence': 'Electrical', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 5,
+          "sif_count": 2,
+          "non_sif_count": 3,
+          "sif_density": 0.4,
+          "avg_sif_probability": 0.2805,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'H2S Exposure', 'evidence': 'H2S', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.4767,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Loss of Containment', 'evidence': 'Steam leak', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8064,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'ENERGY_ISOLATION_FAILURE', 'evidence': 'Energy not verified zero', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8064,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'ENERGY_ISOLATION_FAILURE', 'evidence': 'LOTO not applied', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.4767,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Maintenance', 'evidence': 'Maintenance', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0472,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Maintenance', 'evidence': 'Repair', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8064,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Maintenance', 'evidence': 'inspecting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.4767,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Pipefitting', 'evidence': 'Pipefitting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.0251,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Explosion Injury', 'evidence': 'Fire', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 5,
+      "sif_count": 5,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8455,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Fire/Explosion', 'evidence': 'Fire', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 5,
+          "sif_count": 5,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8455,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Toxic Gas', 'evidence': 'Toxic fumes', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.848,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'COMMUNICATION_FAILURE', 'evidence': 'Fire watcher absent', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8583,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Chemical Handling', 'evidence': 'Toxic', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.848,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Contractor Work', 'evidence': 'contractor', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8479,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Hot Work', 'evidence': 'Torch Cutting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.848,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Hot Work', 'evidence': 'Grinding', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8787,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Hot Work', 'evidence': 'Soldering', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8755,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Fatal Exposure', 'evidence': 'H2S', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 5,
+      "sif_count": 5,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8054,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'H2S Exposure', 'evidence': 'H2S', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 5,
+          "sif_count": 5,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8054,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Electrical Energy', 'evidence': 'Electrical', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.4767,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'ENERGY_ISOLATION_FAILURE', 'evidence': 'Padlock missing', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9207,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'ENERGY_ISOLATION_FAILURE', 'evidence': 'Bleed valve closed', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7883,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'ENERGY_ISOLATION_FAILURE', 'evidence': 'LOTO not applied', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.4767,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Maintenance', 'evidence': 'inspecting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7715,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Maintenance', 'evidence': 'Inspection', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9412,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Fatal Exposure', 'evidence': 'fatality', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 5,
+      "sif_count": 5,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8957,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Confined Atmosphere', 'evidence': 'Engulfment', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9533,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Dropped Object', 'evidence': 'Dropped object', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8808,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Fall from Height', 'evidence': 'Fall from height', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7489,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Fall from Height', 'evidence': 'Open grating', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9423,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'FALL_PROTECTION_FAILURE', 'evidence': 'Harness not clipped', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8149,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'BARRICADING_FAILURE', 'evidence': 'No barricade below', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9423,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Painting', 'evidence': 'Painting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9116,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Cleaning', 'evidence': 'Cleaning', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9467,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Confined Space Entry', 'evidence': 'Tank Cleaning', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9467,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Maintenance', 'evidence': 'Inspection', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9599,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Maintenance', 'evidence': 'Repair', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7489,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Fire Injury', 'evidence': 'Fire', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 5,
+      "sif_count": 5,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8455,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Fire/Explosion', 'evidence': 'Fire', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 5,
+          "sif_count": 5,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8455,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Toxic Gas', 'evidence': 'Toxic fumes', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.848,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'COMMUNICATION_FAILURE', 'evidence': 'Fire watcher absent', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8583,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Chemical Handling', 'evidence': 'Toxic', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.848,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Contractor Work', 'evidence': 'contractor', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8479,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Hot Work', 'evidence': 'Torch Cutting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.848,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Hot Work', 'evidence': 'Grinding', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8787,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Hot Work', 'evidence': 'Soldering', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8755,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Loss of Consciousness', 'evidence': 'H2S', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 5,
+      "sif_count": 5,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8054,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'H2S Exposure', 'evidence': 'H2S', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 5,
+          "sif_count": 5,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8054,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Electrical Energy', 'evidence': 'Electrical', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.4767,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'ENERGY_ISOLATION_FAILURE', 'evidence': 'Padlock missing', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9207,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'ENERGY_ISOLATION_FAILURE', 'evidence': 'Bleed valve closed', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7883,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'ENERGY_ISOLATION_FAILURE', 'evidence': 'LOTO not applied', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.4767,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Maintenance', 'evidence': 'inspecting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7715,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Maintenance', 'evidence': 'Inspection', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9412,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Major Process Safety Event', 'evidence': 'Fire', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 5,
+      "sif_count": 5,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8455,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Fire/Explosion', 'evidence': 'Fire', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 5,
+          "sif_count": 5,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8455,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Toxic Gas', 'evidence': 'Toxic fumes', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.848,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'COMMUNICATION_FAILURE', 'evidence': 'Fire watcher absent', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8583,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Chemical Handling', 'evidence': 'Toxic', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.848,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Contractor Work', 'evidence': 'contractor', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8479,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Hot Work', 'evidence': 'Torch Cutting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.848,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Hot Work', 'evidence': 'Grinding', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8787,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Hot Work', 'evidence': 'Soldering', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8755,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Toxic Exposure', 'evidence': 'H2S', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 5,
+      "sif_count": 5,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8054,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'H2S Exposure', 'evidence': 'H2S', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 5,
+          "sif_count": 5,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8054,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Electrical Energy', 'evidence': 'Electrical', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.4767,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'ENERGY_ISOLATION_FAILURE', 'evidence': 'Padlock missing', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9207,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'ENERGY_ISOLATION_FAILURE', 'evidence': 'Bleed valve closed', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7883,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'ENERGY_ISOLATION_FAILURE', 'evidence': 'LOTO not applied', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.4767,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Maintenance', 'evidence': 'inspecting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7715,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Maintenance', 'evidence': 'Inspection', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9412,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Toxic Exposure', 'evidence': 'fumes', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 5,
+      "sif_count": 5,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8555,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Toxic Gas', 'evidence': 'Toxic fumes', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 5,
+          "sif_count": 5,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8555,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Fire/Explosion', 'evidence': 'Fire', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.848,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Fire/Explosion', 'evidence': 'fire', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8782,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'COMMUNICATION_FAILURE', 'evidence': 'Fire watcher absent', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.848,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'GAS_TEST_FAILURE', 'evidence': 'Gas test expired', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8338,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Chemical Handling', 'evidence': 'Toxic', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 5,
+          "sif_count": 5,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8555,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Hot Work', 'evidence': 'Torch Cutting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8498,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Contractor Work', 'evidence': 'contractor', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8656,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Hot Work', 'evidence': 'Welding', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8782,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Crushing Injury', 'evidence': 'Crane tip-over', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 4,
+      "sif_count": 4,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9047,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Suspended Load', 'evidence': 'Crane tip-over', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9047,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'Outriggers not extended', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8586,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'Damaged slings used', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9513,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'Overloaded crane', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9502,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Mechanical Lifting', 'evidence': 'Lifting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9223,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Mechanical Lifting', 'evidence': 'Hoisting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8519,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Major Process Safety Event', 'evidence': 'Process safety event', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 4,
+      "sif_count": 4,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9325,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'SAFETY_DEVICE_BYPASS', 'evidence': 'Alarm disabled', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9573,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'SAFETY_DEVICE_BYPASS', 'evidence': 'Interlock bridged', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9391,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'SAFETY_DEVICE_BYPASS', 'evidence': 'Override left active', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8764,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Maintenance', 'evidence': 'Maintenance', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9228,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Operations', 'evidence': 'Alarm Testing', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9619,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Struck-By Injury', 'evidence': 'Crane tip-over', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 4,
+      "sif_count": 4,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9047,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Suspended Load', 'evidence': 'Crane tip-over', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9047,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'Outriggers not extended', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8586,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'Damaged slings used', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9513,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'Overloaded crane', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9502,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Mechanical Lifting', 'evidence': 'Lifting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9223,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Mechanical Lifting', 'evidence': 'Hoisting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8519,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Vehicle / Pedestrian Injury', 'evidence': 'Loss of control', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 4,
+      "sif_count": 4,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8798,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Vehicle Interaction', 'evidence': 'Loss of control', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8798,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'TRAFFIC_CONTROL_FAILURE', 'evidence': 'Fatigued driver', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8695,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'TRAFFIC_CONTROL_FAILURE', 'evidence': 'Brakes defective', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9392,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'TRAFFIC_CONTROL_FAILURE', 'evidence': 'Using mobile phone', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8409,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Vehicle Movement', 'evidence': 'Material Delivery', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8155,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Vehicle Movement', 'evidence': 'Heavy Haulage', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9488,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Vehicle Movement', 'evidence': 'Transporting Personnel', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9392,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Explosion Injury', 'evidence': 'fire', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 3,
+      "sif_count": 3,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9026,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Fire/Explosion', 'evidence': 'fire', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9026,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Toxic Gas', 'evidence': 'Toxic fumes', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8782,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'GAS_TEST_FAILURE', 'evidence': 'Gas test expired', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8962,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Hot Work', 'evidence': 'Welding', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8962,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Chemical Handling', 'evidence': 'Toxic', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8782,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Hot Work', 'evidence': 'Soldering', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9154,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Fall Injury', 'evidence': 'Fall', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 3,
+      "sif_count": 3,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.791,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Fall from Height', 'evidence': 'Fall from height', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.791,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'FALL_PROTECTION_FAILURE', 'evidence': 'Harness not clipped', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7489,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'FALL_PROTECTION_FAILURE', 'evidence': 'Missing toe boards', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9001,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'FALL_PROTECTION_FAILURE', 'evidence': 'Scaffold tag missing', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7239,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Maintenance', 'evidence': 'Inspection', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9001,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Maintenance', 'evidence': 'Repair', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7489,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Working at Height', 'evidence': 'Scaffold', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7489,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Working at Height', 'evidence': 'Scaffolding', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7239,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Working at Height', 'evidence': 'height', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9001,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Fatal Fall', 'evidence': 'Fall from height', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 3,
+      "sif_count": 3,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.791,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Fall from Height', 'evidence': 'Fall from height', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.791,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'FALL_PROTECTION_FAILURE', 'evidence': 'Harness not clipped', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7489,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'FALL_PROTECTION_FAILURE', 'evidence': 'Missing toe boards', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9001,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'FALL_PROTECTION_FAILURE', 'evidence': 'Scaffold tag missing', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7239,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Maintenance', 'evidence': 'Inspection', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9001,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Maintenance', 'evidence': 'Repair', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7489,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Working at Height', 'evidence': 'Scaffold', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7489,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Working at Height', 'evidence': 'Scaffolding', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7239,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Working at Height', 'evidence': 'height', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9001,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Fire Injury', 'evidence': 'fire', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 3,
+      "sif_count": 3,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9026,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Fire/Explosion', 'evidence': 'fire', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9026,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Toxic Gas', 'evidence': 'Toxic fumes', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8782,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'GAS_TEST_FAILURE', 'evidence': 'Gas test expired', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8962,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Hot Work', 'evidence': 'Welding', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8962,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Chemical Handling', 'evidence': 'Toxic', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8782,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Hot Work', 'evidence': 'Soldering', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9154,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Major Equipment Damage', 'evidence': 'Equipment destruction', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 3,
+      "sif_count": 3,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9385,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'SAFETY_DEVICE_BYPASS', 'evidence': 'Alarm disabled', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9196,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'SAFETY_DEVICE_BYPASS', 'evidence': 'Override left active', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9552,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'SAFETY_DEVICE_BYPASS', 'evidence': 'Safety valve isolated', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9406,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Operations', 'evidence': 'Process Operation', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9479,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Maintenance', 'evidence': 'Maintenance', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9196,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Major Process Safety Event', 'evidence': 'Steam leak', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 3,
+      "sif_count": 3,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.7816,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Loss of Containment', 'evidence': 'Steam leak', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7816,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Electrical Energy', 'evidence': 'Electrical', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8064,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'ENERGY_ISOLATION_FAILURE', 'evidence': 'Bleed valve closed', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7396,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'ENERGY_ISOLATION_FAILURE', 'evidence': 'Energy not verified zero', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8064,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'ENERGY_ISOLATION_FAILURE', 'evidence': 'Padlock missing', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7989,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Maintenance', 'evidence': 'Repair', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.773,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Maintenance', 'evidence': 'inspecting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7989,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Major Process Safety Event', 'evidence': 'fire', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 3,
+      "sif_count": 3,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9026,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Fire/Explosion', 'evidence': 'fire', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9026,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Toxic Gas', 'evidence': 'Toxic fumes', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8782,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'GAS_TEST_FAILURE', 'evidence': 'Gas test expired', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8962,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Hot Work', 'evidence': 'Welding', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8962,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Chemical Handling', 'evidence': 'Toxic', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8782,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Hot Work', 'evidence': 'Soldering', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9154,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Struck-By Injury', 'evidence': 'Struck by', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 3,
+      "sif_count": 3,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.971,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Line-of-Fire Exposure', 'evidence': 'Line of Fire', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9782,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Line-of-Fire Exposure', 'evidence': 'Struck by moving object', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9804,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Line-of-Fire Exposure', 'evidence': 'pinch point', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9543,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'LINE_OF_FIRE_CONTROL_FAILURE', 'evidence': 'Exclusion zone breached', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9782,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'LINE_OF_FIRE_CONTROL_FAILURE', 'evidence': 'Standing in pinch point', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9543,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'LINE_OF_FIRE_CONTROL_FAILURE', 'evidence': 'Tension line snapped', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9804,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Drilling', 'evidence': 'Drill', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9543,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Hot Work', 'evidence': 'Grinding', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9804,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Pressure Testing', 'evidence': 'Pressure Testing', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9543,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Torquing', 'evidence': 'Torque', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9804,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Torquing', 'evidence': 'Torquing', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9782,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Crushing Injury', 'evidence': 'Rigging failure', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 2,
+      "sif_count": 2,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.945,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Suspended Load', 'evidence': 'Rigging failure', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.945,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Vehicle Interaction', 'evidence': 'loss of control', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9398,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'No tag lines used', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9398,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'Overloaded crane', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9503,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Loading/Unloading', 'evidence': 'load', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9398,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Mechanical Lifting', 'evidence': 'Hoisting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9503,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Mechanical Lifting', 'evidence': 'Rigging', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9398,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Crushing Injury', 'evidence': 'Swinging load', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 2,
+      "sif_count": 2,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9242,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Suspended Load', 'evidence': 'Swinging load', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9242,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Vehicle Interaction', 'evidence': 'loss of control', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9262,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'Damaged slings used', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9222,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'Overloaded crane', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9262,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Loading/Unloading', 'evidence': 'load', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9242,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Mechanical Lifting', 'evidence': 'Hoisting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9262,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Mechanical Lifting', 'evidence': 'Lifting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9222,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Explosion Injury', 'evidence': 'Explosion', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 2,
+      "sif_count": 2,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8519,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Fire/Explosion', 'evidence': 'Explosion', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8519,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'COMMUNICATION_FAILURE', 'evidence': 'Fire watcher absent', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8766,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Hot Work', 'evidence': 'Soldering', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8766,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Hot Work', 'evidence': 'Welding', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8273,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Fall Injury', 'evidence': 'Open grating', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 2,
+      "sif_count": 2,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9206,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Fall from Height', 'evidence': 'Open grating', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9206,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'BARRICADING_FAILURE', 'evidence': 'No barricade below', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9423,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'FALL_PROTECTION_FAILURE', 'evidence': 'Harness not clipped', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8989,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Mechanical Lifting', 'evidence': 'Crane', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9423,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Mechanical Lifting', 'evidence': 'Rigging', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8989,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Painting', 'evidence': 'Painting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9423,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Fatal Fall', 'evidence': 'Open grating', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 2,
+      "sif_count": 2,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9206,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Fall from Height', 'evidence': 'Open grating', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9206,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'BARRICADING_FAILURE', 'evidence': 'No barricade below', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9423,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'FALL_PROTECTION_FAILURE', 'evidence': 'Harness not clipped', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8989,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Mechanical Lifting', 'evidence': 'Crane', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9423,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Mechanical Lifting', 'evidence': 'Rigging', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8989,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Painting', 'evidence': 'Painting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9423,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Fire Injury', 'evidence': 'Explosion', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 2,
+      "sif_count": 2,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8519,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Fire/Explosion', 'evidence': 'Explosion', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8519,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'COMMUNICATION_FAILURE', 'evidence': 'Fire watcher absent', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8766,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Hot Work', 'evidence': 'Soldering', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8766,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Hot Work', 'evidence': 'Welding', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8273,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Major Process Safety Event', 'evidence': 'Explosion', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 2,
+      "sif_count": 2,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8519,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Fire/Explosion', 'evidence': 'Explosion', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8519,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'COMMUNICATION_FAILURE', 'evidence': 'Fire watcher absent', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8766,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Hot Work', 'evidence': 'Soldering', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8766,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Hot Work', 'evidence': 'Welding', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8273,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Major Process Safety Event', 'evidence': 'Overpressure', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 2,
+      "sif_count": 2,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9524,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Pressurized Equipment', 'evidence': 'Overpressure', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9524,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'SAFETY_DEVICE_BYPASS', 'evidence': 'Alarm disabled', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9745,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'SAFETY_DEVICE_BYPASS', 'evidence': 'Interlock bridged', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9303,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Operations', 'evidence': 'Process Operation', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9524,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Major Process Safety Event', 'evidence': 'release', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 2,
+      "sif_count": 0,
+      "non_sif_count": 2,
+      "sif_density": 0.0,
+      "avg_sif_probability": 0.1157,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Loss of Containment', 'evidence': 'release', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 0,
+          "non_sif_count": 2,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1157,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Maintenance', 'evidence': 'Inspection', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.1154,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Maintenance', 'evidence': 'Maintenance', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 0,
+          "non_sif_count": 1,
+          "sif_density": 0.0,
+          "avg_sif_probability": 0.116,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Serious Burns', 'evidence': 'Severe burns', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 2,
+      "sif_count": 2,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8389,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Fire/Explosion', 'evidence': 'fire', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9154,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Hot Work', 'evidence': 'Grinding', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7624,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Hot Work', 'evidence': 'Soldering', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9154,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Struck-By Injury', 'evidence': 'Rigging failure', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 2,
+      "sif_count": 2,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.945,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Suspended Load', 'evidence': 'Rigging failure', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.945,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Vehicle Interaction', 'evidence': 'loss of control', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9398,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'No tag lines used', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9398,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'Overloaded crane', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9503,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Loading/Unloading', 'evidence': 'load', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9398,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Mechanical Lifting', 'evidence': 'Hoisting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9503,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Mechanical Lifting', 'evidence': 'Rigging', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9398,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Struck-By Injury', 'evidence': 'Swinging load', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 2,
+      "sif_count": 2,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9242,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Suspended Load', 'evidence': 'Swinging load', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9242,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Vehicle Interaction', 'evidence': 'loss of control', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9262,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'Damaged slings used', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9222,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'Overloaded crane', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9262,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Loading/Unloading', 'evidence': 'load', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9242,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Mechanical Lifting', 'evidence': 'Hoisting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9262,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Mechanical Lifting', 'evidence': 'Lifting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9222,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Vehicle / Pedestrian Injury', 'evidence': 'Pedestrian impact', 'confidence': 'HIGH', 'match_method': 'regex'}",
+      "total_reports": 2,
+      "sif_count": 2,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9376,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Vehicle Interaction', 'evidence': 'Pedestrian impact', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9376,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'TRAFFIC_CONTROL_FAILURE', 'evidence': 'Brakes defective', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9734,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'TRAFFIC_CONTROL_FAILURE', 'evidence': 'Speeding', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9018,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Vehicle Movement', 'evidence': 'Material Delivery', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9018,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Vehicle Movement', 'evidence': 'Transporting Personnel', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9734,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Vehicle / Pedestrian Injury', 'evidence': 'Vehicle collision', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 2,
+      "sif_count": 2,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9223,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Vehicle Interaction', 'evidence': 'Vehicle collision', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9223,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'TRAFFIC_CONTROL_FAILURE', 'evidence': 'Brakes defective', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9223,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Vehicle Movement', 'evidence': 'Heavy Haulage', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.889,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Vehicle Movement', 'evidence': 'Site Patrol', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9556,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Vehicle / Pedestrian Injury', 'evidence': 'loss of control', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 2,
+      "sif_count": 2,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.933,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Vehicle Interaction', 'evidence': 'loss of control', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.933,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Suspended Load', 'evidence': 'Rigging failure', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9398,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Suspended Load', 'evidence': 'Swinging load', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9262,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'No tag lines used', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9398,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'Overloaded crane', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9262,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Loading/Unloading', 'evidence': 'load', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.933,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Mechanical Lifting', 'evidence': 'Hoisting', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9262,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Mechanical Lifting', 'evidence': 'Rigging', 'confidence': 'MEDIUM', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9398,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Crushing Injury', 'evidence': 'suspended load', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 1,
+      "sif_count": 1,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9286,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Suspended Load', 'evidence': 'suspended load', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9286,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'Outriggers not extended', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9286,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Loading/Unloading', 'evidence': 'load', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9286,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Mechanical Lifting', 'evidence': 'Forklift Operation', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9286,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Major Process Safety Event', 'evidence': 'High pressure release', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 1,
+      "sif_count": 1,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9161,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Loss of Containment', 'evidence': 'release', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9161,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Pressurized Equipment', 'evidence': 'High pressure release', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9161,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Excavation', 'evidence': 'Trenching', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9161,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Struck-By Injury', 'evidence': 'suspended load', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 1,
+      "sif_count": 1,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9286,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Suspended Load', 'evidence': 'suspended load', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9286,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'LIFTING_CONTROL_FAILURE', 'evidence': 'Outriggers not extended', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9286,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Loading/Unloading', 'evidence': 'load', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9286,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "{'value': 'Mechanical Lifting', 'evidence': 'Forklift Operation', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9286,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "{'value': 'Vehicle / Pedestrian Injury', 'evidence': 'Rollover', 'confidence': 'MEDIUM', 'match_method': 'synonym'}",
+      "total_reports": 1,
+      "sif_count": 1,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8513,
+      "data_quality_warnings": [
+        "LOW_SAMPLE_SIZE"
+      ],
+      "label": "Potential Consequence",
+      "associated_hazards": [
+        {
+          "name": "{'value': 'Vehicle Interaction', 'evidence': 'Rollover', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8513,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "{'value': 'TRAFFIC_CONTROL_FAILURE', 'evidence': 'Fatigued driver', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8513,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "affected_activities": [
+        {
+          "name": "{'value': 'Vehicle Movement', 'evidence': 'Site Patrol', 'confidence': 'HIGH', 'match_method': 'regex'}",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8513,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    }
+  ]
+}

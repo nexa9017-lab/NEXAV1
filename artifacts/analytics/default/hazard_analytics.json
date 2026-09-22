@@ -1,0 +1,1133 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-22T18:19:14.472733",
+    "source_dataset": "enriched_reports.csv",
+    "report_count": 2500,
+    "analytics_version": "0.5.0",
+    "uses_predicted_fields": true,
+    "prototype_notice": "Analytics are generated from synthetic data and model-predicted fields for demonstration purposes."
+  },
+  "data": [
+    {
+      "name": "Loss of Containment",
+      "total_reports": 104,
+      "sif_count": 74,
+      "non_sif_count": 30,
+      "sif_density": 0.7115,
+      "avg_sif_probability": 0.6362,
+      "data_quality_warnings": [],
+      "associated_sites": [
+        "Station Foxtrot",
+        "Refinery Delta",
+        "Platform Charlie",
+        "Site Alpha",
+        "Facility Bravo",
+        "Terminal Echo"
+      ],
+      "associated_site_count": 6,
+      "associated_activities": [
+        {
+          "name": "Maintenance",
+          "total_reports": 60,
+          "sif_count": 38,
+          "non_sif_count": 22,
+          "sif_density": 0.6333,
+          "avg_sif_probability": 0.5441,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Operations",
+          "total_reports": 15,
+          "sif_count": 15,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9454,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Pipefitting",
+          "total_reports": 13,
+          "sif_count": 5,
+          "non_sif_count": 8,
+          "sif_density": 0.3846,
+          "avg_sif_probability": 0.3351,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Torquing",
+          "total_reports": 8,
+          "sif_count": 8,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9473,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Excavation",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9243,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "ENERGY_ISOLATION_FAILURE",
+          "total_reports": 42,
+          "sif_count": 41,
+          "non_sif_count": 1,
+          "sif_density": 0.9762,
+          "avg_sif_probability": 0.7754,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "SAFETY_DEVICE_BYPASS",
+          "total_reports": 17,
+          "sif_count": 17,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.944,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "LINE_OF_FIRE_CONTROL_FAILURE",
+          "total_reports": 12,
+          "sif_count": 12,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9344,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "BARRICADING_FAILURE",
+          "total_reports": 1,
+          "sif_count": 1,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9815,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vehicle Interaction",
+      "total_reports": 79,
+      "sif_count": 79,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9258,
+      "data_quality_warnings": [],
+      "associated_sites": [
+        "Facility Bravo",
+        "Station Foxtrot",
+        "Site Alpha",
+        "Refinery Delta",
+        "Terminal Echo",
+        "Platform Charlie"
+      ],
+      "associated_site_count": 6,
+      "associated_activities": [
+        {
+          "name": "Vehicle Movement",
+          "total_reports": 58,
+          "sif_count": 58,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9196,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Loading/Unloading",
+          "total_reports": 21,
+          "sif_count": 21,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9431,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Mechanical Lifting",
+          "total_reports": 21,
+          "sif_count": 21,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9431,
+          "data_quality_warnings": []
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "TRAFFIC_CONTROL_FAILURE",
+          "total_reports": 58,
+          "sif_count": 58,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9196,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "LIFTING_CONTROL_FAILURE",
+          "total_reports": 21,
+          "sif_count": 21,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9431,
+          "data_quality_warnings": []
+        }
+      ]
+    },
+    {
+      "name": "Pressurized Equipment",
+      "total_reports": 75,
+      "sif_count": 75,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8931,
+      "data_quality_warnings": [],
+      "associated_sites": [
+        "Refinery Delta",
+        "Site Alpha",
+        "Terminal Echo",
+        "Platform Charlie",
+        "Facility Bravo",
+        "Station Foxtrot"
+      ],
+      "associated_site_count": 6,
+      "associated_activities": [
+        {
+          "name": "Maintenance",
+          "total_reports": 33,
+          "sif_count": 33,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.853,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Operations",
+          "total_reports": 17,
+          "sif_count": 17,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9573,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Torquing",
+          "total_reports": 9,
+          "sif_count": 9,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9489,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Pipefitting",
+          "total_reports": 7,
+          "sif_count": 7,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.805,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Excavation",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9243,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "ENERGY_ISOLATION_FAILURE",
+          "total_reports": 33,
+          "sif_count": 33,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8258,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "SAFETY_DEVICE_BYPASS",
+          "total_reports": 24,
+          "sif_count": 24,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9504,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "LINE_OF_FIRE_CONTROL_FAILURE",
+          "total_reports": 13,
+          "sif_count": 13,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9379,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "BARRICADING_FAILURE",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9714,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unidentified Hazards",
+      "total_reports": 72,
+      "sif_count": 72,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8354,
+      "data_quality_warnings": [],
+      "associated_sites": [
+        "Site Alpha",
+        "Facility Bravo",
+        "Platform Charlie",
+        "Terminal Echo",
+        "Refinery Delta",
+        "Station Foxtrot"
+      ],
+      "associated_site_count": 6,
+      "associated_activities": [
+        {
+          "name": "Maintenance",
+          "total_reports": 42,
+          "sif_count": 42,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8165,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Contractor Work",
+          "total_reports": 25,
+          "sif_count": 25,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8411,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Operations",
+          "total_reports": 21,
+          "sif_count": 21,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.884,
+          "data_quality_warnings": []
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "WORK_AUTHORIZATION_FAILURE",
+          "total_reports": 72,
+          "sif_count": 72,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8354,
+          "data_quality_warnings": []
+        }
+      ]
+    },
+    {
+      "name": "Suspended Load",
+      "total_reports": 68,
+      "sif_count": 68,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9257,
+      "data_quality_warnings": [],
+      "associated_sites": [
+        "Facility Bravo",
+        "Station Foxtrot",
+        "Site Alpha",
+        "Refinery Delta",
+        "Platform Charlie",
+        "Terminal Echo"
+      ],
+      "associated_site_count": 6,
+      "associated_activities": [
+        {
+          "name": "Mechanical Lifting",
+          "total_reports": 68,
+          "sif_count": 68,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9257,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Loading/Unloading",
+          "total_reports": 49,
+          "sif_count": 49,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9304,
+          "data_quality_warnings": []
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "LIFTING_CONTROL_FAILURE",
+          "total_reports": 68,
+          "sif_count": 68,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9257,
+          "data_quality_warnings": []
+        }
+      ]
+    },
+    {
+      "name": "Electrical Energy",
+      "total_reports": 66,
+      "sif_count": 31,
+      "non_sif_count": 35,
+      "sif_density": 0.4697,
+      "avg_sif_probability": 0.4205,
+      "data_quality_warnings": [],
+      "associated_sites": [
+        "Station Foxtrot",
+        "Facility Bravo",
+        "Site Alpha",
+        "Platform Charlie",
+        "Refinery Delta",
+        "Terminal Echo"
+      ],
+      "associated_site_count": 6,
+      "associated_activities": [
+        {
+          "name": "Maintenance",
+          "total_reports": 52,
+          "sif_count": 27,
+          "non_sif_count": 25,
+          "sif_density": 0.5192,
+          "avg_sif_probability": 0.4619,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Pipefitting",
+          "total_reports": 14,
+          "sif_count": 4,
+          "non_sif_count": 10,
+          "sif_density": 0.2857,
+          "avg_sif_probability": 0.2667,
+          "data_quality_warnings": []
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "ENERGY_ISOLATION_FAILURE",
+          "total_reports": 31,
+          "sif_count": 31,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8203,
+          "data_quality_warnings": []
+        }
+      ]
+    },
+    {
+      "name": "Fire/Explosion",
+      "total_reports": 61,
+      "sif_count": 61,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.882,
+      "data_quality_warnings": [],
+      "associated_sites": [
+        "Refinery Delta",
+        "Station Foxtrot",
+        "Facility Bravo",
+        "Site Alpha",
+        "Terminal Echo",
+        "Platform Charlie"
+      ],
+      "associated_site_count": 6,
+      "associated_activities": [
+        {
+          "name": "Hot Work",
+          "total_reports": 61,
+          "sif_count": 61,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.882,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Chemical Handling",
+          "total_reports": 21,
+          "sif_count": 21,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8893,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Contractor Work",
+          "total_reports": 11,
+          "sif_count": 11,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8248,
+          "data_quality_warnings": []
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "COMMUNICATION_FAILURE",
+          "total_reports": 19,
+          "sif_count": 19,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8855,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "GAS_TEST_FAILURE",
+          "total_reports": 15,
+          "sif_count": 15,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8782,
+          "data_quality_warnings": []
+        }
+      ]
+    },
+    {
+      "name": "Line-of-Fire Exposure",
+      "total_reports": 54,
+      "sif_count": 54,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9495,
+      "data_quality_warnings": [],
+      "associated_sites": [
+        "Site Alpha",
+        "Station Foxtrot",
+        "Refinery Delta",
+        "Platform Charlie",
+        "Terminal Echo",
+        "Facility Bravo"
+      ],
+      "associated_site_count": 6,
+      "associated_activities": [
+        {
+          "name": "Torquing",
+          "total_reports": 23,
+          "sif_count": 23,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9482,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Mechanical Lifting",
+          "total_reports": 15,
+          "sif_count": 15,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9592,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Drilling",
+          "total_reports": 12,
+          "sif_count": 12,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9325,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Pressure Testing",
+          "total_reports": 10,
+          "sif_count": 10,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9611,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Excavation",
+          "total_reports": 9,
+          "sif_count": 9,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.941,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "LINE_OF_FIRE_CONTROL_FAILURE",
+          "total_reports": 45,
+          "sif_count": 45,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9492,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "BARRICADING_FAILURE",
+          "total_reports": 8,
+          "sif_count": 8,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9584,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Confined Atmosphere",
+      "total_reports": 38,
+      "sif_count": 38,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.9011,
+      "data_quality_warnings": [],
+      "associated_sites": [
+        "Station Foxtrot",
+        "Refinery Delta",
+        "Terminal Echo",
+        "Site Alpha",
+        "Platform Charlie",
+        "Facility Bravo"
+      ],
+      "associated_site_count": 6,
+      "associated_activities": [
+        {
+          "name": "Confined Space Entry",
+          "total_reports": 19,
+          "sif_count": 19,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8817,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Hot Work",
+          "total_reports": 14,
+          "sif_count": 14,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8978,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Maintenance",
+          "total_reports": 13,
+          "sif_count": 13,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.933,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Cleaning",
+          "total_reports": 11,
+          "sif_count": 11,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8676,
+          "data_quality_warnings": []
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "COMMUNICATION_FAILURE",
+          "total_reports": 9,
+          "sif_count": 9,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9292,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "GAS_TEST_FAILURE",
+          "total_reports": 6,
+          "sif_count": 6,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8582,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fall from Height",
+      "total_reports": 33,
+      "sif_count": 33,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8185,
+      "data_quality_warnings": [],
+      "associated_sites": [
+        "Station Foxtrot",
+        "Platform Charlie",
+        "Refinery Delta",
+        "Terminal Echo",
+        "Facility Bravo",
+        "Site Alpha"
+      ],
+      "associated_site_count": 6,
+      "associated_activities": [
+        {
+          "name": "Working at Height",
+          "total_reports": 24,
+          "sif_count": 24,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7961,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Maintenance",
+          "total_reports": 17,
+          "sif_count": 17,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7762,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Mechanical Lifting",
+          "total_reports": 12,
+          "sif_count": 12,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8542,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Painting",
+          "total_reports": 6,
+          "sif_count": 6,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8422,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "FALL_PROTECTION_FAILURE",
+          "total_reports": 23,
+          "sif_count": 23,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7798,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "BARRICADING_FAILURE",
+          "total_reports": 10,
+          "sif_count": 10,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9076,
+          "data_quality_warnings": []
+        }
+      ]
+    },
+    {
+      "name": "Stored Energy",
+      "total_reports": 28,
+      "sif_count": 28,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8388,
+      "data_quality_warnings": [],
+      "associated_sites": [
+        "Site Alpha",
+        "Station Foxtrot",
+        "Terminal Echo",
+        "Platform Charlie",
+        "Refinery Delta",
+        "Facility Bravo"
+      ],
+      "associated_site_count": 6,
+      "associated_activities": [
+        {
+          "name": "Maintenance",
+          "total_reports": 12,
+          "sif_count": 12,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7539,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Mechanical Lifting",
+          "total_reports": 6,
+          "sif_count": 6,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9314,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Torquing",
+          "total_reports": 5,
+          "sif_count": 5,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9601,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Drilling",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8545,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Hot Work",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8236,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "ENERGY_ISOLATION_FAILURE",
+          "total_reports": 14,
+          "sif_count": 14,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7617,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "LINE_OF_FIRE_CONTROL_FAILURE",
+          "total_reports": 11,
+          "sif_count": 11,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9375,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "BARRICADING_FAILURE",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9505,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Toxic Gas",
+      "total_reports": 27,
+      "sif_count": 27,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8624,
+      "data_quality_warnings": [],
+      "associated_sites": [
+        "Refinery Delta",
+        "Station Foxtrot",
+        "Facility Bravo",
+        "Site Alpha",
+        "Terminal Echo",
+        "Platform Charlie"
+      ],
+      "associated_site_count": 6,
+      "associated_activities": [
+        {
+          "name": "Chemical Handling",
+          "total_reports": 27,
+          "sif_count": 27,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8624,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Hot Work",
+          "total_reports": 27,
+          "sif_count": 27,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8624,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Contractor Work",
+          "total_reports": 8,
+          "sif_count": 8,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7984,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "COMMUNICATION_FAILURE",
+          "total_reports": 11,
+          "sif_count": 11,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8669,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "GAS_TEST_FAILURE",
+          "total_reports": 8,
+          "sif_count": 8,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8726,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "H2S Exposure",
+      "total_reports": 14,
+      "sif_count": 14,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8181,
+      "data_quality_warnings": [],
+      "associated_sites": [
+        "Station Foxtrot",
+        "Facility Bravo",
+        "Terminal Echo",
+        "Site Alpha",
+        "Refinery Delta",
+        "Platform Charlie"
+      ],
+      "associated_site_count": 6,
+      "associated_activities": [
+        {
+          "name": "Maintenance",
+          "total_reports": 12,
+          "sif_count": 12,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8457,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Pipefitting",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.6522,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "ENERGY_ISOLATION_FAILURE",
+          "total_reports": 14,
+          "sif_count": 14,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8181,
+          "data_quality_warnings": []
+        }
+      ]
+    },
+    {
+      "name": "Hydrocarbon Release",
+      "total_reports": 12,
+      "sif_count": 12,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8324,
+      "data_quality_warnings": [],
+      "associated_sites": [
+        "Site Alpha",
+        "Terminal Echo",
+        "Refinery Delta",
+        "Facility Bravo",
+        "Platform Charlie",
+        "Station Foxtrot"
+      ],
+      "associated_site_count": 6,
+      "associated_activities": [
+        {
+          "name": "Maintenance",
+          "total_reports": 10,
+          "sif_count": 10,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8488,
+          "data_quality_warnings": []
+        },
+        {
+          "name": "Pipefitting",
+          "total_reports": 2,
+          "sif_count": 2,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7499,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "ENERGY_ISOLATION_FAILURE",
+          "total_reports": 12,
+          "sif_count": 12,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8324,
+          "data_quality_warnings": []
+        }
+      ]
+    },
+    {
+      "name": "Dropped Object",
+      "total_reports": 11,
+      "sif_count": 11,
+      "non_sif_count": 0,
+      "sif_density": 1.0,
+      "avg_sif_probability": 0.8382,
+      "data_quality_warnings": [],
+      "associated_sites": [
+        "Refinery Delta",
+        "Platform Charlie",
+        "Terminal Echo",
+        "Station Foxtrot",
+        "Facility Bravo"
+      ],
+      "associated_site_count": 5,
+      "associated_activities": [
+        {
+          "name": "Painting",
+          "total_reports": 5,
+          "sif_count": 5,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7956,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Maintenance",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8226,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Working at Height",
+          "total_reports": 4,
+          "sif_count": 4,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.7045,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "Mechanical Lifting",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9673,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ],
+      "associated_barriers": [
+        {
+          "name": "FALL_PROTECTION_FAILURE",
+          "total_reports": 8,
+          "sif_count": 8,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.8076,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        },
+        {
+          "name": "BARRICADING_FAILURE",
+          "total_reports": 3,
+          "sif_count": 3,
+          "non_sif_count": 0,
+          "sif_density": 1.0,
+          "avg_sif_probability": 0.9197,
+          "data_quality_warnings": [
+            "LOW_SAMPLE_SIZE"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8250 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-22T18:19:14.472733",
+    "source_dataset": "enriched_reports.csv",
+    "report_count": 2500,
+    "analytics_version": "0.5.0",
+    "uses_predicted_fields": true,
+    "prototype_notice": "Analytics are generated from synthetic data and model-predicted fields for demonstration purposes."
+  },
+  "data": {
+    "monthly": [
+      {
+        "period": "2020-01",
+        "period_type": "month",
+        "report_volume": 48,
+        "sif_count": 9,
+        "sif_density": 0.1875,
+        "avg_sif_probability": 0.2435,
+        "trends": null
+      },
+      {
+        "period": "2020-02",
+        "period_type": "month",
+        "report_volume": 53,
+        "sif_count": 16,
+        "sif_density": 0.3019,
+        "avg_sif_probability": 0.339,
+        "trends": {
+          "report_volume": {
+            "previous_value": 48,
+            "current_value": 53,
+            "absolute_change": 5,
+            "percentage_change": 0.1042
+          },
+          "sif_count": {
+            "previous_value": 9,
+            "current_value": 16,
+            "absolute_change": 7,
+            "percentage_change": 0.7778
+          },
+          "sif_density": {
+            "previous_value": 0.1875,
+            "current_value": 0.3019,
+            "absolute_change": 0.1144,
+            "percentage_change": 0.6101
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2435,
+            "current_value": 0.339,
+            "absolute_change": 0.0955,
+            "percentage_change": 0.3922
+          }
+        }
+      },
+      {
+        "period": "2020-03",
+        "period_type": "month",
+        "report_volume": 63,
+        "sif_count": 22,
+        "sif_density": 0.3492,
+        "avg_sif_probability": 0.3631,
+        "trends": {
+          "report_volume": {
+            "previous_value": 53,
+            "current_value": 63,
+            "absolute_change": 10,
+            "percentage_change": 0.1887
+          },
+          "sif_count": {
+            "previous_value": 16,
+            "current_value": 22,
+            "absolute_change": 6,
+            "percentage_change": 0.375
+          },
+          "sif_density": {
+            "previous_value": 0.3019,
+            "current_value": 0.3492,
+            "absolute_change": 0.0473,
+            "percentage_change": 0.1567
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.339,
+            "current_value": 0.3631,
+            "absolute_change": 0.0241,
+            "percentage_change": 0.0711
+          }
+        }
+      },
+      {
+        "period": "2020-04",
+        "period_type": "month",
+        "report_volume": 65,
+        "sif_count": 18,
+        "sif_density": 0.2769,
+        "avg_sif_probability": 0.313,
+        "trends": {
+          "report_volume": {
+            "previous_value": 63,
+            "current_value": 65,
+            "absolute_change": 2,
+            "percentage_change": 0.0317
+          },
+          "sif_count": {
+            "previous_value": 22,
+            "current_value": 18,
+            "absolute_change": -4,
+            "percentage_change": -0.1818
+          },
+          "sif_density": {
+            "previous_value": 0.3492,
+            "current_value": 0.2769,
+            "absolute_change": -0.0723,
+            "percentage_change": -0.207
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.3631,
+            "current_value": 0.313,
+            "absolute_change": -0.0501,
+            "percentage_change": -0.138
+          }
+        }
+      },
+      {
+        "period": "2020-05",
+        "period_type": "month",
+        "report_volume": 42,
+        "sif_count": 9,
+        "sif_density": 0.2143,
+        "avg_sif_probability": 0.274,
+        "trends": {
+          "report_volume": {
+            "previous_value": 65,
+            "current_value": 42,
+            "absolute_change": -23,
+            "percentage_change": -0.3538
+          },
+          "sif_count": {
+            "previous_value": 18,
+            "current_value": 9,
+            "absolute_change": -9,
+            "percentage_change": -0.5
+          },
+          "sif_density": {
+            "previous_value": 0.2769,
+            "current_value": 0.2143,
+            "absolute_change": -0.0626,
+            "percentage_change": -0.2261
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.313,
+            "current_value": 0.274,
+            "absolute_change": -0.039,
+            "percentage_change": -0.1246
+          }
+        }
+      },
+      {
+        "period": "2020-06",
+        "period_type": "month",
+        "report_volume": 52,
+        "sif_count": 10,
+        "sif_density": 0.1923,
+        "avg_sif_probability": 0.2507,
+        "trends": {
+          "report_volume": {
+            "previous_value": 42,
+            "current_value": 52,
+            "absolute_change": 10,
+            "percentage_change": 0.2381
+          },
+          "sif_count": {
+            "previous_value": 9,
+            "current_value": 10,
+            "absolute_change": 1,
+            "percentage_change": 0.1111
+          },
+          "sif_density": {
+            "previous_value": 0.2143,
+            "current_value": 0.1923,
+            "absolute_change": -0.022,
+            "percentage_change": -0.1027
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.274,
+            "current_value": 0.2507,
+            "absolute_change": -0.0233,
+            "percentage_change": -0.085
+          }
+        }
+      },
+      {
+        "period": "2020-07",
+        "period_type": "month",
+        "report_volume": 48,
+        "sif_count": 12,
+        "sif_density": 0.25,
+        "avg_sif_probability": 0.2932,
+        "trends": {
+          "report_volume": {
+            "previous_value": 52,
+            "current_value": 48,
+            "absolute_change": -4,
+            "percentage_change": -0.0769
+          },
+          "sif_count": {
+            "previous_value": 10,
+            "current_value": 12,
+            "absolute_change": 2,
+            "percentage_change": 0.2
+          },
+          "sif_density": {
+            "previous_value": 0.1923,
+            "current_value": 0.25,
+            "absolute_change": 0.0577,
+            "percentage_change": 0.3001
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2507,
+            "current_value": 0.2932,
+            "absolute_change": 0.0425,
+            "percentage_change": 0.1695
+          }
+        }
+      },
+      {
+        "period": "2020-08",
+        "period_type": "month",
+        "report_volume": 49,
+        "sif_count": 11,
+        "sif_density": 0.2245,
+        "avg_sif_probability": 0.2687,
+        "trends": {
+          "report_volume": {
+            "previous_value": 48,
+            "current_value": 49,
+            "absolute_change": 1,
+            "percentage_change": 0.0208
+          },
+          "sif_count": {
+            "previous_value": 12,
+            "current_value": 11,
+            "absolute_change": -1,
+            "percentage_change": -0.0833
+          },
+          "sif_density": {
+            "previous_value": 0.25,
+            "current_value": 0.2245,
+            "absolute_change": -0.0255,
+            "percentage_change": -0.102
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2932,
+            "current_value": 0.2687,
+            "absolute_change": -0.0245,
+            "percentage_change": -0.0836
+          }
+        }
+      },
+      {
+        "period": "2020-09",
+        "period_type": "month",
+        "report_volume": 52,
+        "sif_count": 14,
+        "sif_density": 0.2692,
+        "avg_sif_probability": 0.307,
+        "trends": {
+          "report_volume": {
+            "previous_value": 49,
+            "current_value": 52,
+            "absolute_change": 3,
+            "percentage_change": 0.0612
+          },
+          "sif_count": {
+            "previous_value": 11,
+            "current_value": 14,
+            "absolute_change": 3,
+            "percentage_change": 0.2727
+          },
+          "sif_density": {
+            "previous_value": 0.2245,
+            "current_value": 0.2692,
+            "absolute_change": 0.0447,
+            "percentage_change": 0.1991
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2687,
+            "current_value": 0.307,
+            "absolute_change": 0.0383,
+            "percentage_change": 0.1425
+          }
+        }
+      },
+      {
+        "period": "2020-10",
+        "period_type": "month",
+        "report_volume": 49,
+        "sif_count": 11,
+        "sif_density": 0.2245,
+        "avg_sif_probability": 0.2839,
+        "trends": {
+          "report_volume": {
+            "previous_value": 52,
+            "current_value": 49,
+            "absolute_change": -3,
+            "percentage_change": -0.0577
+          },
+          "sif_count": {
+            "previous_value": 14,
+            "current_value": 11,
+            "absolute_change": -3,
+            "percentage_change": -0.2143
+          },
+          "sif_density": {
+            "previous_value": 0.2692,
+            "current_value": 0.2245,
+            "absolute_change": -0.0447,
+            "percentage_change": -0.166
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.307,
+            "current_value": 0.2839,
+            "absolute_change": -0.0231,
+            "percentage_change": -0.0752
+          }
+        }
+      },
+      {
+        "period": "2020-11",
+        "period_type": "month",
+        "report_volume": 53,
+        "sif_count": 10,
+        "sif_density": 0.1887,
+        "avg_sif_probability": 0.2317,
+        "trends": {
+          "report_volume": {
+            "previous_value": 49,
+            "current_value": 53,
+            "absolute_change": 4,
+            "percentage_change": 0.0816
+          },
+          "sif_count": {
+            "previous_value": 11,
+            "current_value": 10,
+            "absolute_change": -1,
+            "percentage_change": -0.0909
+          },
+          "sif_density": {
+            "previous_value": 0.2245,
+            "current_value": 0.1887,
+            "absolute_change": -0.0358,
+            "percentage_change": -0.1595
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2839,
+            "current_value": 0.2317,
+            "absolute_change": -0.0522,
+            "percentage_change": -0.1839
+          }
+        }
+      },
+      {
+        "period": "2020-12",
+        "period_type": "month",
+        "report_volume": 55,
+        "sif_count": 12,
+        "sif_density": 0.2182,
+        "avg_sif_probability": 0.2765,
+        "trends": {
+          "report_volume": {
+            "previous_value": 53,
+            "current_value": 55,
+            "absolute_change": 2,
+            "percentage_change": 0.0377
+          },
+          "sif_count": {
+            "previous_value": 10,
+            "current_value": 12,
+            "absolute_change": 2,
+            "percentage_change": 0.2
+          },
+          "sif_density": {
+            "previous_value": 0.1887,
+            "current_value": 0.2182,
+            "absolute_change": 0.0295,
+            "percentage_change": 0.1563
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2317,
+            "current_value": 0.2765,
+            "absolute_change": 0.0448,
+            "percentage_change": 0.1934
+          }
+        }
+      },
+      {
+        "period": "2021-01",
+        "period_type": "month",
+        "report_volume": 51,
+        "sif_count": 14,
+        "sif_density": 0.2745,
+        "avg_sif_probability": 0.3228,
+        "trends": {
+          "report_volume": {
+            "previous_value": 55,
+            "current_value": 51,
+            "absolute_change": -4,
+            "percentage_change": -0.0727
+          },
+          "sif_count": {
+            "previous_value": 12,
+            "current_value": 14,
+            "absolute_change": 2,
+            "percentage_change": 0.1667
+          },
+          "sif_density": {
+            "previous_value": 0.2182,
+            "current_value": 0.2745,
+            "absolute_change": 0.0563,
+            "percentage_change": 0.258
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2765,
+            "current_value": 0.3228,
+            "absolute_change": 0.0463,
+            "percentage_change": 0.1675
+          }
+        }
+      },
+      {
+        "period": "2021-02",
+        "period_type": "month",
+        "report_volume": 46,
+        "sif_count": 11,
+        "sif_density": 0.2391,
+        "avg_sif_probability": 0.2907,
+        "trends": {
+          "report_volume": {
+            "previous_value": 51,
+            "current_value": 46,
+            "absolute_change": -5,
+            "percentage_change": -0.098
+          },
+          "sif_count": {
+            "previous_value": 14,
+            "current_value": 11,
+            "absolute_change": -3,
+            "percentage_change": -0.2143
+          },
+          "sif_density": {
+            "previous_value": 0.2745,
+            "current_value": 0.2391,
+            "absolute_change": -0.0354,
+            "percentage_change": -0.129
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.3228,
+            "current_value": 0.2907,
+            "absolute_change": -0.0321,
+            "percentage_change": -0.0994
+          }
+        }
+      },
+      {
+        "period": "2021-03",
+        "period_type": "month",
+        "report_volume": 49,
+        "sif_count": 11,
+        "sif_density": 0.2245,
+        "avg_sif_probability": 0.2615,
+        "trends": {
+          "report_volume": {
+            "previous_value": 46,
+            "current_value": 49,
+            "absolute_change": 3,
+            "percentage_change": 0.0652
+          },
+          "sif_count": {
+            "previous_value": 11,
+            "current_value": 11,
+            "absolute_change": 0,
+            "percentage_change": 0.0
+          },
+          "sif_density": {
+            "previous_value": 0.2391,
+            "current_value": 0.2245,
+            "absolute_change": -0.0146,
+            "percentage_change": -0.0611
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2907,
+            "current_value": 0.2615,
+            "absolute_change": -0.0292,
+            "percentage_change": -0.1004
+          }
+        }
+      },
+      {
+        "period": "2021-04",
+        "period_type": "month",
+        "report_volume": 53,
+        "sif_count": 12,
+        "sif_density": 0.2264,
+        "avg_sif_probability": 0.277,
+        "trends": {
+          "report_volume": {
+            "previous_value": 49,
+            "current_value": 53,
+            "absolute_change": 4,
+            "percentage_change": 0.0816
+          },
+          "sif_count": {
+            "previous_value": 11,
+            "current_value": 12,
+            "absolute_change": 1,
+            "percentage_change": 0.0909
+          },
+          "sif_density": {
+            "previous_value": 0.2245,
+            "current_value": 0.2264,
+            "absolute_change": 0.0019,
+            "percentage_change": 0.0085
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2615,
+            "current_value": 0.277,
+            "absolute_change": 0.0155,
+            "percentage_change": 0.0593
+          }
+        }
+      },
+      {
+        "period": "2021-05",
+        "period_type": "month",
+        "report_volume": 56,
+        "sif_count": 15,
+        "sif_density": 0.2679,
+        "avg_sif_probability": 0.3005,
+        "trends": {
+          "report_volume": {
+            "previous_value": 53,
+            "current_value": 56,
+            "absolute_change": 3,
+            "percentage_change": 0.0566
+          },
+          "sif_count": {
+            "previous_value": 12,
+            "current_value": 15,
+            "absolute_change": 3,
+            "percentage_change": 0.25
+          },
+          "sif_density": {
+            "previous_value": 0.2264,
+            "current_value": 0.2679,
+            "absolute_change": 0.0415,
+            "percentage_change": 0.1833
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.277,
+            "current_value": 0.3005,
+            "absolute_change": 0.0235,
+            "percentage_change": 0.0848
+          }
+        }
+      },
+      {
+        "period": "2021-06",
+        "period_type": "month",
+        "report_volume": 52,
+        "sif_count": 9,
+        "sif_density": 0.1731,
+        "avg_sif_probability": 0.2454,
+        "trends": {
+          "report_volume": {
+            "previous_value": 56,
+            "current_value": 52,
+            "absolute_change": -4,
+            "percentage_change": -0.0714
+          },
+          "sif_count": {
+            "previous_value": 15,
+            "current_value": 9,
+            "absolute_change": -6,
+            "percentage_change": -0.4
+          },
+          "sif_density": {
+            "previous_value": 0.2679,
+            "current_value": 0.1731,
+            "absolute_change": -0.0948,
+            "percentage_change": -0.3539
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.3005,
+            "current_value": 0.2454,
+            "absolute_change": -0.0551,
+            "percentage_change": -0.1834
+          }
+        }
+      },
+      {
+        "period": "2021-07",
+        "period_type": "month",
+        "report_volume": 51,
+        "sif_count": 17,
+        "sif_density": 0.3333,
+        "avg_sif_probability": 0.3687,
+        "trends": {
+          "report_volume": {
+            "previous_value": 52,
+            "current_value": 51,
+            "absolute_change": -1,
+            "percentage_change": -0.0192
+          },
+          "sif_count": {
+            "previous_value": 9,
+            "current_value": 17,
+            "absolute_change": 8,
+            "percentage_change": 0.8889
+          },
+          "sif_density": {
+            "previous_value": 0.1731,
+            "current_value": 0.3333,
+            "absolute_change": 0.1602,
+            "percentage_change": 0.9255
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2454,
+            "current_value": 0.3687,
+            "absolute_change": 0.1233,
+            "percentage_change": 0.5024
+          }
+        }
+      },
+      {
+        "period": "2021-08",
+        "period_type": "month",
+        "report_volume": 53,
+        "sif_count": 14,
+        "sif_density": 0.2642,
+        "avg_sif_probability": 0.3007,
+        "trends": {
+          "report_volume": {
+            "previous_value": 51,
+            "current_value": 53,
+            "absolute_change": 2,
+            "percentage_change": 0.0392
+          },
+          "sif_count": {
+            "previous_value": 17,
+            "current_value": 14,
+            "absolute_change": -3,
+            "percentage_change": -0.1765
+          },
+          "sif_density": {
+            "previous_value": 0.3333,
+            "current_value": 0.2642,
+            "absolute_change": -0.0691,
+            "percentage_change": -0.2073
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.3687,
+            "current_value": 0.3007,
+            "absolute_change": -0.068,
+            "percentage_change": -0.1844
+          }
+        }
+      },
+      {
+        "period": "2021-09",
+        "period_type": "month",
+        "report_volume": 58,
+        "sif_count": 11,
+        "sif_density": 0.1897,
+        "avg_sif_probability": 0.234,
+        "trends": {
+          "report_volume": {
+            "previous_value": 53,
+            "current_value": 58,
+            "absolute_change": 5,
+            "percentage_change": 0.0943
+          },
+          "sif_count": {
+            "previous_value": 14,
+            "current_value": 11,
+            "absolute_change": -3,
+            "percentage_change": -0.2143
+          },
+          "sif_density": {
+            "previous_value": 0.2642,
+            "current_value": 0.1897,
+            "absolute_change": -0.0745,
+            "percentage_change": -0.282
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.3007,
+            "current_value": 0.234,
+            "absolute_change": -0.0667,
+            "percentage_change": -0.2218
+          }
+        }
+      },
+      {
+        "period": "2021-10",
+        "period_type": "month",
+        "report_volume": 36,
+        "sif_count": 8,
+        "sif_density": 0.2222,
+        "avg_sif_probability": 0.2713,
+        "trends": {
+          "report_volume": {
+            "previous_value": 58,
+            "current_value": 36,
+            "absolute_change": -22,
+            "percentage_change": -0.3793
+          },
+          "sif_count": {
+            "previous_value": 11,
+            "current_value": 8,
+            "absolute_change": -3,
+            "percentage_change": -0.2727
+          },
+          "sif_density": {
+            "previous_value": 0.1897,
+            "current_value": 0.2222,
+            "absolute_change": 0.0325,
+            "percentage_change": 0.1713
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.234,
+            "current_value": 0.2713,
+            "absolute_change": 0.0373,
+            "percentage_change": 0.1594
+          }
+        }
+      },
+      {
+        "period": "2021-11",
+        "period_type": "month",
+        "report_volume": 55,
+        "sif_count": 14,
+        "sif_density": 0.2545,
+        "avg_sif_probability": 0.3021,
+        "trends": {
+          "report_volume": {
+            "previous_value": 36,
+            "current_value": 55,
+            "absolute_change": 19,
+            "percentage_change": 0.5278
+          },
+          "sif_count": {
+            "previous_value": 8,
+            "current_value": 14,
+            "absolute_change": 6,
+            "percentage_change": 0.75
+          },
+          "sif_density": {
+            "previous_value": 0.2222,
+            "current_value": 0.2545,
+            "absolute_change": 0.0323,
+            "percentage_change": 0.1454
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2713,
+            "current_value": 0.3021,
+            "absolute_change": 0.0308,
+            "percentage_change": 0.1135
+          }
+        }
+      },
+      {
+        "period": "2021-12",
+        "period_type": "month",
+        "report_volume": 47,
+        "sif_count": 13,
+        "sif_density": 0.2766,
+        "avg_sif_probability": 0.3075,
+        "trends": {
+          "report_volume": {
+            "previous_value": 55,
+            "current_value": 47,
+            "absolute_change": -8,
+            "percentage_change": -0.1455
+          },
+          "sif_count": {
+            "previous_value": 14,
+            "current_value": 13,
+            "absolute_change": -1,
+            "percentage_change": -0.0714
+          },
+          "sif_density": {
+            "previous_value": 0.2545,
+            "current_value": 0.2766,
+            "absolute_change": 0.0221,
+            "percentage_change": 0.0868
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.3021,
+            "current_value": 0.3075,
+            "absolute_change": 0.0054,
+            "percentage_change": 0.0179
+          }
+        }
+      },
+      {
+        "period": "2022-01",
+        "period_type": "month",
+        "report_volume": 46,
+        "sif_count": 10,
+        "sif_density": 0.2174,
+        "avg_sif_probability": 0.2477,
+        "trends": {
+          "report_volume": {
+            "previous_value": 47,
+            "current_value": 46,
+            "absolute_change": -1,
+            "percentage_change": -0.0213
+          },
+          "sif_count": {
+            "previous_value": 13,
+            "current_value": 10,
+            "absolute_change": -3,
+            "percentage_change": -0.2308
+          },
+          "sif_density": {
+            "previous_value": 0.2766,
+            "current_value": 0.2174,
+            "absolute_change": -0.0592,
+            "percentage_change": -0.214
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.3075,
+            "current_value": 0.2477,
+            "absolute_change": -0.0598,
+            "percentage_change": -0.1945
+          }
+        }
+      },
+      {
+        "period": "2022-02",
+        "period_type": "month",
+        "report_volume": 56,
+        "sif_count": 16,
+        "sif_density": 0.2857,
+        "avg_sif_probability": 0.3023,
+        "trends": {
+          "report_volume": {
+            "previous_value": 46,
+            "current_value": 56,
+            "absolute_change": 10,
+            "percentage_change": 0.2174
+          },
+          "sif_count": {
+            "previous_value": 10,
+            "current_value": 16,
+            "absolute_change": 6,
+            "percentage_change": 0.6
+          },
+          "sif_density": {
+            "previous_value": 0.2174,
+            "current_value": 0.2857,
+            "absolute_change": 0.0683,
+            "percentage_change": 0.3142
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2477,
+            "current_value": 0.3023,
+            "absolute_change": 0.0546,
+            "percentage_change": 0.2204
+          }
+        }
+      },
+      {
+        "period": "2022-03",
+        "period_type": "month",
+        "report_volume": 72,
+        "sif_count": 15,
+        "sif_density": 0.2083,
+        "avg_sif_probability": 0.2603,
+        "trends": {
+          "report_volume": {
+            "previous_value": 56,
+            "current_value": 72,
+            "absolute_change": 16,
+            "percentage_change": 0.2857
+          },
+          "sif_count": {
+            "previous_value": 16,
+            "current_value": 15,
+            "absolute_change": -1,
+            "percentage_change": -0.0625
+          },
+          "sif_density": {
+            "previous_value": 0.2857,
+            "current_value": 0.2083,
+            "absolute_change": -0.0774,
+            "percentage_change": -0.2709
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.3023,
+            "current_value": 0.2603,
+            "absolute_change": -0.042,
+            "percentage_change": -0.1389
+          }
+        }
+      },
+      {
+        "period": "2022-04",
+        "period_type": "month",
+        "report_volume": 61,
+        "sif_count": 17,
+        "sif_density": 0.2787,
+        "avg_sif_probability": 0.3162,
+        "trends": {
+          "report_volume": {
+            "previous_value": 72,
+            "current_value": 61,
+            "absolute_change": -11,
+            "percentage_change": -0.1528
+          },
+          "sif_count": {
+            "previous_value": 15,
+            "current_value": 17,
+            "absolute_change": 2,
+            "percentage_change": 0.1333
+          },
+          "sif_density": {
+            "previous_value": 0.2083,
+            "current_value": 0.2787,
+            "absolute_change": 0.0704,
+            "percentage_change": 0.338
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2603,
+            "current_value": 0.3162,
+            "absolute_change": 0.0559,
+            "percentage_change": 0.2148
+          }
+        }
+      },
+      {
+        "period": "2022-05",
+        "period_type": "month",
+        "report_volume": 48,
+        "sif_count": 18,
+        "sif_density": 0.375,
+        "avg_sif_probability": 0.3909,
+        "trends": {
+          "report_volume": {
+            "previous_value": 61,
+            "current_value": 48,
+            "absolute_change": -13,
+            "percentage_change": -0.2131
+          },
+          "sif_count": {
+            "previous_value": 17,
+            "current_value": 18,
+            "absolute_change": 1,
+            "percentage_change": 0.0588
+          },
+          "sif_density": {
+            "previous_value": 0.2787,
+            "current_value": 0.375,
+            "absolute_change": 0.0963,
+            "percentage_change": 0.3455
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.3162,
+            "current_value": 0.3909,
+            "absolute_change": 0.0747,
+            "percentage_change": 0.2362
+          }
+        }
+      },
+      {
+        "period": "2022-06",
+        "period_type": "month",
+        "report_volume": 46,
+        "sif_count": 16,
+        "sif_density": 0.3478,
+        "avg_sif_probability": 0.3723,
+        "trends": {
+          "report_volume": {
+            "previous_value": 48,
+            "current_value": 46,
+            "absolute_change": -2,
+            "percentage_change": -0.0417
+          },
+          "sif_count": {
+            "previous_value": 18,
+            "current_value": 16,
+            "absolute_change": -2,
+            "percentage_change": -0.1111
+          },
+          "sif_density": {
+            "previous_value": 0.375,
+            "current_value": 0.3478,
+            "absolute_change": -0.0272,
+            "percentage_change": -0.0725
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.3909,
+            "current_value": 0.3723,
+            "absolute_change": -0.0186,
+            "percentage_change": -0.0476
+          }
+        }
+      },
+      {
+        "period": "2022-07",
+        "period_type": "month",
+        "report_volume": 49,
+        "sif_count": 10,
+        "sif_density": 0.2041,
+        "avg_sif_probability": 0.2533,
+        "trends": {
+          "report_volume": {
+            "previous_value": 46,
+            "current_value": 49,
+            "absolute_change": 3,
+            "percentage_change": 0.0652
+          },
+          "sif_count": {
+            "previous_value": 16,
+            "current_value": 10,
+            "absolute_change": -6,
+            "percentage_change": -0.375
+          },
+          "sif_density": {
+            "previous_value": 0.3478,
+            "current_value": 0.2041,
+            "absolute_change": -0.1437,
+            "percentage_change": -0.4132
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.3723,
+            "current_value": 0.2533,
+            "absolute_change": -0.119,
+            "percentage_change": -0.3196
+          }
+        }
+      },
+      {
+        "period": "2022-08",
+        "period_type": "month",
+        "report_volume": 45,
+        "sif_count": 9,
+        "sif_density": 0.2,
+        "avg_sif_probability": 0.252,
+        "trends": {
+          "report_volume": {
+            "previous_value": 49,
+            "current_value": 45,
+            "absolute_change": -4,
+            "percentage_change": -0.0816
+          },
+          "sif_count": {
+            "previous_value": 10,
+            "current_value": 9,
+            "absolute_change": -1,
+            "percentage_change": -0.1
+          },
+          "sif_density": {
+            "previous_value": 0.2041,
+            "current_value": 0.2,
+            "absolute_change": -0.0041,
+            "percentage_change": -0.0201
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2533,
+            "current_value": 0.252,
+            "absolute_change": -0.0013,
+            "percentage_change": -0.0051
+          }
+        }
+      },
+      {
+        "period": "2022-09",
+        "period_type": "month",
+        "report_volume": 50,
+        "sif_count": 11,
+        "sif_density": 0.22,
+        "avg_sif_probability": 0.2944,
+        "trends": {
+          "report_volume": {
+            "previous_value": 45,
+            "current_value": 50,
+            "absolute_change": 5,
+            "percentage_change": 0.1111
+          },
+          "sif_count": {
+            "previous_value": 9,
+            "current_value": 11,
+            "absolute_change": 2,
+            "percentage_change": 0.2222
+          },
+          "sif_density": {
+            "previous_value": 0.2,
+            "current_value": 0.22,
+            "absolute_change": 0.02,
+            "percentage_change": 0.1
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.252,
+            "current_value": 0.2944,
+            "absolute_change": 0.0424,
+            "percentage_change": 0.1683
+          }
+        }
+      },
+      {
+        "period": "2022-10",
+        "period_type": "month",
+        "report_volume": 66,
+        "sif_count": 16,
+        "sif_density": 0.2424,
+        "avg_sif_probability": 0.2811,
+        "trends": {
+          "report_volume": {
+            "previous_value": 50,
+            "current_value": 66,
+            "absolute_change": 16,
+            "percentage_change": 0.32
+          },
+          "sif_count": {
+            "previous_value": 11,
+            "current_value": 16,
+            "absolute_change": 5,
+            "percentage_change": 0.4545
+          },
+          "sif_density": {
+            "previous_value": 0.22,
+            "current_value": 0.2424,
+            "absolute_change": 0.0224,
+            "percentage_change": 0.1018
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2944,
+            "current_value": 0.2811,
+            "absolute_change": -0.0133,
+            "percentage_change": -0.0452
+          }
+        }
+      },
+      {
+        "period": "2022-11",
+        "period_type": "month",
+        "report_volume": 44,
+        "sif_count": 13,
+        "sif_density": 0.2955,
+        "avg_sif_probability": 0.336,
+        "trends": {
+          "report_volume": {
+            "previous_value": 66,
+            "current_value": 44,
+            "absolute_change": -22,
+            "percentage_change": -0.3333
+          },
+          "sif_count": {
+            "previous_value": 16,
+            "current_value": 13,
+            "absolute_change": -3,
+            "percentage_change": -0.1875
+          },
+          "sif_density": {
+            "previous_value": 0.2424,
+            "current_value": 0.2955,
+            "absolute_change": 0.0531,
+            "percentage_change": 0.2191
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2811,
+            "current_value": 0.336,
+            "absolute_change": 0.0549,
+            "percentage_change": 0.1953
+          }
+        }
+      },
+      {
+        "period": "2022-12",
+        "period_type": "month",
+        "report_volume": 48,
+        "sif_count": 13,
+        "sif_density": 0.2708,
+        "avg_sif_probability": 0.2937,
+        "trends": {
+          "report_volume": {
+            "previous_value": 44,
+            "current_value": 48,
+            "absolute_change": 4,
+            "percentage_change": 0.0909
+          },
+          "sif_count": {
+            "previous_value": 13,
+            "current_value": 13,
+            "absolute_change": 0,
+            "percentage_change": 0.0
+          },
+          "sif_density": {
+            "previous_value": 0.2955,
+            "current_value": 0.2708,
+            "absolute_change": -0.0247,
+            "percentage_change": -0.0836
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.336,
+            "current_value": 0.2937,
+            "absolute_change": -0.0423,
+            "percentage_change": -0.1259
+          }
+        }
+      },
+      {
+        "period": "2023-01",
+        "period_type": "month",
+        "report_volume": 53,
+        "sif_count": 11,
+        "sif_density": 0.2075,
+        "avg_sif_probability": 0.2671,
+        "trends": {
+          "report_volume": {
+            "previous_value": 48,
+            "current_value": 53,
+            "absolute_change": 5,
+            "percentage_change": 0.1042
+          },
+          "sif_count": {
+            "previous_value": 13,
+            "current_value": 11,
+            "absolute_change": -2,
+            "percentage_change": -0.1538
+          },
+          "sif_density": {
+            "previous_value": 0.2708,
+            "current_value": 0.2075,
+            "absolute_change": -0.0633,
+            "percentage_change": -0.2338
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2937,
+            "current_value": 0.2671,
+            "absolute_change": -0.0266,
+            "percentage_change": -0.0906
+          }
+        }
+      },
+      {
+        "period": "2023-02",
+        "period_type": "month",
+        "report_volume": 38,
+        "sif_count": 9,
+        "sif_density": 0.2368,
+        "avg_sif_probability": 0.2683,
+        "trends": {
+          "report_volume": {
+            "previous_value": 53,
+            "current_value": 38,
+            "absolute_change": -15,
+            "percentage_change": -0.283
+          },
+          "sif_count": {
+            "previous_value": 11,
+            "current_value": 9,
+            "absolute_change": -2,
+            "percentage_change": -0.1818
+          },
+          "sif_density": {
+            "previous_value": 0.2075,
+            "current_value": 0.2368,
+            "absolute_change": 0.0293,
+            "percentage_change": 0.1412
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2671,
+            "current_value": 0.2683,
+            "absolute_change": 0.0012,
+            "percentage_change": 0.0045
+          }
+        }
+      },
+      {
+        "period": "2023-03",
+        "period_type": "month",
+        "report_volume": 54,
+        "sif_count": 16,
+        "sif_density": 0.2963,
+        "avg_sif_probability": 0.319,
+        "trends": {
+          "report_volume": {
+            "previous_value": 38,
+            "current_value": 54,
+            "absolute_change": 16,
+            "percentage_change": 0.4211
+          },
+          "sif_count": {
+            "previous_value": 9,
+            "current_value": 16,
+            "absolute_change": 7,
+            "percentage_change": 0.7778
+          },
+          "sif_density": {
+            "previous_value": 0.2368,
+            "current_value": 0.2963,
+            "absolute_change": 0.0595,
+            "percentage_change": 0.2513
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2683,
+            "current_value": 0.319,
+            "absolute_change": 0.0507,
+            "percentage_change": 0.189
+          }
+        }
+      },
+      {
+        "period": "2023-04",
+        "period_type": "month",
+        "report_volume": 52,
+        "sif_count": 12,
+        "sif_density": 0.2308,
+        "avg_sif_probability": 0.2718,
+        "trends": {
+          "report_volume": {
+            "previous_value": 54,
+            "current_value": 52,
+            "absolute_change": -2,
+            "percentage_change": -0.037
+          },
+          "sif_count": {
+            "previous_value": 16,
+            "current_value": 12,
+            "absolute_change": -4,
+            "percentage_change": -0.25
+          },
+          "sif_density": {
+            "previous_value": 0.2963,
+            "current_value": 0.2308,
+            "absolute_change": -0.0655,
+            "percentage_change": -0.2211
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.319,
+            "current_value": 0.2718,
+            "absolute_change": -0.0472,
+            "percentage_change": -0.148
+          }
+        }
+      },
+      {
+        "period": "2023-05",
+        "period_type": "month",
+        "report_volume": 60,
+        "sif_count": 12,
+        "sif_density": 0.2,
+        "avg_sif_probability": 0.2466,
+        "trends": {
+          "report_volume": {
+            "previous_value": 52,
+            "current_value": 60,
+            "absolute_change": 8,
+            "percentage_change": 0.1538
+          },
+          "sif_count": {
+            "previous_value": 12,
+            "current_value": 12,
+            "absolute_change": 0,
+            "percentage_change": 0.0
+          },
+          "sif_density": {
+            "previous_value": 0.2308,
+            "current_value": 0.2,
+            "absolute_change": -0.0308,
+            "percentage_change": -0.1334
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2718,
+            "current_value": 0.2466,
+            "absolute_change": -0.0252,
+            "percentage_change": -0.0927
+          }
+        }
+      },
+      {
+        "period": "2023-06",
+        "period_type": "month",
+        "report_volume": 47,
+        "sif_count": 10,
+        "sif_density": 0.2128,
+        "avg_sif_probability": 0.2599,
+        "trends": {
+          "report_volume": {
+            "previous_value": 60,
+            "current_value": 47,
+            "absolute_change": -13,
+            "percentage_change": -0.2167
+          },
+          "sif_count": {
+            "previous_value": 12,
+            "current_value": 10,
+            "absolute_change": -2,
+            "percentage_change": -0.1667
+          },
+          "sif_density": {
+            "previous_value": 0.2,
+            "current_value": 0.2128,
+            "absolute_change": 0.0128,
+            "percentage_change": 0.064
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2466,
+            "current_value": 0.2599,
+            "absolute_change": 0.0133,
+            "percentage_change": 0.0539
+          }
+        }
+      },
+      {
+        "period": "2023-07",
+        "period_type": "month",
+        "report_volume": 48,
+        "sif_count": 14,
+        "sif_density": 0.2917,
+        "avg_sif_probability": 0.3197,
+        "trends": {
+          "report_volume": {
+            "previous_value": 47,
+            "current_value": 48,
+            "absolute_change": 1,
+            "percentage_change": 0.0213
+          },
+          "sif_count": {
+            "previous_value": 10,
+            "current_value": 14,
+            "absolute_change": 4,
+            "percentage_change": 0.4
+          },
+          "sif_density": {
+            "previous_value": 0.2128,
+            "current_value": 0.2917,
+            "absolute_change": 0.0789,
+            "percentage_change": 0.3708
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2599,
+            "current_value": 0.3197,
+            "absolute_change": 0.0598,
+            "percentage_change": 0.2301
+          }
+        }
+      },
+      {
+        "period": "2023-08",
+        "period_type": "month",
+        "report_volume": 47,
+        "sif_count": 10,
+        "sif_density": 0.2128,
+        "avg_sif_probability": 0.2802,
+        "trends": {
+          "report_volume": {
+            "previous_value": 48,
+            "current_value": 47,
+            "absolute_change": -1,
+            "percentage_change": -0.0208
+          },
+          "sif_count": {
+            "previous_value": 14,
+            "current_value": 10,
+            "absolute_change": -4,
+            "percentage_change": -0.2857
+          },
+          "sif_density": {
+            "previous_value": 0.2917,
+            "current_value": 0.2128,
+            "absolute_change": -0.0789,
+            "percentage_change": -0.2705
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.3197,
+            "current_value": 0.2802,
+            "absolute_change": -0.0395,
+            "percentage_change": -0.1236
+          }
+        }
+      },
+      {
+        "period": "2023-09",
+        "period_type": "month",
+        "report_volume": 69,
+        "sif_count": 25,
+        "sif_density": 0.3623,
+        "avg_sif_probability": 0.3848,
+        "trends": {
+          "report_volume": {
+            "previous_value": 47,
+            "current_value": 69,
+            "absolute_change": 22,
+            "percentage_change": 0.4681
+          },
+          "sif_count": {
+            "previous_value": 10,
+            "current_value": 25,
+            "absolute_change": 15,
+            "percentage_change": 1.5
+          },
+          "sif_density": {
+            "previous_value": 0.2128,
+            "current_value": 0.3623,
+            "absolute_change": 0.1495,
+            "percentage_change": 0.7025
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2802,
+            "current_value": 0.3848,
+            "absolute_change": 0.1046,
+            "percentage_change": 0.3733
+          }
+        }
+      },
+      {
+        "period": "2023-10",
+        "period_type": "month",
+        "report_volume": 51,
+        "sif_count": 13,
+        "sif_density": 0.2549,
+        "avg_sif_probability": 0.2906,
+        "trends": {
+          "report_volume": {
+            "previous_value": 69,
+            "current_value": 51,
+            "absolute_change": -18,
+            "percentage_change": -0.2609
+          },
+          "sif_count": {
+            "previous_value": 25,
+            "current_value": 13,
+            "absolute_change": -12,
+            "percentage_change": -0.48
+          },
+          "sif_density": {
+            "previous_value": 0.3623,
+            "current_value": 0.2549,
+            "absolute_change": -0.1074,
+            "percentage_change": -0.2964
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.3848,
+            "current_value": 0.2906,
+            "absolute_change": -0.0942,
+            "percentage_change": -0.2448
+          }
+        }
+      },
+      {
+        "period": "2023-11",
+        "period_type": "month",
+        "report_volume": 63,
+        "sif_count": 15,
+        "sif_density": 0.2381,
+        "avg_sif_probability": 0.2877,
+        "trends": {
+          "report_volume": {
+            "previous_value": 51,
+            "current_value": 63,
+            "absolute_change": 12,
+            "percentage_change": 0.2353
+          },
+          "sif_count": {
+            "previous_value": 13,
+            "current_value": 15,
+            "absolute_change": 2,
+            "percentage_change": 0.1538
+          },
+          "sif_density": {
+            "previous_value": 0.2549,
+            "current_value": 0.2381,
+            "absolute_change": -0.0168,
+            "percentage_change": -0.0659
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2906,
+            "current_value": 0.2877,
+            "absolute_change": -0.0029,
+            "percentage_change": -0.01
+          }
+        }
+      },
+      {
+        "period": "2023-12",
+        "period_type": "month",
+        "report_volume": 51,
+        "sif_count": 12,
+        "sif_density": 0.2353,
+        "avg_sif_probability": 0.2718,
+        "trends": {
+          "report_volume": {
+            "previous_value": 63,
+            "current_value": 51,
+            "absolute_change": -12,
+            "percentage_change": -0.1905
+          },
+          "sif_count": {
+            "previous_value": 15,
+            "current_value": 12,
+            "absolute_change": -3,
+            "percentage_change": -0.2
+          },
+          "sif_density": {
+            "previous_value": 0.2381,
+            "current_value": 0.2353,
+            "absolute_change": -0.0028,
+            "percentage_change": -0.0118
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2877,
+            "current_value": 0.2718,
+            "absolute_change": -0.0159,
+            "percentage_change": -0.0553
+          }
+        }
+      }
+    ],
+    "quarterly": [
+      {
+        "period": "2020Q1",
+        "period_type": "quarter",
+        "report_volume": 164,
+        "sif_count": 47,
+        "sif_density": 0.2866,
+        "avg_sif_probability": 0.3203,
+        "trends": null
+      },
+      {
+        "period": "2020Q2",
+        "period_type": "quarter",
+        "report_volume": 159,
+        "sif_count": 37,
+        "sif_density": 0.2327,
+        "avg_sif_probability": 0.2823,
+        "trends": {
+          "report_volume": {
+            "previous_value": 164,
+            "current_value": 159,
+            "absolute_change": -5,
+            "percentage_change": -0.0305
+          },
+          "sif_count": {
+            "previous_value": 47,
+            "current_value": 37,
+            "absolute_change": -10,
+            "percentage_change": -0.2128
+          },
+          "sif_density": {
+            "previous_value": 0.2866,
+            "current_value": 0.2327,
+            "absolute_change": -0.0539,
+            "percentage_change": -0.1881
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.3203,
+            "current_value": 0.2823,
+            "absolute_change": -0.038,
+            "percentage_change": -0.1186
+          }
+        }
+      },
+      {
+        "period": "2020Q3",
+        "period_type": "quarter",
+        "report_volume": 149,
+        "sif_count": 37,
+        "sif_density": 0.2483,
+        "avg_sif_probability": 0.2899,
+        "trends": {
+          "report_volume": {
+            "previous_value": 159,
+            "current_value": 149,
+            "absolute_change": -10,
+            "percentage_change": -0.0629
+          },
+          "sif_count": {
+            "previous_value": 37,
+            "current_value": 37,
+            "absolute_change": 0,
+            "percentage_change": 0.0
+          },
+          "sif_density": {
+            "previous_value": 0.2327,
+            "current_value": 0.2483,
+            "absolute_change": 0.0156,
+            "percentage_change": 0.067
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2823,
+            "current_value": 0.2899,
+            "absolute_change": 0.0076,
+            "percentage_change": 0.0269
+          }
+        }
+      },
+      {
+        "period": "2020Q4",
+        "period_type": "quarter",
+        "report_volume": 157,
+        "sif_count": 33,
+        "sif_density": 0.2102,
+        "avg_sif_probability": 0.2637,
+        "trends": {
+          "report_volume": {
+            "previous_value": 149,
+            "current_value": 157,
+            "absolute_change": 8,
+            "percentage_change": 0.0537
+          },
+          "sif_count": {
+            "previous_value": 37,
+            "current_value": 33,
+            "absolute_change": -4,
+            "percentage_change": -0.1081
+          },
+          "sif_density": {
+            "previous_value": 0.2483,
+            "current_value": 0.2102,
+            "absolute_change": -0.0381,
+            "percentage_change": -0.1534
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2899,
+            "current_value": 0.2637,
+            "absolute_change": -0.0262,
+            "percentage_change": -0.0904
+          }
+        }
+      },
+      {
+        "period": "2021Q1",
+        "period_type": "quarter",
+        "report_volume": 146,
+        "sif_count": 36,
+        "sif_density": 0.2466,
+        "avg_sif_probability": 0.2921,
+        "trends": {
+          "report_volume": {
+            "previous_value": 157,
+            "current_value": 146,
+            "absolute_change": -11,
+            "percentage_change": -0.0701
+          },
+          "sif_count": {
+            "previous_value": 33,
+            "current_value": 36,
+            "absolute_change": 3,
+            "percentage_change": 0.0909
+          },
+          "sif_density": {
+            "previous_value": 0.2102,
+            "current_value": 0.2466,
+            "absolute_change": 0.0364,
+            "percentage_change": 0.1732
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2637,
+            "current_value": 0.2921,
+            "absolute_change": 0.0284,
+            "percentage_change": 0.1077
+          }
+        }
+      },
+      {
+        "period": "2021Q2",
+        "period_type": "quarter",
+        "report_volume": 161,
+        "sif_count": 36,
+        "sif_density": 0.2236,
+        "avg_sif_probability": 0.275,
+        "trends": {
+          "report_volume": {
+            "previous_value": 146,
+            "current_value": 161,
+            "absolute_change": 15,
+            "percentage_change": 0.1027
+          },
+          "sif_count": {
+            "previous_value": 36,
+            "current_value": 36,
+            "absolute_change": 0,
+            "percentage_change": 0.0
+          },
+          "sif_density": {
+            "previous_value": 0.2466,
+            "current_value": 0.2236,
+            "absolute_change": -0.023,
+            "percentage_change": -0.0933
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2921,
+            "current_value": 0.275,
+            "absolute_change": -0.0171,
+            "percentage_change": -0.0585
+          }
+        }
+      },
+      {
+        "period": "2021Q3",
+        "period_type": "quarter",
+        "report_volume": 162,
+        "sif_count": 42,
+        "sif_density": 0.2593,
+        "avg_sif_probability": 0.2982,
+        "trends": {
+          "report_volume": {
+            "previous_value": 161,
+            "current_value": 162,
+            "absolute_change": 1,
+            "percentage_change": 0.0062
+          },
+          "sif_count": {
+            "previous_value": 36,
+            "current_value": 42,
+            "absolute_change": 6,
+            "percentage_change": 0.1667
+          },
+          "sif_density": {
+            "previous_value": 0.2236,
+            "current_value": 0.2593,
+            "absolute_change": 0.0357,
+            "percentage_change": 0.1597
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.275,
+            "current_value": 0.2982,
+            "absolute_change": 0.0232,
+            "percentage_change": 0.0844
+          }
+        }
+      },
+      {
+        "period": "2021Q4",
+        "period_type": "quarter",
+        "report_volume": 138,
+        "sif_count": 35,
+        "sif_density": 0.2536,
+        "avg_sif_probability": 0.2959,
+        "trends": {
+          "report_volume": {
+            "previous_value": 162,
+            "current_value": 138,
+            "absolute_change": -24,
+            "percentage_change": -0.1481
+          },
+          "sif_count": {
+            "previous_value": 42,
+            "current_value": 35,
+            "absolute_change": -7,
+            "percentage_change": -0.1667
+          },
+          "sif_density": {
+            "previous_value": 0.2593,
+            "current_value": 0.2536,
+            "absolute_change": -0.0057,
+            "percentage_change": -0.022
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2982,
+            "current_value": 0.2959,
+            "absolute_change": -0.0023,
+            "percentage_change": -0.0077
+          }
+        }
+      },
+      {
+        "period": "2022Q1",
+        "period_type": "quarter",
+        "report_volume": 174,
+        "sif_count": 41,
+        "sif_density": 0.2356,
+        "avg_sif_probability": 0.2705,
+        "trends": {
+          "report_volume": {
+            "previous_value": 138,
+            "current_value": 174,
+            "absolute_change": 36,
+            "percentage_change": 0.2609
+          },
+          "sif_count": {
+            "previous_value": 35,
+            "current_value": 41,
+            "absolute_change": 6,
+            "percentage_change": 0.1714
+          },
+          "sif_density": {
+            "previous_value": 0.2536,
+            "current_value": 0.2356,
+            "absolute_change": -0.018,
+            "percentage_change": -0.071
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2959,
+            "current_value": 0.2705,
+            "absolute_change": -0.0254,
+            "percentage_change": -0.0858
+          }
+        }
+      },
+      {
+        "period": "2022Q2",
+        "period_type": "quarter",
+        "report_volume": 155,
+        "sif_count": 51,
+        "sif_density": 0.329,
+        "avg_sif_probability": 0.356,
+        "trends": {
+          "report_volume": {
+            "previous_value": 174,
+            "current_value": 155,
+            "absolute_change": -19,
+            "percentage_change": -0.1092
+          },
+          "sif_count": {
+            "previous_value": 41,
+            "current_value": 51,
+            "absolute_change": 10,
+            "percentage_change": 0.2439
+          },
+          "sif_density": {
+            "previous_value": 0.2356,
+            "current_value": 0.329,
+            "absolute_change": 0.0934,
+            "percentage_change": 0.3964
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2705,
+            "current_value": 0.356,
+            "absolute_change": 0.0855,
+            "percentage_change": 0.3161
+          }
+        }
+      },
+      {
+        "period": "2022Q3",
+        "period_type": "quarter",
+        "report_volume": 144,
+        "sif_count": 30,
+        "sif_density": 0.2083,
+        "avg_sif_probability": 0.2671,
+        "trends": {
+          "report_volume": {
+            "previous_value": 155,
+            "current_value": 144,
+            "absolute_change": -11,
+            "percentage_change": -0.071
+          },
+          "sif_count": {
+            "previous_value": 51,
+            "current_value": 30,
+            "absolute_change": -21,
+            "percentage_change": -0.4118
+          },
+          "sif_density": {
+            "previous_value": 0.329,
+            "current_value": 0.2083,
+            "absolute_change": -0.1207,
+            "percentage_change": -0.3669
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.356,
+            "current_value": 0.2671,
+            "absolute_change": -0.0889,
+            "percentage_change": -0.2497
+          }
+        }
+      },
+      {
+        "period": "2022Q4",
+        "period_type": "quarter",
+        "report_volume": 158,
+        "sif_count": 42,
+        "sif_density": 0.2658,
+        "avg_sif_probability": 0.3002,
+        "trends": {
+          "report_volume": {
+            "previous_value": 144,
+            "current_value": 158,
+            "absolute_change": 14,
+            "percentage_change": 0.0972
+          },
+          "sif_count": {
+            "previous_value": 30,
+            "current_value": 42,
+            "absolute_change": 12,
+            "percentage_change": 0.4
+          },
+          "sif_density": {
+            "previous_value": 0.2083,
+            "current_value": 0.2658,
+            "absolute_change": 0.0575,
+            "percentage_change": 0.276
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2671,
+            "current_value": 0.3002,
+            "absolute_change": 0.0331,
+            "percentage_change": 0.1239
+          }
+        }
+      },
+      {
+        "period": "2023Q1",
+        "period_type": "quarter",
+        "report_volume": 145,
+        "sif_count": 36,
+        "sif_density": 0.2483,
+        "avg_sif_probability": 0.2868,
+        "trends": {
+          "report_volume": {
+            "previous_value": 158,
+            "current_value": 145,
+            "absolute_change": -13,
+            "percentage_change": -0.0823
+          },
+          "sif_count": {
+            "previous_value": 42,
+            "current_value": 36,
+            "absolute_change": -6,
+            "percentage_change": -0.1429
+          },
+          "sif_density": {
+            "previous_value": 0.2658,
+            "current_value": 0.2483,
+            "absolute_change": -0.0175,
+            "percentage_change": -0.0658
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.3002,
+            "current_value": 0.2868,
+            "absolute_change": -0.0134,
+            "percentage_change": -0.0446
+          }
+        }
+      },
+      {
+        "period": "2023Q2",
+        "period_type": "quarter",
+        "report_volume": 159,
+        "sif_count": 34,
+        "sif_density": 0.2138,
+        "avg_sif_probability": 0.2588,
+        "trends": {
+          "report_volume": {
+            "previous_value": 145,
+            "current_value": 159,
+            "absolute_change": 14,
+            "percentage_change": 0.0966
+          },
+          "sif_count": {
+            "previous_value": 36,
+            "current_value": 34,
+            "absolute_change": -2,
+            "percentage_change": -0.0556
+          },
+          "sif_density": {
+            "previous_value": 0.2483,
+            "current_value": 0.2138,
+            "absolute_change": -0.0345,
+            "percentage_change": -0.1389
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2868,
+            "current_value": 0.2588,
+            "absolute_change": -0.028,
+            "percentage_change": -0.0976
+          }
+        }
+      },
+      {
+        "period": "2023Q3",
+        "period_type": "quarter",
+        "report_volume": 164,
+        "sif_count": 49,
+        "sif_density": 0.2988,
+        "avg_sif_probability": 0.3358,
+        "trends": {
+          "report_volume": {
+            "previous_value": 159,
+            "current_value": 164,
+            "absolute_change": 5,
+            "percentage_change": 0.0314
+          },
+          "sif_count": {
+            "previous_value": 34,
+            "current_value": 49,
+            "absolute_change": 15,
+            "percentage_change": 0.4412
+          },
+          "sif_density": {
+            "previous_value": 0.2138,
+            "current_value": 0.2988,
+            "absolute_change": 0.085,
+            "percentage_change": 0.3976
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2588,
+            "current_value": 0.3358,
+            "absolute_change": 0.077,
+            "percentage_change": 0.2975
+          }
+        }
+      },
+      {
+        "period": "2023Q4",
+        "period_type": "quarter",
+        "report_volume": 165,
+        "sif_count": 40,
+        "sif_density": 0.2424,
+        "avg_sif_probability": 0.2837,
+        "trends": {
+          "report_volume": {
+            "previous_value": 164,
+            "current_value": 165,
+            "absolute_change": 1,
+            "percentage_change": 0.0061
+          },
+          "sif_count": {
+            "previous_value": 49,
+            "current_value": 40,
+            "absolute_change": -9,
+            "percentage_change": -0.1837
+          },
+          "sif_density": {
+            "previous_value": 0.2988,
+            "current_value": 0.2424,
+            "absolute_change": -0.0564,
+            "percentage_change": -0.1888
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.3358,
+            "current_value": 0.2837,
+            "absolute_change": -0.0521,
+            "percentage_change": -0.1552
+          }
+        }
+      }
+    ],
+    "yearly": [
+      {
+        "period": "2020",
+        "period_type": "year",
+        "report_volume": 629,
+        "sif_count": 154,
+        "sif_density": 0.2448,
+        "avg_sif_probability": 0.2894,
+        "trends": null
+      },
+      {
+        "period": "2021",
+        "period_type": "year",
+        "report_volume": 607,
+        "sif_count": 149,
+        "sif_density": 0.2455,
+        "avg_sif_probability": 0.2901,
+        "trends": {
+          "report_volume": {
+            "previous_value": 629,
+            "current_value": 607,
+            "absolute_change": -22,
+            "percentage_change": -0.035
+          },
+          "sif_count": {
+            "previous_value": 154,
+            "current_value": 149,
+            "absolute_change": -5,
+            "percentage_change": -0.0325
+          },
+          "sif_density": {
+            "previous_value": 0.2448,
+            "current_value": 0.2455,
+            "absolute_change": 0.0007,
+            "percentage_change": 0.0029
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2894,
+            "current_value": 0.2901,
+            "absolute_change": 0.0007,
+            "percentage_change": 0.0024
+          }
+        }
+      },
+      {
+        "period": "2022",
+        "period_type": "year",
+        "report_volume": 631,
+        "sif_count": 164,
+        "sif_density": 0.2599,
+        "avg_sif_probability": 0.2982,
+        "trends": {
+          "report_volume": {
+            "previous_value": 607,
+            "current_value": 631,
+            "absolute_change": 24,
+            "percentage_change": 0.0395
+          },
+          "sif_count": {
+            "previous_value": 149,
+            "current_value": 164,
+            "absolute_change": 15,
+            "percentage_change": 0.1007
+          },
+          "sif_density": {
+            "previous_value": 0.2455,
+            "current_value": 0.2599,
+            "absolute_change": 0.0144,
+            "percentage_change": 0.0587
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2901,
+            "current_value": 0.2982,
+            "absolute_change": 0.0081,
+            "percentage_change": 0.0279
+          }
+        }
+      },
+      {
+        "period": "2023",
+        "period_type": "year",
+        "report_volume": 633,
+        "sif_count": 159,
+        "sif_density": 0.2512,
+        "avg_sif_probability": 0.2916,
+        "trends": {
+          "report_volume": {
+            "previous_value": 631,
+            "current_value": 633,
+            "absolute_change": 2,
+            "percentage_change": 0.0032
+          },
+          "sif_count": {
+            "previous_value": 164,
+            "current_value": 159,
+            "absolute_change": -5,
+            "percentage_change": -0.0305
+          },
+          "sif_density": {
+            "previous_value": 0.2599,
+            "current_value": 0.2512,
+            "absolute_change": -0.0087,
+            "percentage_change": -0.0335
+          },
+          "avg_sif_probability": {
+            "previous_value": 0.2982,
+            "current_value": 0.2916,
+            "absolute_change": -0.0066,
+            "percentage_change": -0.0221
+          }
+        }
+      }
+    ],
+    "monthly_lsr_frequency": {
+      "Bypassing Safety Controls": [
+        {
+          "period": "2020-01",
+          "count": 7,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-02",
+          "count": 8,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-03",
+          "count": 9,
+          "sif_count": 5
+        },
+        {
+          "period": "2020-04",
+          "count": 12,
+          "sif_count": 6
+        },
+        {
+          "period": "2020-05",
+          "count": 8,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-06",
+          "count": 2,
+          "sif_count": 0
+        },
+        {
+          "period": "2020-07",
+          "count": 5,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-08",
+          "count": 6,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-09",
+          "count": 9,
+          "sif_count": 4
+        },
+        {
+          "period": "2020-10",
+          "count": 11,
+          "sif_count": 0
+        },
+        {
+          "period": "2020-11",
+          "count": 9,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-12",
+          "count": 8,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-01",
+          "count": 9,
+          "sif_count": 5
+        },
+        {
+          "period": "2021-02",
+          "count": 9,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-03",
+          "count": 6,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-04",
+          "count": 12,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-05",
+          "count": 8,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-06",
+          "count": 12,
+          "sif_count": 5
+        },
+        {
+          "period": "2021-07",
+          "count": 11,
+          "sif_count": 6
+        },
+        {
+          "period": "2021-08",
+          "count": 10,
+          "sif_count": 5
+        },
+        {
+          "period": "2021-09",
+          "count": 6,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-10",
+          "count": 4,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-11",
+          "count": 6,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-12",
+          "count": 4,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-01",
+          "count": 8,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-02",
+          "count": 4,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-03",
+          "count": 9,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-04",
+          "count": 7,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-05",
+          "count": 6,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-06",
+          "count": 8,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-07",
+          "count": 9,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-08",
+          "count": 5,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-09",
+          "count": 10,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-10",
+          "count": 7,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-11",
+          "count": 11,
+          "sif_count": 7
+        },
+        {
+          "period": "2022-12",
+          "count": 10,
+          "sif_count": 5
+        },
+        {
+          "period": "2023-01",
+          "count": 8,
+          "sif_count": 5
+        },
+        {
+          "period": "2023-02",
+          "count": 5,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-03",
+          "count": 7,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-04",
+          "count": 5,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-05",
+          "count": 5,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-06",
+          "count": 4,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-07",
+          "count": 7,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-08",
+          "count": 7,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-09",
+          "count": 7,
+          "sif_count": 4
+        },
+        {
+          "period": "2023-10",
+          "count": 8,
+          "sif_count": 5
+        },
+        {
+          "period": "2023-11",
+          "count": 14,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-12",
+          "count": 6,
+          "sif_count": 5
+        }
+      ],
+      "Confined Space": [
+        {
+          "period": "2020-01",
+          "count": 9,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-02",
+          "count": 7,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-03",
+          "count": 13,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-04",
+          "count": 13,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-05",
+          "count": 2,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-06",
+          "count": 6,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-07",
+          "count": 6,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-08",
+          "count": 8,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-09",
+          "count": 10,
+          "sif_count": 4
+        },
+        {
+          "period": "2020-10",
+          "count": 4,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-11",
+          "count": 5,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-12",
+          "count": 4,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-01",
+          "count": 5,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-02",
+          "count": 6,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-03",
+          "count": 7,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-04",
+          "count": 2,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-05",
+          "count": 13,
+          "sif_count": 6
+        },
+        {
+          "period": "2021-06",
+          "count": 2,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-07",
+          "count": 7,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-08",
+          "count": 5,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-09",
+          "count": 14,
+          "sif_count": 4
+        },
+        {
+          "period": "2021-10",
+          "count": 9,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-11",
+          "count": 4,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-12",
+          "count": 5,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-01",
+          "count": 2,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-02",
+          "count": 10,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-03",
+          "count": 9,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-04",
+          "count": 9,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-05",
+          "count": 8,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-06",
+          "count": 7,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-07",
+          "count": 6,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-08",
+          "count": 8,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-09",
+          "count": 9,
+          "sif_count": 4
+        },
+        {
+          "period": "2022-10",
+          "count": 10,
+          "sif_count": 4
+        },
+        {
+          "period": "2022-11",
+          "count": 7,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-12",
+          "count": 7,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-01",
+          "count": 5,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-02",
+          "count": 4,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-03",
+          "count": 8,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-04",
+          "count": 4,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-05",
+          "count": 8,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-06",
+          "count": 9,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-07",
+          "count": 4,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-08",
+          "count": 7,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-09",
+          "count": 8,
+          "sif_count": 4
+        },
+        {
+          "period": "2023-10",
+          "count": 7,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-11",
+          "count": 8,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-12",
+          "count": 7,
+          "sif_count": 2
+        }
+      ],
+      "Driving": [
+        {
+          "period": "2020-01",
+          "count": 5,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-02",
+          "count": 6,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-03",
+          "count": 10,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-04",
+          "count": 7,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-05",
+          "count": 5,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-06",
+          "count": 9,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-07",
+          "count": 9,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-08",
+          "count": 6,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-09",
+          "count": 2,
+          "sif_count": 0
+        },
+        {
+          "period": "2020-10",
+          "count": 7,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-11",
+          "count": 4,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-12",
+          "count": 8,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-01",
+          "count": 8,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-02",
+          "count": 6,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-03",
+          "count": 9,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-04",
+          "count": 10,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-05",
+          "count": 6,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-06",
+          "count": 6,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-07",
+          "count": 2,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-08",
+          "count": 7,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-09",
+          "count": 8,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-10",
+          "count": 3,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-11",
+          "count": 11,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-12",
+          "count": 9,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-01",
+          "count": 7,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-02",
+          "count": 4,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-03",
+          "count": 10,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-04",
+          "count": 7,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-05",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-06",
+          "count": 6,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-07",
+          "count": 4,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-08",
+          "count": 6,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-09",
+          "count": 5,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-10",
+          "count": 7,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-11",
+          "count": 3,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-12",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-01",
+          "count": 5,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-02",
+          "count": 4,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-03",
+          "count": 5,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-04",
+          "count": 10,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-05",
+          "count": 8,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-06",
+          "count": 9,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-07",
+          "count": 8,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-08",
+          "count": 2,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-09",
+          "count": 7,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-10",
+          "count": 7,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-11",
+          "count": 9,
+          "sif_count": 4
+        },
+        {
+          "period": "2023-12",
+          "count": 8,
+          "sif_count": 0
+        }
+      ],
+      "Energy Isolation": [
+        {
+          "period": "2020-01",
+          "count": 6,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-02",
+          "count": 6,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-03",
+          "count": 10,
+          "sif_count": 6
+        },
+        {
+          "period": "2020-04",
+          "count": 8,
+          "sif_count": 4
+        },
+        {
+          "period": "2020-05",
+          "count": 8,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-06",
+          "count": 10,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-07",
+          "count": 5,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-08",
+          "count": 5,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-09",
+          "count": 5,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-10",
+          "count": 4,
+          "sif_count": 0
+        },
+        {
+          "period": "2020-11",
+          "count": 8,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-12",
+          "count": 7,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-01",
+          "count": 7,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-02",
+          "count": 7,
+          "sif_count": 4
+        },
+        {
+          "period": "2021-03",
+          "count": 9,
+          "sif_count": 4
+        },
+        {
+          "period": "2021-04",
+          "count": 7,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-05",
+          "count": 8,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-06",
+          "count": 4,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-07",
+          "count": 5,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-08",
+          "count": 10,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-09",
+          "count": 9,
+          "sif_count": 5
+        },
+        {
+          "period": "2021-10",
+          "count": 6,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-11",
+          "count": 10,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-12",
+          "count": 7,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-01",
+          "count": 3,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-02",
+          "count": 9,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-03",
+          "count": 8,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-04",
+          "count": 5,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-05",
+          "count": 4,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-06",
+          "count": 6,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-07",
+          "count": 5,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-08",
+          "count": 6,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-09",
+          "count": 6,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-10",
+          "count": 5,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-11",
+          "count": 6,
+          "sif_count": 4
+        },
+        {
+          "period": "2022-12",
+          "count": 12,
+          "sif_count": 6
+        },
+        {
+          "period": "2023-01",
+          "count": 9,
+          "sif_count": 5
+        },
+        {
+          "period": "2023-02",
+          "count": 5,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-03",
+          "count": 11,
+          "sif_count": 5
+        },
+        {
+          "period": "2023-04",
+          "count": 5,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-05",
+          "count": 4,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-06",
+          "count": 10,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-07",
+          "count": 4,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-08",
+          "count": 2,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-09",
+          "count": 14,
+          "sif_count": 8
+        },
+        {
+          "period": "2023-10",
+          "count": 2,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-11",
+          "count": 13,
+          "sif_count": 5
+        },
+        {
+          "period": "2023-12",
+          "count": 4,
+          "sif_count": 2
+        }
+      ],
+      "Hot Work": [
+        {
+          "period": "2020-01",
+          "count": 6,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-02",
+          "count": 8,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-03",
+          "count": 6,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-04",
+          "count": 10,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-05",
+          "count": 7,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-06",
+          "count": 11,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-07",
+          "count": 9,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-08",
+          "count": 8,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-09",
+          "count": 6,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-10",
+          "count": 6,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-11",
+          "count": 8,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-12",
+          "count": 9,
+          "sif_count": 6
+        },
+        {
+          "period": "2021-01",
+          "count": 7,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-02",
+          "count": 8,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-03",
+          "count": 9,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-04",
+          "count": 8,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-05",
+          "count": 4,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-06",
+          "count": 10,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-07",
+          "count": 4,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-08",
+          "count": 11,
+          "sif_count": 4
+        },
+        {
+          "period": "2021-09",
+          "count": 10,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-10",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-11",
+          "count": 5,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-12",
+          "count": 7,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-01",
+          "count": 4,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-02",
+          "count": 6,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-03",
+          "count": 7,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-04",
+          "count": 9,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-05",
+          "count": 9,
+          "sif_count": 4
+        },
+        {
+          "period": "2022-06",
+          "count": 6,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-07",
+          "count": 7,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-08",
+          "count": 7,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-09",
+          "count": 6,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-10",
+          "count": 9,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-11",
+          "count": 4,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-12",
+          "count": 10,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-01",
+          "count": 7,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-02",
+          "count": 6,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-03",
+          "count": 7,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-04",
+          "count": 5,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-05",
+          "count": 8,
+          "sif_count": 4
+        },
+        {
+          "period": "2023-06",
+          "count": 6,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-07",
+          "count": 8,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-08",
+          "count": 10,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-09",
+          "count": 8,
+          "sif_count": 4
+        },
+        {
+          "period": "2023-10",
+          "count": 9,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-11",
+          "count": 11,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-12",
+          "count": 10,
+          "sif_count": 2
+        }
+      ],
+      "Line of Fire": [
+        {
+          "period": "2020-01",
+          "count": 9,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-02",
+          "count": 12,
+          "sif_count": 7
+        },
+        {
+          "period": "2020-03",
+          "count": 13,
+          "sif_count": 8
+        },
+        {
+          "period": "2020-04",
+          "count": 7,
+          "sif_count": 4
+        },
+        {
+          "period": "2020-05",
+          "count": 7,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-06",
+          "count": 10,
+          "sif_count": 5
+        },
+        {
+          "period": "2020-07",
+          "count": 8,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-08",
+          "count": 6,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-09",
+          "count": 4,
+          "sif_count": 0
+        },
+        {
+          "period": "2020-10",
+          "count": 5,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-11",
+          "count": 7,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-12",
+          "count": 11,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-01",
+          "count": 4,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-02",
+          "count": 7,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-03",
+          "count": 7,
+          "sif_count": 4
+        },
+        {
+          "period": "2021-04",
+          "count": 7,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-05",
+          "count": 6,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-06",
+          "count": 9,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-07",
+          "count": 12,
+          "sif_count": 4
+        },
+        {
+          "period": "2021-08",
+          "count": 9,
+          "sif_count": 5
+        },
+        {
+          "period": "2021-09",
+          "count": 7,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-10",
+          "count": 2,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-11",
+          "count": 7,
+          "sif_count": 4
+        },
+        {
+          "period": "2021-12",
+          "count": 7,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-01",
+          "count": 7,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-02",
+          "count": 10,
+          "sif_count": 4
+        },
+        {
+          "period": "2022-03",
+          "count": 11,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-04",
+          "count": 13,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-05",
+          "count": 5,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-06",
+          "count": 9,
+          "sif_count": 7
+        },
+        {
+          "period": "2022-07",
+          "count": 10,
+          "sif_count": 4
+        },
+        {
+          "period": "2022-08",
+          "count": 7,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-09",
+          "count": 8,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-10",
+          "count": 12,
+          "sif_count": 4
+        },
+        {
+          "period": "2022-11",
+          "count": 7,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-12",
+          "count": 11,
+          "sif_count": 5
+        },
+        {
+          "period": "2023-01",
+          "count": 9,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-02",
+          "count": 4,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-03",
+          "count": 7,
+          "sif_count": 5
+        },
+        {
+          "period": "2023-04",
+          "count": 8,
+          "sif_count": 4
+        },
+        {
+          "period": "2023-05",
+          "count": 5,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-06",
+          "count": 5,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-07",
+          "count": 6,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-08",
+          "count": 10,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-09",
+          "count": 10,
+          "sif_count": 4
+        },
+        {
+          "period": "2023-10",
+          "count": 7,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-11",
+          "count": 10,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-12",
+          "count": 10,
+          "sif_count": 3
+        }
+      ],
+      "Safe Mechanical Lifting": [
+        {
+          "period": "2020-01",
+          "count": 4,
+          "sif_count": 0
+        },
+        {
+          "period": "2020-02",
+          "count": 7,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-03",
+          "count": 5,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-04",
+          "count": 5,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-05",
+          "count": 5,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-06",
+          "count": 6,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-07",
+          "count": 7,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-08",
+          "count": 11,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-09",
+          "count": 8,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-10",
+          "count": 5,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-11",
+          "count": 8,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-12",
+          "count": 9,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-01",
+          "count": 10,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-02",
+          "count": 4,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-03",
+          "count": 7,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-04",
+          "count": 10,
+          "sif_count": 4
+        },
+        {
+          "period": "2021-05",
+          "count": 12,
+          "sif_count": 4
+        },
+        {
+          "period": "2021-06",
+          "count": 8,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-07",
+          "count": 7,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-08",
+          "count": 5,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-09",
+          "count": 7,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-10",
+          "count": 7,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-11",
+          "count": 11,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-12",
+          "count": 6,
+          "sif_count": 5
+        },
+        {
+          "period": "2022-01",
+          "count": 8,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-02",
+          "count": 10,
+          "sif_count": 4
+        },
+        {
+          "period": "2022-03",
+          "count": 13,
+          "sif_count": 4
+        },
+        {
+          "period": "2022-04",
+          "count": 6,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-05",
+          "count": 4,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-06",
+          "count": 7,
+          "sif_count": 5
+        },
+        {
+          "period": "2022-07",
+          "count": 7,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-08",
+          "count": 4,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-09",
+          "count": 5,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-10",
+          "count": 11,
+          "sif_count": 5
+        },
+        {
+          "period": "2022-11",
+          "count": 2,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-12",
+          "count": 3,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-01",
+          "count": 8,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-02",
+          "count": 9,
+          "sif_count": 4
+        },
+        {
+          "period": "2023-03",
+          "count": 3,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-04",
+          "count": 8,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-05",
+          "count": 9,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-06",
+          "count": 8,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-07",
+          "count": 8,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-08",
+          "count": 13,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-09",
+          "count": 9,
+          "sif_count": 4
+        },
+        {
+          "period": "2023-10",
+          "count": 8,
+          "sif_count": 4
+        },
+        {
+          "period": "2023-11",
+          "count": 9,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-12",
+          "count": 5,
+          "sif_count": 1
+        }
+      ],
+      "Work Authorization": [
+        {
+          "period": "2020-01",
+          "count": 8,
+          "sif_count": 0
+        },
+        {
+          "period": "2020-02",
+          "count": 6,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-03",
+          "count": 11,
+          "sif_count": 4
+        },
+        {
+          "period": "2020-04",
+          "count": 7,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-05",
+          "count": 4,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-06",
+          "count": 6,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-07",
+          "count": 6,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-08",
+          "count": 4,
+          "sif_count": 0
+        },
+        {
+          "period": "2020-09",
+          "count": 8,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-10",
+          "count": 7,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-11",
+          "count": 6,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-12",
+          "count": 6,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-01",
+          "count": 5,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-02",
+          "count": 8,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-03",
+          "count": 2,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-04",
+          "count": 5,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-05",
+          "count": 6,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-06",
+          "count": 5,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-07",
+          "count": 5,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-08",
+          "count": 4,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-09",
+          "count": 6,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-10",
+          "count": 4,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-11",
+          "count": 7,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-12",
+          "count": 11,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-01",
+          "count": 8,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-02",
+          "count": 5,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-03",
+          "count": 7,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-04",
+          "count": 7,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-05",
+          "count": 5,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-06",
+          "count": 3,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-07",
+          "count": 6,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-08",
+          "count": 7,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-09",
+          "count": 4,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-10",
+          "count": 11,
+          "sif_count": 4
+        },
+        {
+          "period": "2022-11",
+          "count": 9,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-12",
+          "count": 2,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-01",
+          "count": 5,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-02",
+          "count": 4,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-03",
+          "count": 7,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-04",
+          "count": 10,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-05",
+          "count": 14,
+          "sif_count": 4
+        },
+        {
+          "period": "2023-06",
+          "count": 3,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-07",
+          "count": 6,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-08",
+          "count": 6,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-09",
+          "count": 8,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-10",
+          "count": 6,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-11",
+          "count": 4,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-12",
+          "count": 6,
+          "sif_count": 2
+        }
+      ],
+      "Work at Height": [
+        {
+          "period": "2020-01",
+          "count": 5,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-02",
+          "count": 4,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-03",
+          "count": 4,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-04",
+          "count": 10,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-05",
+          "count": 3,
+          "sif_count": 0
+        },
+        {
+          "period": "2020-06",
+          "count": 5,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-07",
+          "count": 2,
+          "sif_count": 0
+        },
+        {
+          "period": "2020-08",
+          "count": 8,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-09",
+          "count": 9,
+          "sif_count": 4
+        },
+        {
+          "period": "2020-10",
+          "count": 5,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-11",
+          "count": 7,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-12",
+          "count": 6,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-01",
+          "count": 5,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-02",
+          "count": 2,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-03",
+          "count": 2,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-04",
+          "count": 4,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-05",
+          "count": 7,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-06",
+          "count": 7,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-07",
+          "count": 7,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-08",
+          "count": 6,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-09",
+          "count": 4,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-10",
+          "count": 3,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-11",
+          "count": 7,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-12",
+          "count": 5,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-01",
+          "count": 6,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-02",
+          "count": 8,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-03",
+          "count": 9,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-04",
+          "count": 9,
+          "sif_count": 4
+        },
+        {
+          "period": "2022-05",
+          "count": 12,
+          "sif_count": 4
+        },
+        {
+          "period": "2022-06",
+          "count": 3,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-07",
+          "count": 5,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-08",
+          "count": 3,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-09",
+          "count": 7,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-10",
+          "count": 9,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-11",
+          "count": 4,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-12",
+          "count": 4,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-01",
+          "count": 8,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-02",
+          "count": 8,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-03",
+          "count": 7,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-04",
+          "count": 5,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-05",
+          "count": 9,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-06",
+          "count": 5,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-07",
+          "count": 9,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-08",
+          "count": 4,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-09",
+          "count": 12,
+          "sif_count": 4
+        },
+        {
+          "period": "2023-10",
+          "count": 6,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-11",
+          "count": 5,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-12",
+          "count": 6,
+          "sif_count": 1
+        }
+      ]
+    },
+    "monthly_hazard_frequency": {
+      "Confined Atmosphere": [
+        {
+          "period": "2020-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-07",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-08",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-09",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-10",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-05",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-07",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-09",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-10",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-09",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-10",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-12",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "Dropped Object": [
+        {
+          "period": "2020-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-06",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-10",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-12",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "Electrical Energy": [
+        {
+          "period": "2020-01",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2020-02",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2020-03",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2020-05",
+          "count": 2,
+          "sif_count": 0
+        },
+        {
+          "period": "2020-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-08",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2020-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-10",
+          "count": 2,
+          "sif_count": 0
+        },
+        {
+          "period": "2020-12",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-01",
+          "count": 4,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-03",
+          "count": 4,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-04",
+          "count": 2,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-08",
+          "count": 2,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-09",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-10",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-11",
+          "count": 2,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-12",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-02",
+          "count": 2,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-03",
+          "count": 4,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-04",
+          "count": 3,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-05",
+          "count": 2,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-07",
+          "count": 2,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-08",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-10",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-11",
+          "count": 2,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-12",
+          "count": 3,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-01",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-03",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-04",
+          "count": 3,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-06",
+          "count": 3,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-09",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-11",
+          "count": 2,
+          "sif_count": 1
+        }
+      ],
+      "Fall from Height": [
+        {
+          "period": "2020-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-02",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-04",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-08",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-10",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-10",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-03",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-04",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-05",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "Fire/Explosion": [
+        {
+          "period": "2020-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-07",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-09",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-10",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-12",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-01",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-02",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-04",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-03",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-04",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-05",
+          "count": 4,
+          "sif_count": 4
+        },
+        {
+          "period": "2022-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-08",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-10",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-12",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-04",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-05",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-08",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-09",
+          "count": 4,
+          "sif_count": 4
+        },
+        {
+          "period": "2023-10",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-12",
+          "count": 2,
+          "sif_count": 2
+        }
+      ],
+      "H2S Exposure": [
+        {
+          "period": "2020-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-03",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-03",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "Hydrocarbon Release": [
+        {
+          "period": "2020-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-11",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-09",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "Line-of-Fire Exposure": [
+        {
+          "period": "2020-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-02",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-03",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-04",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-05",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-06",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-12",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-03",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-07",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-10",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-12",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-02",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-03",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-06",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-10",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-04",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-07",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-08",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-09",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-12",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "Loss of Containment": [
+        {
+          "period": "2020-01",
+          "count": 2,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-02",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-03",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-04",
+          "count": 5,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-05",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2020-06",
+          "count": 2,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-10",
+          "count": 2,
+          "sif_count": 0
+        },
+        {
+          "period": "2020-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-12",
+          "count": 2,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-01",
+          "count": 3,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-02",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-03",
+          "count": 3,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-05",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2021-06",
+          "count": 5,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-07",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-08",
+          "count": 4,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-09",
+          "count": 2,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-10",
+          "count": 4,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-11",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-12",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-02",
+          "count": 4,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-04",
+          "count": 3,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-05",
+          "count": 3,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-06",
+          "count": 2,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-08",
+          "count": 3,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-09",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2022-11",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-12",
+          "count": 5,
+          "sif_count": 4
+        },
+        {
+          "period": "2023-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-03",
+          "count": 7,
+          "sif_count": 6
+        },
+        {
+          "period": "2023-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-06",
+          "count": 1,
+          "sif_count": 0
+        },
+        {
+          "period": "2023-07",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-09",
+          "count": 4,
+          "sif_count": 4
+        },
+        {
+          "period": "2023-10",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-11",
+          "count": 3,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-12",
+          "count": 4,
+          "sif_count": 3
+        }
+      ],
+      "Pressurized Equipment": [
+        {
+          "period": "2020-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-02",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-03",
+          "count": 5,
+          "sif_count": 5
+        },
+        {
+          "period": "2020-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-08",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-12",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-01",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-02",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-03",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-04",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-07",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-10",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-11",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-02",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-03",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-05",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-06",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-10",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-11",
+          "count": 4,
+          "sif_count": 4
+        },
+        {
+          "period": "2022-12",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-01",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-02",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-03",
+          "count": 6,
+          "sif_count": 6
+        },
+        {
+          "period": "2023-04",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-07",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-09",
+          "count": 4,
+          "sif_count": 4
+        },
+        {
+          "period": "2023-12",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "Stored Energy": [
+        {
+          "period": "2020-02",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-03",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-02",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-12",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-09",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-12",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "Suspended Load": [
+        {
+          "period": "2020-02",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-07",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-10",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-12",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-04",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-07",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-11",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-12",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-01",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-02",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-06",
+          "count": 5,
+          "sif_count": 5
+        },
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-10",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-01",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-02",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-05",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-06",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-08",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-09",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-10",
+          "count": 4,
+          "sif_count": 4
+        },
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-12",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "Toxic Gas": [
+        {
+          "period": "2020-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-07",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-12",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-08",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-10",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-08",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-09",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-10",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-12",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "Unidentified Hazards": [
+        {
+          "period": "2020-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-03",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-04",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-10",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-01",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-05",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-06",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-11",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-12",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-02",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-04",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-05",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-06",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-07",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-08",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-10",
+          "count": 4,
+          "sif_count": 4
+        },
+        {
+          "period": "2022-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-02",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-03",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-05",
+          "count": 4,
+          "sif_count": 4
+        },
+        {
+          "period": "2023-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-09",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-10",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-12",
+          "count": 2,
+          "sif_count": 2
+        }
+      ],
+      "Vehicle Interaction": [
+        {
+          "period": "2020-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-02",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-03",
+          "count": 4,
+          "sif_count": 4
+        },
+        {
+          "period": "2020-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-08",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-10",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-11",
+          "count": 4,
+          "sif_count": 4
+        },
+        {
+          "period": "2020-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-02",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-03",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-04",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-08",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-09",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-01",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-02",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-03",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-04",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-05",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-06",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-09",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-10",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-01",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-05",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-06",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-07",
+          "count": 4,
+          "sif_count": 4
+        },
+        {
+          "period": "2023-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-09",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-10",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-11",
+          "count": 4,
+          "sif_count": 4
+        },
+        {
+          "period": "2023-12",
+          "count": 1,
+          "sif_count": 1
+        }
+      ]
+    },
+    "monthly_barrier_frequency": {
+      "BARRICADING_FAILURE": [
+        {
+          "period": "2020-01",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-08",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-10",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-02",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-06",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "COMMUNICATION_FAILURE": [
+        {
+          "period": "2020-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-04",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-10",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-05",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-10",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-09",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-08",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-09",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-10",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "ENERGY_ISOLATION_FAILURE": [
+        {
+          "period": "2020-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-03",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-04",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-09",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-02",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-03",
+          "count": 4,
+          "sif_count": 4
+        },
+        {
+          "period": "2021-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-09",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-10",
+          "count": 2,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-11",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-12",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-02",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-03",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-04",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-06",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-08",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-11",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-12",
+          "count": 4,
+          "sif_count": 4
+        },
+        {
+          "period": "2023-01",
+          "count": 4,
+          "sif_count": 4
+        },
+        {
+          "period": "2023-03",
+          "count": 4,
+          "sif_count": 4
+        },
+        {
+          "period": "2023-04",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-09",
+          "count": 6,
+          "sif_count": 6
+        },
+        {
+          "period": "2023-11",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-12",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "FALL_PROTECTION_FAILURE": [
+        {
+          "period": "2020-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-02",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-09",
+          "count": 4,
+          "sif_count": 4
+        },
+        {
+          "period": "2020-10",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-11",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-01",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-08",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-10",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-11",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-12",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-01",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-03",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-04",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-05",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-10",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-07",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-09",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-12",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "GAS_TEST_FAILURE": [
+        {
+          "period": "2020-03",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-07",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-10",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-05",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-10",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-04",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-05",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-08",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-09",
+          "count": 4,
+          "sif_count": 4
+        },
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-12",
+          "count": 2,
+          "sif_count": 2
+        }
+      ],
+      "LIFTING_CONTROL_FAILURE": [
+        {
+          "period": "2020-02",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-07",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-10",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-12",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-04",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-07",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-11",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-12",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-01",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-02",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-06",
+          "count": 5,
+          "sif_count": 5
+        },
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-10",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-01",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-02",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-05",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-06",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-08",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-09",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-10",
+          "count": 4,
+          "sif_count": 4
+        },
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-12",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "LINE_OF_FIRE_CONTROL_FAILURE": [
+        {
+          "period": "2020-02",
+          "count": 4,
+          "sif_count": 4
+        },
+        {
+          "period": "2020-03",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-04",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-06",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-08",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-12",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-03",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-07",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-10",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-12",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-02",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-03",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-06",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-10",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-04",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-07",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-12",
+          "count": 2,
+          "sif_count": 2
+        }
+      ],
+      "SAFETY_DEVICE_BYPASS": [
+        {
+          "period": "2020-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-03",
+          "count": 5,
+          "sif_count": 5
+        },
+        {
+          "period": "2020-04",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-05",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-08",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-12",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-01",
+          "count": 4,
+          "sif_count": 4
+        },
+        {
+          "period": "2021-02",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-06",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-07",
+          "count": 4,
+          "sif_count": 4
+        },
+        {
+          "period": "2021-08",
+          "count": 4,
+          "sif_count": 4
+        },
+        {
+          "period": "2021-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-10",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-11",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-05",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-06",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-09",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-10",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-11",
+          "count": 4,
+          "sif_count": 4
+        },
+        {
+          "period": "2022-12",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-01",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-02",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-03",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-07",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-10",
+          "count": 4,
+          "sif_count": 4
+        },
+        {
+          "period": "2023-11",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-12",
+          "count": 1,
+          "sif_count": 1
+        }
+      ],
+      "TRAFFIC_CONTROL_FAILURE": [
+        {
+          "period": "2020-01",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-03",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-08",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-10",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2020-11",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-03",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-04",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-08",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-09",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-01",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-02",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-03",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-05",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-09",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-10",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2022-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-03",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-06",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-07",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-09",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-10",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-11",
+          "count": 4,
+          "sif_count": 4
+        }
+      ],
+      "WORK_AUTHORIZATION_FAILURE": [
+        {
+          "period": "2020-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-03",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-04",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2020-05",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-09",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-10",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2020-12",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-01",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-02",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-05",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-06",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2021-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-08",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2021-11",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2021-12",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-02",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-04",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-05",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-06",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2022-07",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-08",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2022-10",
+          "count": 4,
+          "sif_count": 4
+        },
+        {
+          "period": "2022-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-02",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-03",
+          "count": 3,
+          "sif_count": 3
+        },
+        {
+          "period": "2023-04",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-05",
+          "count": 4,
+          "sif_count": 4
+        },
+        {
+          "period": "2023-06",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-07",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-09",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-10",
+          "count": 2,
+          "sif_count": 2
+        },
+        {
+          "period": "2023-11",
+          "count": 1,
+          "sif_count": 1
+        },
+        {
+          "period": "2023-12",
+          "count": 2,
+          "sif_count": 2
+        }
+      ]
+    },
+    "data_quality_warnings": []
+  }
+}

@@ -1,0 +1,830 @@
+{
+  "metadata": {
+    "generated_at": "2026-09-22T18:19:14.472733",
+    "source_dataset": "enriched_reports.csv",
+    "report_count": 2500,
+    "analytics_version": "0.5.0",
+    "uses_predicted_fields": true,
+    "prototype_notice": "Analytics are generated from synthetic data and model-predicted fields for demonstration purposes."
+  },
+  "data": [
+    {
+      "pattern_id": "activity_lsr__maintenance__bypassing_safety_controls",
+      "pattern_type": "activity_lsr",
+      "components": {
+        "activity": "Maintenance",
+        "lsr": "Bypassing Safety Controls"
+      },
+      "status": "EMERGING",
+      "current_count": 14,
+      "previous_count": 7,
+      "absolute_change": 7,
+      "percentage_change": 1.0,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "site_lsr__hot_work__terminal_echo",
+      "pattern_type": "site_lsr",
+      "components": {
+        "site": "Terminal Echo",
+        "lsr": "Hot Work"
+      },
+      "status": "EMERGING",
+      "current_count": 10,
+      "previous_count": 4,
+      "absolute_change": 6,
+      "percentage_change": 1.5,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "site_lsr__bypassing_safety_controls__platform_charlie",
+      "pattern_type": "site_lsr",
+      "components": {
+        "site": "Platform Charlie",
+        "lsr": "Bypassing Safety Controls"
+      },
+      "status": "EMERGING",
+      "current_count": 8,
+      "previous_count": 3,
+      "absolute_change": 5,
+      "percentage_change": 1.6667,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "site_lsr__hot_work__facility_bravo",
+      "pattern_type": "site_lsr",
+      "components": {
+        "site": "Facility Bravo",
+        "lsr": "Hot Work"
+      },
+      "status": "EMERGING",
+      "current_count": 7,
+      "previous_count": 2,
+      "absolute_change": 5,
+      "percentage_change": 2.5,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "site_lsr__confined_space__refinery_delta",
+      "pattern_type": "site_lsr",
+      "components": {
+        "site": "Refinery Delta",
+        "lsr": "Confined Space"
+      },
+      "status": "EMERGING",
+      "current_count": 6,
+      "previous_count": 1,
+      "absolute_change": 5,
+      "percentage_change": 5.0,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "site_lsr__line_of_fire__refinery_delta",
+      "pattern_type": "site_lsr",
+      "components": {
+        "site": "Refinery Delta",
+        "lsr": "Line of Fire"
+      },
+      "status": "EMERGING",
+      "current_count": 7,
+      "previous_count": 2,
+      "absolute_change": 5,
+      "percentage_change": 2.5,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "site_lsr__bypassing_safety_controls__station_foxtrot",
+      "pattern_type": "site_lsr",
+      "components": {
+        "site": "Station Foxtrot",
+        "lsr": "Bypassing Safety Controls"
+      },
+      "status": "EMERGING",
+      "current_count": 6,
+      "previous_count": 2,
+      "absolute_change": 4,
+      "percentage_change": 2.0,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "site_lsr__work_at_height__refinery_delta",
+      "pattern_type": "site_lsr",
+      "components": {
+        "site": "Refinery Delta",
+        "lsr": "Work at Height"
+      },
+      "status": "EMERGING",
+      "current_count": 6,
+      "previous_count": 2,
+      "absolute_change": 4,
+      "percentage_change": 2.0,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "site_lsr__driving__site_alpha",
+      "pattern_type": "site_lsr",
+      "components": {
+        "site": "Site Alpha",
+        "lsr": "Driving"
+      },
+      "status": "EMERGING",
+      "current_count": 6,
+      "previous_count": 2,
+      "absolute_change": 4,
+      "percentage_change": 2.0,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "activity_lsr__hot_work__line_of_fire",
+      "pattern_type": "activity_lsr",
+      "components": {
+        "activity": "Hot Work",
+        "lsr": "Line of Fire"
+      },
+      "status": "EMERGING",
+      "current_count": 6,
+      "previous_count": 3,
+      "absolute_change": 3,
+      "percentage_change": 1.0,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "site_lsr__driving__refinery_delta",
+      "pattern_type": "site_lsr",
+      "components": {
+        "site": "Refinery Delta",
+        "lsr": "Driving"
+      },
+      "status": "EMERGING",
+      "current_count": 6,
+      "previous_count": 3,
+      "absolute_change": 3,
+      "percentage_change": 1.0,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "site_lsr__driving__terminal_echo",
+      "pattern_type": "site_lsr",
+      "components": {
+        "site": "Terminal Echo",
+        "lsr": "Driving"
+      },
+      "status": "EMERGING",
+      "current_count": 5,
+      "previous_count": 2,
+      "absolute_change": 3,
+      "percentage_change": 1.5,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "activity_lsr__vehicle_movement__driving",
+      "pattern_type": "activity_lsr",
+      "components": {
+        "activity": "Vehicle Movement",
+        "lsr": "Driving"
+      },
+      "status": "INCREASING",
+      "current_count": 22,
+      "previous_count": 16,
+      "absolute_change": 6,
+      "percentage_change": 0.375,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "activity_lsr__hot_work__hot_work",
+      "pattern_type": "activity_lsr",
+      "components": {
+        "activity": "Hot Work",
+        "lsr": "Hot Work"
+      },
+      "status": "INCREASING",
+      "current_count": 26,
+      "previous_count": 21,
+      "absolute_change": 5,
+      "percentage_change": 0.2381,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "activity_lsr__maintenance__confined_space",
+      "pattern_type": "activity_lsr",
+      "components": {
+        "activity": "Maintenance",
+        "lsr": "Confined Space"
+      },
+      "status": "INCREASING",
+      "current_count": 7,
+      "previous_count": 4,
+      "absolute_change": 3,
+      "percentage_change": 0.75,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "activity_lsr__torquing__line_of_fire",
+      "pattern_type": "activity_lsr",
+      "components": {
+        "activity": "Torquing",
+        "lsr": "Line of Fire"
+      },
+      "status": "INCREASING",
+      "current_count": 7,
+      "previous_count": 4,
+      "absolute_change": 3,
+      "percentage_change": 0.75,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "activity_lsr__painting__safe_mechanical_lifting",
+      "pattern_type": "activity_lsr",
+      "components": {
+        "activity": "Painting",
+        "lsr": "Safe Mechanical Lifting"
+      },
+      "status": "INCREASING",
+      "current_count": 11,
+      "previous_count": 8,
+      "absolute_change": 3,
+      "percentage_change": 0.375,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "activity_lsr__maintenance__hot_work",
+      "pattern_type": "activity_lsr",
+      "components": {
+        "activity": "Maintenance",
+        "lsr": "Hot Work"
+      },
+      "status": "INCREASING",
+      "current_count": 8,
+      "previous_count": 5,
+      "absolute_change": 3,
+      "percentage_change": 0.6,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "site_lsr__line_of_fire__facility_bravo",
+      "pattern_type": "site_lsr",
+      "components": {
+        "site": "Facility Bravo",
+        "lsr": "Line of Fire"
+      },
+      "status": "INCREASING",
+      "current_count": 7,
+      "previous_count": 4,
+      "absolute_change": 3,
+      "percentage_change": 0.75,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "lsr_barrier__safety_device_bypass__bypassing_safety_controls",
+      "pattern_type": "lsr_barrier",
+      "components": {
+        "lsr": "Bypassing Safety Controls",
+        "barrier_failures": "SAFETY_DEVICE_BYPASS"
+      },
+      "status": "INCREASING",
+      "current_count": 7,
+      "previous_count": 4,
+      "absolute_change": 3,
+      "percentage_change": 0.75,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "hazard_barrier__work_authorization_failure__unidentified_hazards",
+      "pattern_type": "hazard_barrier",
+      "components": {
+        "hazards": "Unidentified Hazards",
+        "barrier_failures": "WORK_AUTHORIZATION_FAILURE"
+      },
+      "status": "INCREASING",
+      "current_count": 5,
+      "previous_count": 3,
+      "absolute_change": 2,
+      "percentage_change": 0.6667,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "lsr_barrier__work_authorization_failure__work_authorization",
+      "pattern_type": "lsr_barrier",
+      "components": {
+        "lsr": "Work Authorization",
+        "barrier_failures": "WORK_AUTHORIZATION_FAILURE"
+      },
+      "status": "INCREASING",
+      "current_count": 5,
+      "previous_count": 3,
+      "absolute_change": 2,
+      "percentage_change": 0.6667,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "activity_hazard__maintenance__loss_of_containment",
+      "pattern_type": "activity_hazard",
+      "components": {
+        "activity": "Maintenance",
+        "hazards": "Loss of Containment"
+      },
+      "status": "INCREASING",
+      "current_count": 5,
+      "previous_count": 4,
+      "absolute_change": 1,
+      "percentage_change": 0.25,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "activity_lsr__confined_space_entry__confined_space",
+      "pattern_type": "activity_lsr",
+      "components": {
+        "activity": "Confined Space Entry",
+        "lsr": "Confined Space"
+      },
+      "status": "INCREASING",
+      "current_count": 7,
+      "previous_count": 6,
+      "absolute_change": 1,
+      "percentage_change": 0.1667,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "activity_lsr__contractor_work__work_authorization",
+      "pattern_type": "activity_lsr",
+      "components": {
+        "activity": "Contractor Work",
+        "lsr": "Work Authorization"
+      },
+      "status": "INCREASING",
+      "current_count": 7,
+      "previous_count": 6,
+      "absolute_change": 1,
+      "percentage_change": 0.1667,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "site_lsr__hot_work__station_foxtrot",
+      "pattern_type": "site_lsr",
+      "components": {
+        "site": "Station Foxtrot",
+        "lsr": "Hot Work"
+      },
+      "status": "INCREASING",
+      "current_count": 5,
+      "previous_count": 4,
+      "absolute_change": 1,
+      "percentage_change": 0.25,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "site_lsr__confined_space__facility_bravo",
+      "pattern_type": "site_lsr",
+      "components": {
+        "site": "Facility Bravo",
+        "lsr": "Confined Space"
+      },
+      "status": "INCREASING",
+      "current_count": 5,
+      "previous_count": 4,
+      "absolute_change": 1,
+      "percentage_change": 0.25,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "activity_barrier__mechanical_lifting__lifting_control_failure",
+      "pattern_type": "activity_barrier",
+      "components": {
+        "activity": "Mechanical Lifting",
+        "barrier_failures": "LIFTING_CONTROL_FAILURE"
+      },
+      "status": "STABLE",
+      "current_count": 6,
+      "previous_count": 6,
+      "absolute_change": 0,
+      "percentage_change": 0.0,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "activity_barrier__vehicle_movement__traffic_control_failure",
+      "pattern_type": "activity_barrier",
+      "components": {
+        "activity": "Vehicle Movement",
+        "barrier_failures": "TRAFFIC_CONTROL_FAILURE"
+      },
+      "status": "STABLE",
+      "current_count": 5,
+      "previous_count": 5,
+      "absolute_change": 0,
+      "percentage_change": 0.0,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "activity_hazard__mechanical_lifting__suspended_load",
+      "pattern_type": "activity_hazard",
+      "components": {
+        "activity": "Mechanical Lifting",
+        "hazards": "Suspended Load"
+      },
+      "status": "STABLE",
+      "current_count": 6,
+      "previous_count": 6,
+      "absolute_change": 0,
+      "percentage_change": 0.0,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "activity_hazard__vehicle_movement__vehicle_interaction",
+      "pattern_type": "activity_hazard",
+      "components": {
+        "activity": "Vehicle Movement",
+        "hazards": "Vehicle Interaction"
+      },
+      "status": "STABLE",
+      "current_count": 5,
+      "previous_count": 5,
+      "absolute_change": 0,
+      "percentage_change": 0.0,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "activity_lsr__maintenance__energy_isolation",
+      "pattern_type": "activity_lsr",
+      "components": {
+        "activity": "Maintenance",
+        "lsr": "Energy Isolation"
+      },
+      "status": "STABLE",
+      "current_count": 14,
+      "previous_count": 14,
+      "absolute_change": 0,
+      "percentage_change": 0.0,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "activity_lsr__hot_work__confined_space",
+      "pattern_type": "activity_lsr",
+      "components": {
+        "activity": "Hot Work",
+        "lsr": "Confined Space"
+      },
+      "status": "STABLE",
+      "current_count": 6,
+      "previous_count": 6,
+      "absolute_change": 0,
+      "percentage_change": 0.0,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "activity_lsr__cleaning__confined_space",
+      "pattern_type": "activity_lsr",
+      "components": {
+        "activity": "Cleaning",
+        "lsr": "Confined Space"
+      },
+      "status": "STABLE",
+      "current_count": 6,
+      "previous_count": 6,
+      "absolute_change": 0,
+      "percentage_change": 0.0,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "site_lsr__safe_mechanical_lifting__refinery_delta",
+      "pattern_type": "site_lsr",
+      "components": {
+        "site": "Refinery Delta",
+        "lsr": "Safe Mechanical Lifting"
+      },
+      "status": "STABLE",
+      "current_count": 5,
+      "previous_count": 5,
+      "absolute_change": 0,
+      "percentage_change": 0.0,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "site_lsr__safe_mechanical_lifting__site_alpha",
+      "pattern_type": "site_lsr",
+      "components": {
+        "site": "Site Alpha",
+        "lsr": "Safe Mechanical Lifting"
+      },
+      "status": "STABLE",
+      "current_count": 5,
+      "previous_count": 5,
+      "absolute_change": 0,
+      "percentage_change": 0.0,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "site_lsr__confined_space__terminal_echo",
+      "pattern_type": "site_lsr",
+      "components": {
+        "site": "Terminal Echo",
+        "lsr": "Confined Space"
+      },
+      "status": "STABLE",
+      "current_count": 5,
+      "previous_count": 5,
+      "absolute_change": 0,
+      "percentage_change": 0.0,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "hazard_barrier__lifting_control_failure__suspended_load",
+      "pattern_type": "hazard_barrier",
+      "components": {
+        "hazards": "Suspended Load",
+        "barrier_failures": "LIFTING_CONTROL_FAILURE"
+      },
+      "status": "STABLE",
+      "current_count": 6,
+      "previous_count": 6,
+      "absolute_change": 0,
+      "percentage_change": 0.0,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "hazard_barrier__traffic_control_failure__vehicle_interaction",
+      "pattern_type": "hazard_barrier",
+      "components": {
+        "hazards": "Vehicle Interaction",
+        "barrier_failures": "TRAFFIC_CONTROL_FAILURE"
+      },
+      "status": "STABLE",
+      "current_count": 5,
+      "previous_count": 5,
+      "absolute_change": 0,
+      "percentage_change": 0.0,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "lsr_barrier__lifting_control_failure__safe_mechanical_lifting",
+      "pattern_type": "lsr_barrier",
+      "components": {
+        "lsr": "Safe Mechanical Lifting",
+        "barrier_failures": "LIFTING_CONTROL_FAILURE"
+      },
+      "status": "STABLE",
+      "current_count": 6,
+      "previous_count": 6,
+      "absolute_change": 0,
+      "percentage_change": 0.0,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "lsr_barrier__traffic_control_failure__driving",
+      "pattern_type": "lsr_barrier",
+      "components": {
+        "lsr": "Driving",
+        "barrier_failures": "TRAFFIC_CONTROL_FAILURE"
+      },
+      "status": "STABLE",
+      "current_count": 5,
+      "previous_count": 5,
+      "absolute_change": 0,
+      "percentage_change": 0.0,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "activity_hazard_barrier__mechanical_lifting__lifting_control_failure__suspended_load",
+      "pattern_type": "activity_hazard_barrier",
+      "components": {
+        "activity": "Mechanical Lifting",
+        "hazards": "Suspended Load",
+        "barrier_failures": "LIFTING_CONTROL_FAILURE"
+      },
+      "status": "STABLE",
+      "current_count": 6,
+      "previous_count": 6,
+      "absolute_change": 0,
+      "percentage_change": 0.0,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "activity_hazard_barrier__vehicle_movement__traffic_control_failure__vehicle_interaction",
+      "pattern_type": "activity_hazard_barrier",
+      "components": {
+        "activity": "Vehicle Movement",
+        "hazards": "Vehicle Interaction",
+        "barrier_failures": "TRAFFIC_CONTROL_FAILURE"
+      },
+      "status": "STABLE",
+      "current_count": 5,
+      "previous_count": 5,
+      "absolute_change": 0,
+      "percentage_change": 0.0,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "activity_lsr__operations__bypassing_safety_controls",
+      "pattern_type": "activity_lsr",
+      "components": {
+        "activity": "Operations",
+        "lsr": "Bypassing Safety Controls"
+      },
+      "status": "DECREASING",
+      "current_count": 11,
+      "previous_count": 12,
+      "absolute_change": -1,
+      "percentage_change": -0.0833,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "site_lsr__line_of_fire__station_foxtrot",
+      "pattern_type": "site_lsr",
+      "components": {
+        "site": "Station Foxtrot",
+        "lsr": "Line of Fire"
+      },
+      "status": "DECREASING",
+      "current_count": 6,
+      "previous_count": 7,
+      "absolute_change": -1,
+      "percentage_change": -0.1429,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "site_lsr__bypassing_safety_controls__terminal_echo",
+      "pattern_type": "site_lsr",
+      "components": {
+        "site": "Terminal Echo",
+        "lsr": "Bypassing Safety Controls"
+      },
+      "status": "DECREASING",
+      "current_count": 7,
+      "previous_count": 8,
+      "absolute_change": -1,
+      "percentage_change": -0.125,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "site_lsr__safe_mechanical_lifting__station_foxtrot",
+      "pattern_type": "site_lsr",
+      "components": {
+        "site": "Station Foxtrot",
+        "lsr": "Safe Mechanical Lifting"
+      },
+      "status": "DECREASING",
+      "current_count": 5,
+      "previous_count": 7,
+      "absolute_change": -2,
+      "percentage_change": -0.2857,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "activity_lsr__mechanical_lifting__safe_mechanical_lifting",
+      "pattern_type": "activity_lsr",
+      "components": {
+        "activity": "Mechanical Lifting",
+        "lsr": "Safe Mechanical Lifting"
+      },
+      "status": "DECREASING",
+      "current_count": 20,
+      "previous_count": 23,
+      "absolute_change": -3,
+      "percentage_change": -0.1304,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "activity_lsr__mechanical_lifting__work_at_height",
+      "pattern_type": "activity_lsr",
+      "components": {
+        "activity": "Mechanical Lifting",
+        "lsr": "Work at Height"
+      },
+      "status": "DECREASING",
+      "current_count": 5,
+      "previous_count": 9,
+      "absolute_change": -4,
+      "percentage_change": -0.4444,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "activity_lsr__maintenance__work_at_height",
+      "pattern_type": "activity_lsr",
+      "components": {
+        "activity": "Maintenance",
+        "lsr": "Work at Height"
+      },
+      "status": "DECREASING",
+      "current_count": 11,
+      "previous_count": 18,
+      "absolute_change": -7,
+      "percentage_change": -0.3889,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    },
+    {
+      "pattern_id": "activity_lsr__working_at_height__work_at_height",
+      "pattern_type": "activity_lsr",
+      "components": {
+        "activity": "Working at Height",
+        "lsr": "Work at Height"
+      },
+      "status": "DECREASING",
+      "current_count": 11,
+      "previous_count": 19,
+      "absolute_change": -8,
+      "percentage_change": -0.4211,
+      "comparison_period": "quarter",
+      "current_period": "2023-09-30 to 2023-12-30",
+      "previous_period": "2023-06-30 to 2023-09-30"
+    }
+  ]
+}

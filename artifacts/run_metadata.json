@@ -1,0 +1,22 @@
+{
+  "python_version": "3.10",
+  "packages": {
+    "scikit-learn": "1.3.0",
+    "sentence-transformers": "2.2.2",
+    "fastapi": "0.110.0",
+    "streamlit": "1.32.0",
+    "plotly": "5.18.0"
+  },
+  "models": {
+    "sif_classifier": "embedding_logistic_regression",
+    "lsr_classifier": "embedding_ovr_logistic_regression",
+    "embedding_model": "all-MiniLM-L6-v2",
+    "precursor_extractor": "hybrid_rule_semantic"
+  },
+  "analytics": {
+    "version": "0.5.0",
+    "report_count": 10000,
+    "source": "synthetic_data"
+  },
+  "generation_timestamp": "2026-09-22T13:25:00Z"
+}
