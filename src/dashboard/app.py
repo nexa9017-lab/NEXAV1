@@ -74,7 +74,6 @@ def main():
     debug_mode = st.sidebar.checkbox("Developer Debug Mode (DASHBOARD_DEBUG)", value=os.getenv("DASHBOARD_DEBUG", "false").lower() == "true")
     os.environ["DASHBOARD_DEBUG"] = "true" if debug_mode else "false"
     
-    st.sidebar.info("Connected to Backend APIs")
     
     # Render selected page
     page_func = pages[selection]
