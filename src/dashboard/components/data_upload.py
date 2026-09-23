@@ -13,7 +13,8 @@ def render():
     # Current Dataset Metadata
     st.markdown("### Active Dataset")
     try:
-        metadata = api.get_analytics_metadata()
+        metadata_res = api.get_analytics_metadata()
+        metadata = metadata_res.get("data", {})
         c1, c2, c3 = st.columns(3)
         c1.metric("Source", metadata.get("dataset_source", "unknown").replace("_", " ").title())
         c2.metric("Version", metadata.get("dataset_version", "unknown"))
@@ -70,7 +71,8 @@ def render():
                             st.write("Rebuilding analytics...")
                             st.write("Refreshing dashboard cache...")
                             
-                            result = api.upload_csv(file_bytes, uploaded_file.name)
+                            result_res = api.upload_csv(file_bytes, uploaded_file.name)
+                            result = result_res.get("data", {})
                             
                             status.update(label="Upload and Processing Complete!", state="complete", expanded=False)
                             

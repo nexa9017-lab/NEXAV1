@@ -34,7 +34,7 @@ def render():
         p_copy = p.copy()
         # Ensure we have scalar values for the table
         p_copy["support"] = p.get("occurrences", 0)
-        p_copy["site_count"] = len(p.get("affected_sites", {}))
+        p_copy["site_count"] = p.get("affected_site_count", len(p.get("affected_sites", {})))
         
         # Format components nicely
         comps = p.get("components", {})
@@ -52,7 +52,7 @@ def render():
     df = pd.DataFrame(mapped_patterns)
     
     # Ensure all required columns exist even if empty
-    required_cols = ["pattern_id", "pattern", "support", "sif_count", "sif_density", "average_sif_probability", "site_count", "priority_score"]
+    required_cols = ["pattern_id", "pattern", "support", "sif_count", "sif_density", "avg_sif_probability", "site_count", "priority_score"]
     for col in required_cols:
         if col not in df.columns:
             df[col] = 0 if col != "pattern" and col != "pattern_id" else ""
@@ -107,7 +107,7 @@ def render_pattern_detail(detail: dict, table_row: dict):
     col4.metric("Prototype Prioritization Score", format_score(score), help="A prototype prioritization measure, not a validated industrial risk score.")
     
     st.markdown("### Score Breakdown")
-    breakdown = detail.get("score_components", {})
+    breakdown = detail.get("priority_components", {})
     st.json(breakdown)
     
     st.markdown("### Affected Sites")

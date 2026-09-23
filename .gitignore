@@ -109,6 +109,10 @@ artifacts/models/*.pkl
 artifacts/models/*.pt
 artifacts/models/*.pth
 artifacts/models/*.bin
+artifacts/vector_store/
+artifacts/embeddings_cache/
+artifacts/analytics_upload_candidate/
+artifacts/analytics_candidate/
 
 # ==============================
 # Generated analytics artifacts

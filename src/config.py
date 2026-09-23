@@ -111,3 +111,17 @@ ANALYTICS_PROTOTYPE_NOTICE = (
     "Analytics are generated from synthetic data and model-predicted "
     "fields for demonstration purposes."
 )
+
+# ---------------------------------------------------------------------------
+# RAG MVP Configuration (Phase R1 & R4)
+# ---------------------------------------------------------------------------
+RAG_EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+VECTOR_STORE_DIR = ARTIFACTS_DIR / "vector_store"
+os.makedirs(VECTOR_STORE_DIR, exist_ok=True)
+VECTOR_INDEX_PATH = VECTOR_STORE_DIR / "index.faiss"
+VECTOR_METADATA_PATH = VECTOR_STORE_DIR / "index_metadata.json"
+DEFAULT_TOP_K = 5
+
+GROQ_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
+
+

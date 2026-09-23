@@ -9,15 +9,17 @@ from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
-from src.api.routers import inference, analytics
-from src.api.dependencies import init_globals, get_pipeline, get_analytics_cache
+from src.api.dependencies import init_rag_dependencies, get_dependency_health
+from src.api.schemas import RAGHealthResponse
+from src.api.routers import analytics, rag
+
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    print("Application startup: Loading models and analytics cache...")
+    print("Application startup: Initializing RAG dependencies...")
     start_time = time.time()
     
-    init_globals()
+    init_rag_dependencies()
     
     elapsed = time.time() - start_time
     print(f"Startup complete in {elapsed:.2f} seconds.")
@@ -70,35 +72,27 @@ async def add_request_id_and_logging(request: Request, call_next):
 @app.get("/", tags=["system"])
 async def read_root():
     return {
-        "app_name": "Safety Analytics API",
+        "app_name": "Safety Intelligence RAG API",
         "version": "1.0.0",
-        "prototype_status": "Active",
+        "phase": "R6",
         "docs_url": "/docs",
         "redoc_url": "/redoc"
     }
 
-@app.get("/health", tags=["system"])
+@app.get("/health", response_model=RAGHealthResponse, tags=["system"])
 async def health_check(request: Request):
-    pipeline = get_pipeline()
-    cache = get_analytics_cache()
-    
-    return {
-        "status": "ok",
-        "components": {
-            "sif_model": "loaded" if pipeline.sif_clf else "unavailable",
-            "lsr_model": "loaded" if pipeline.lsr_clf else "unavailable",
-            "precursor_extractor": "loaded" if pipeline.extractor else "unavailable",
-            "analytics": "available" if cache else "unavailable"
-        },
-        "request_id": request.state.request_id
-    }
+    req_id = getattr(request.state, "request_id", None)
+    health_info = get_dependency_health()
+    return RAGHealthResponse(
+        status=health_info["status"],
+        components=health_info["components"],
+        request_id=req_id
+    )
 
-from src.api.routers import inference, analytics, upload
-
-# Register Routers
-app.include_router(inference.router)
+# Include Routers (Phase R6 & R7)
+app.include_router(rag.router)
 app.include_router(analytics.router)
-app.include_router(upload.router)
+
 
 if __name__ == "__main__":
     import uvicorn

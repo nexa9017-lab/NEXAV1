@@ -8,7 +8,7 @@ import pandas as pd
 import json
 from pathlib import Path
 
-from src.api.dependencies import get_analytics_cache
+from src.api.dependencies import get_analytics_cache, get_dataset_metadata
 from src.config import ANALYTICS_OUTPUT_DIR
 
 router = APIRouter(prefix="/api/v1", tags=["analytics"])
@@ -79,9 +79,28 @@ async def get_temporal(request: Request, cache: Dict[str, Any] = Depends(get_ana
     return {"metadata": data.get("metadata", {}), "data": data.get("data", {}), "request_id": request.state.request_id}
 
 @router.get("/analytics/metadata")
-async def get_metadata(request: Request, cache: Dict[str, Any] = Depends(get_analytics_cache)):
-    data = _get_artifact(cache, "overall_summary")
-    return {"metadata": data.get("metadata", {}), "request_id": request.state.request_id}
+async def get_metadata(
+    request: Request,
+    cache: Dict[str, Any] = Depends(get_analytics_cache),
+):
+    ds_meta = dict(get_dataset_metadata())
+    data = cache.get("overall_summary", {})
+    art_meta = data.get("metadata", {})
+
+    # Synchronize dataset metadata with the active cache
+    if art_meta.get("report_count") is not None:
+        ds_meta["report_count"] = art_meta["report_count"]
+    if art_meta.get("generated_at"):
+        ds_meta["last_updated"] = art_meta["generated_at"]
+    if art_meta.get("source_dataset"):
+        ds_meta["filename"] = art_meta["source_dataset"]
+
+    combined_meta = {**art_meta, **ds_meta}
+    return {
+        "metadata": combined_meta,
+        "data": ds_meta,
+        "request_id": getattr(request.state, "request_id", None),
+    }
 
 @router.get("/analytics/patterns")
 async def get_patterns(

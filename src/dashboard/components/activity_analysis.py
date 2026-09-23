@@ -27,7 +27,7 @@ def render():
     # Sort by total reports descending
     df_sorted = df.sort_values("total_reports", ascending=False)
     
-    display_df = df_sorted[["value", "total_reports", "sif_count", "sif_density", "average_sif_probability"]].copy()
+    display_df = df_sorted[["name", "total_reports", "sif_count", "sif_density", "avg_sif_probability"]].copy()
     display_df.columns = ["Activity", "Total Reports", "SIF Count", "SIF Density", "Avg SIF Probability"]
     
     st.dataframe(
@@ -42,9 +42,9 @@ def render():
     st.markdown("---")
     st.subheader("Activity Deep Dive")
     
-    selected_activity = st.selectbox("Select Activity for deeper analysis", df_sorted["value"].tolist())
+    selected_activity = st.selectbox("Select Activity for deeper analysis", df_sorted["name"].tolist())
     
-    detail = df_sorted[df_sorted["value"] == selected_activity].iloc[0].to_dict()
+    detail = df_sorted[df_sorted["name"] == selected_activity].iloc[0].to_dict()
     
     col1, col2, col3 = st.columns(3)
     col1.metric("Total Reports", detail.get("total_reports", 0))
@@ -54,14 +54,18 @@ def render():
     c1, c2 = st.columns(2)
     with c1:
         st.markdown("**Top Associated Hazards**")
-        st.dataframe(pd.DataFrame(detail.get("top_hazards", [])), hide_index=True, use_container_width=True)
+        st.dataframe(pd.DataFrame(detail.get("common_hazards", [])), hide_index=True, use_container_width=True)
         
         st.markdown("**Associated Barrier Failures**")
-        st.dataframe(pd.DataFrame(detail.get("top_barrier_failures", [])), hide_index=True, use_container_width=True)
+        st.dataframe(pd.DataFrame(detail.get("common_barriers", [])), hide_index=True, use_container_width=True)
         
     with c2:
         st.markdown("**Life-Saving Rules**")
-        st.dataframe(pd.DataFrame(detail.get("top_lsrs", [])), hide_index=True, use_container_width=True)
+        st.dataframe(pd.DataFrame(detail.get("common_lsr", [])), hide_index=True, use_container_width=True)
         
         st.markdown("**Affected Sites**")
-        st.dataframe(pd.DataFrame(detail.get("top_sites", [])), hide_index=True, use_container_width=True)
+        sites_data = detail.get("affected_sites", [])
+        if isinstance(sites_data, dict):
+            # Convert dict {site_name: count} to list format
+            sites_data = [{"name": k, "count": v} for k, v in sites_data.items()]
+        st.dataframe(pd.DataFrame(sites_data) if sites_data else pd.DataFrame(), hide_index=True, use_container_width=True)

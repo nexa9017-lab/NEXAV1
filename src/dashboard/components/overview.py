@@ -37,26 +37,6 @@ def render():
     with col4:
         st.metric("Avg SIF Probability", format_pct(avg_sif_prob))
 
-    # Top Site & Top LSR
-    col5, col6, col7 = st.columns(3)
-    with col5:
-        top_site = summary.get("highest_sif_count_site", "N/A")
-        st.metric("Highest SIF-Count Site", top_site)
-    with col6:
-        top_density_site = summary.get("highest_sif_density_site_unrestricted", "N/A")
-        st.metric("Highest Observed SIF Precursor Density", top_density_site)
-    with col7:
-        # LSR string contains a repr of a dict, clean it for display
-        most_frequent_lsr = summary.get("most_frequent_lsr", "N/A")
-        if "rule" in most_frequent_lsr:
-            try:
-                import ast
-                lsr_dict = ast.literal_eval(most_frequent_lsr)
-                most_frequent_lsr = lsr_dict.get("rule", "N/A")
-            except:
-                pass
-        st.metric("Most Frequent LSR", most_frequent_lsr)
-
     st.markdown("---")
     
     try:
@@ -125,14 +105,11 @@ def render():
     with c4:
         # Top Hazards
         if hazards:
-            # Note: API might return "value" or "name" depending on how hazard agg was structured
-            haz_col = "value" if "value" in hazards[0] else "name"
-            count_col = "count" if "count" in hazards[0] else "sif_count"
-            df_haz = pd.DataFrame(hazards).head(8).sort_values(count_col, ascending=True)
+            df_haz = pd.DataFrame(hazards).head(8).sort_values("sif_count", ascending=True)
             fig_haz = px.bar(
                 df_haz,
-                x=count_col,
-                y=haz_col,
+                x="sif_count",
+                y="name",
                 orientation="h",
                 title="Most Frequent Hazards",
                 color_discrete_sequence=["#2ca02c"]

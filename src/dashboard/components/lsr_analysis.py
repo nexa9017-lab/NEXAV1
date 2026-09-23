@@ -23,20 +23,9 @@ def render():
         
     df = pd.DataFrame(lsr_list)
     
-    # KPIs for the top LSR
-    st.subheader("LSR Overview")
-    top_lsr = df.loc[df['sif_count'].idxmax()]
-    
-    c1, c2, c3 = st.columns(3)
-    c1.metric("Highest SIF Count LSR", top_lsr["name"], f"{top_lsr['sif_count']} cases")
-    c2.metric("LSR with Highest SIF Density", df.loc[df['sif_density'].idxmax()]["name"], format_pct(df["sif_density"].max()))
-    c3.metric("Total LSR Occurrences", f"{df['total_reports'].sum():,}")
-    
-    st.markdown("---")
-    
     # Table of all LSRs
     st.subheader("Life-Saving Rules Summary")
-    display_df = df[["name", "total_reports", "sif_count", "sif_density", "average_sif_probability"]].copy()
+    display_df = df[["name", "total_reports", "sif_count", "sif_density", "avg_sif_probability"]].copy()
     display_df.columns = ["Life-Saving Rule", "Total Occurrences", "SIF Count", "SIF Density", "Avg SIF Probability"]
     
     st.dataframe(
@@ -86,7 +75,7 @@ def render():
     col3, col4 = st.columns(2)
     with col3:
         st.write("**Top Sites for this LSR**")
-        sites_list = lsr_detail.get("top_sites", [])
+        sites_list = lsr_detail.get("associated_sites", [])
         if sites_list:
             site_df = pd.DataFrame(sites_list)
             st.dataframe(site_df, use_container_width=True, hide_index=True)
@@ -95,7 +84,7 @@ def render():
             
     with col4:
         st.write("**Top Activities for this LSR**")
-        act_list = lsr_detail.get("top_activities", [])
+        act_list = lsr_detail.get("associated_activities", [])
         if act_list:
             act_df = pd.DataFrame(act_list)
             st.dataframe(act_df, use_container_width=True, hide_index=True)
